@@ -16,32 +16,7 @@ export default () => {
         
         <div className='homeWrapper'>
             <Header/>
-            {/* <div id="fp-nav" class="left">
-                <ul><Parallax ref={ref}>
-                    <li>
-                        
-                        <Link to={ref.current.scrollTo(0)} class="">
-                            <span></span>
-                        </Link>
-                    </li>
-                    <li>
-                        <Link to={ref.current.scrollTo(1)} class="active">
-                            <span></span>
-                        </Link>
-                    </li>
-                    <li>
-                        <Link to={ref.current.scrollTo(2)} class="">
-                            <span></span>
-                        </Link>
-                    </li>
-                    <li>
-                        <Link to={ref.current.scrollTo(3)} class="">
-                            <span></span>
-                        </Link>
-                    </li>
-                    </Parallax>
-                </ul>
-            </div> */}
+
                 <Parallax pages={4} style={{ top: '0', left: '0' }}>
                     <ParallaxLayer
                         offset={0}
