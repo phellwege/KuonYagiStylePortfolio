@@ -1,4 +1,5 @@
 import './home.css';
+import { Parallax, ParallaxLayer } from '@react-spring/parallax'
 import Header from '../components/header';
 import Section1 from '../components/section1';
 import Section2 from '../components/section2';
