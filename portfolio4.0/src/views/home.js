@@ -15,11 +15,11 @@ export default () => {
                 <Parallax pages={4} style={{ top: '0', left: '0' }}>
                     <ParallaxLayer
                         offset={0}
-                        speed={2.5}
+                        speed={0.5}
                         style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
                         <Section1/>
                     </ParallaxLayer>
-                <ParallaxLayer offset={1} speed={2} style={{ backgroundColor: '#ff6d6d' }} />
+                <ParallaxLayer offset={1} speed={1} style={{ backgroundColor: '#ff6d6d' }} />
                     <ParallaxLayer
                         offset={1}
                         speed={0.5}
@@ -31,7 +31,7 @@ export default () => {
                         }}>
                         <Section2/>
                     </ParallaxLayer>
-                <ParallaxLayer offset={2} speed={2} style={{ backgroundColor: 'white' }} />
+                <ParallaxLayer offset={2} speed={1} style={{ backgroundColor: 'white' }} />
                     <ParallaxLayer
                         offset={2}
                         speed={0.5}
@@ -39,11 +39,10 @@ export default () => {
                         display: 'flex',
                         justifyContent: 'center',
                         alignItems: 'center',
-                        color: 'white',
                         }}>
                         <Section3/>
                     </ParallaxLayer>
-                <ParallaxLayer offset={3} speed={2} style={{ backgroundColor: '#ff6d6d' }} />
+                <ParallaxLayer offset={3} speed={1} style={{ backgroundColor: '#ff6d6d' }} />
                     <ParallaxLayer
                         offset={3}
                         speed={0.5}

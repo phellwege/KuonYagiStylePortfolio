@@ -1,8 +1,13 @@
 .headWrap {
-    display:flex;
-    justify-content: space-between;
     padding-left: 2%;
     padding-right: 2%;
+    display:flex;
+    justify-content: space-between;
+}
+.headRight {
+    right: 2%;
+    position: absolute;
+    z-index: 1000;
 }
 .headRight ul {
     display: flex;
@@ -14,4 +19,7 @@
 }
 .headLeft {
     padding: 1.5%;
+    left: 2%;
+    position: absolute;
+    z-index: 1000;
 }
