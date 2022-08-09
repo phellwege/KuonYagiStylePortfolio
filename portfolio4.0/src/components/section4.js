@@ -6,7 +6,7 @@ export default () => {
         <div className='sectionWrap'>
             <div className='section4Left'>
                 <h1>Get In Touch</h1>
-                <h3><mailto>phellwege1@gmail.com</mailto></h3>
+                <h3><a href='mailto:phellwege1@gmail.com'>Email</a></h3>
                 <div>github img, linkedin</div>
             </div>
             <div className='section4Right'>
