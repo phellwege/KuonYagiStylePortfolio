@@ -4,11 +4,11 @@ export default () => {
 
     return (
         <>
-            <div>
-                <div id='left'>
+            <div class='headWrap'>
+                <div class='headLeft'>
                     <a href=''>Peter Hellwege</a>
                 </div>
-                <div id='right'>
+                <div class='headRight'>
                     <ul>
                         <li>list item</li>
                         <li>list item</li>

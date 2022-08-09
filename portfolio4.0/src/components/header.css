@@ -1,0 +1,17 @@
+.headWrap {
+    display:flex;
+    justify-content: space-between;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+.headRight ul {
+    display: flex;
+    list-style: none;
+}
+.headRight ul li {
+    padding-left: 7px;
+    padding-right: 7px;
+}
+.headLeft {
+    padding: 1.5%;
+}
