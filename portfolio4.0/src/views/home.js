@@ -10,7 +10,7 @@ export default () => {
 
     return (
         
-        <div>
+        <div className='homeWrapper'>
             <Header/>
                 <Parallax pages={4} style={{ top: '0', left: '0' }}>
                     <ParallaxLayer
