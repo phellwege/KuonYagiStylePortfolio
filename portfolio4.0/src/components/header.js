@@ -14,10 +14,11 @@ export default () => {
                 <div class='headRight'>
                     <ul>
                         <li>list item</li>
-                        <li>github</li>
-                        <li>linkedin</li>
+                        <li><a href=''>github</a></li>
+                        <li><a href=''>linkedin</a></li>
                         <li>hamburger menu</li>
                     </ul>
+                    {/* get icons from iconsdb.com */}
                 </div>
             </div>
         </>
