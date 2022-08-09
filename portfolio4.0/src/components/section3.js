@@ -11,7 +11,7 @@ export default () => {
             </div>
             <div class='section3Right'>
                 <h1>img</h1>
-                <h1>pg count</h1>
+                <h1>02</h1>
             </div>
         </div>
     )
