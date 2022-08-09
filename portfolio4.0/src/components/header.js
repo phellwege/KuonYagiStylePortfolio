@@ -7,11 +7,11 @@ export default () => {
 
     return (
         <>
-            <div class='headWrap'>
-                <div class='headLeft'>
+            <div className='headWrap'>
+                <div className='headLeft'>
                     <Link to='/#AboutMeSection'>Peter Hellwege</Link>
                 </div>
-                <div class='headRight'>
+                <div className='headRight'>
                     <ul>
                         <li>list item</li>
                         <li><a href=''>github</a></li>
