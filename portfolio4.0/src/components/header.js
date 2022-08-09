@@ -1,4 +1,7 @@
 import './header.css'
+import {Link} from 'react-router-dom';
+
+
 
 export default () => {
 
@@ -6,14 +9,14 @@ export default () => {
         <>
             <div class='headWrap'>
                 <div class='headLeft'>
-                    <a href=''>Peter Hellwege</a>
+                    <Link to='/#AboutMeSection'>Peter Hellwege</Link>
                 </div>
                 <div class='headRight'>
                     <ul>
                         <li>list item</li>
-                        <li>list item</li>
-                        <li>list item</li>
-                        <li>list item</li>
+                        <li>github</li>
+                        <li>linkedin</li>
+                        <li>hamburger menu</li>
                     </ul>
                 </div>
             </div>
