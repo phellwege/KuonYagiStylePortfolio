@@ -17,7 +17,7 @@ export default () => {
                         <li>list item</li>
                         <li><a href=''>github</a></li>
                         <li><a href=''>linkedin</a></li>
-                        <Navbar/>
+                        {/* <Navbar/> */}
                     </ul>
                     {/* get icons from iconsdb.com */}
                 </div>
