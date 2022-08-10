@@ -10,6 +10,7 @@ export default () => {
             <div className='headWrap'>
                 <div className='headLeft'>
                     <Link to='/#AboutMeSection'>Peter Hellwege</Link>
+                    {/* download cv */}
                 </div>
                 <div className='headRight'>
                     <ul>
