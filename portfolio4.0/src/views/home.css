@@ -4,3 +4,6 @@
 ::-webkit-scrollbar {
     display: none;
 }
+#FullpageNavigation {
+    left:0;
+}

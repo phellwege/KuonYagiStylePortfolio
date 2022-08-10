@@ -20,7 +20,6 @@ export default () => {
     return (
         <div className='homeWrapper'>
             <Header/>
-
                 <Fullpage>
                     <FullpageNavigation/>
                     <FullPageSections>
@@ -38,7 +37,6 @@ export default () => {
                         </FullpageSection>
                     </FullPageSections>
                 </Fullpage>
-
         </div>
     )
 }

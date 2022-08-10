@@ -1,6 +1,6 @@
 import './header.css'
 import {Link} from 'react-router-dom';
-
+import Navbar from './navbar'
 
 
 export default () => {
@@ -17,7 +17,7 @@ export default () => {
                         <li>list item</li>
                         <li><a href=''>github</a></li>
                         <li><a href=''>linkedin</a></li>
-                        <li>hamburger menu</li>
+                        <Navbar/>
                     </ul>
                     {/* get icons from iconsdb.com */}
                 </div>
