@@ -6,7 +6,7 @@
 }
 .headRight {
     right: 2%;
-    position: absolute;
+    position: fixed;
     z-index: 1000;
 }
 .headRight ul {
@@ -20,6 +20,6 @@
 .headLeft {
     padding: 1.5%;
     left: 2%;
-    position: absolute;
+    position: fixed;
     z-index: 1000;
 }
