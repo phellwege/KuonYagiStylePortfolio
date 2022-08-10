@@ -9,15 +9,17 @@ import Section3 from '../components/section3';
 import Section4 from '../components/section4';
 
 export default () => {
-    
+    const scrollToSection = () => {
+        // not sure how to write the routing yet
+    }
     return (
         <div className='homeWrapper'>
             <Header/>
-                <Section1/>
-                <Section2/>
-                <Section3/>
-                <Section4/>
-                
+                <Section1 id='section1'/>
+                <Section2 id='section2'/>
+                <Section3 id='section3'/>
+                <Section4 id='section4'/>
+
                 {/* <Parallax pages={2.5} style={{ top: '0', left: '0' }}>
                     <ParallaxLayer
                         offset={0}

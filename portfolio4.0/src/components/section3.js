@@ -1,6 +1,6 @@
 import './section.css'
 
-export default () => {
+export default (props) => {
 
     return (
         <div className='sectionWrap' id='AboutMeSection'>
