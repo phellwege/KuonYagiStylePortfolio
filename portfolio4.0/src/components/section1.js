@@ -13,6 +13,7 @@ export default () => {
             </div>
             <div className='section1Right'>
                 <h1>img</h1>
+                <h2>Portfolio</h2>
             </div>
         </div>
     )
