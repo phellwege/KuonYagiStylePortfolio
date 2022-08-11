@@ -1,7 +1,7 @@
 import './header.css'
 import {Link} from 'react-router-dom';
-import Navbar from './navbar'
-
+import Navbar from './navbar';
+import resume from '../static/Peter.Hellwege.Resume.pdf';
 
 export default () => {
 
@@ -9,14 +9,13 @@ export default () => {
         <>
             <div className='headWrap'>
                 <div className='headLeft'>
-                    <Link to='/#AboutMeSection'>Peter Hellwege</Link>
-                    {/* download cv */}
+                <a href={resume} download="../static/Peter.Hellwege.Resume.pdf">Peter Hellwege</a>
                 </div>
                 <div className='headRight'>
                     <ul>
                         <li>list item</li>
-                        <li><a href='https://github.com/phellwege'>github</a></li>
-                        <li><a href='https://www.linkedin.com/in/peter-hellwege/'>linkedin</a></li>
+                        <li><a href='https://github.com/phellwege' target='_blank'>github</a></li>
+                        <li><a href='https://www.linkedin.com/in/peter-hellwege/' target='_blank'>linkedin</a></li>
                         <Navbar/>
                     </ul>
                     {/* get icons from iconsdb.com */}
