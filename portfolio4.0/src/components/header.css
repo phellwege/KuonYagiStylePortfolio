@@ -5,7 +5,7 @@
     justify-content: space-between;
 }
 .headRight {
-    right: 2%;
+    right: 4%;
     position: fixed;
     z-index: 1000;
 }
@@ -15,7 +15,7 @@
 }
 .headRight ul li {
     padding-left: 7px;
-    padding-right: 7px;
+    padding-right: 25px;
 }
 .headLeft {
     padding: 1.5%;
