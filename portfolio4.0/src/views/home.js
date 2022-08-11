@@ -1,5 +1,4 @@
 import React, { useEffect, useRef } from "react";
-import {uselocation} from 'react-router-dom';
 import './home.css';
 import Fullpage, { FullPageSections, FullpageSection, FullpageNavigation } from '@ap.cx/react-fullpage';
 import Header from '../components/header';
