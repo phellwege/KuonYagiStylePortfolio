@@ -15,8 +15,8 @@ export default () => {
                 <div className='headRight'>
                     <ul>
                         <li>list item</li>
-                        <li><a href=''>github</a></li>
-                        <li><a href=''>linkedin</a></li>
+                        <li><a href='https://github.com/phellwege'>github</a></li>
+                        <li><a href='https://www.linkedin.com/in/peter-hellwege/'>linkedin</a></li>
                         <Navbar/>
                     </ul>
                     {/* get icons from iconsdb.com */}
