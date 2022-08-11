@@ -11,14 +11,14 @@ export default () => {
                 <div className='headLeft'>
                     <Link to='/#AboutMeSection'>Peter Hellwege</Link>
                     {/* download cv */}
-                    <Navbar/>
+                    
                 </div>
                 <div className='headRight'>
                     <ul>
                         <li>list item</li>
                         <li><a href=''>github</a></li>
                         <li><a href=''>linkedin</a></li>
-                        
+                        <Navbar/>
                     </ul>
                     {/* get icons from iconsdb.com */}
                 </div>

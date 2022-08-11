@@ -20,22 +20,24 @@
     list-style: none;
     position: fixed;
     top: 12%;
-    left: 0;
+    right: 0;
     bottom: 0;
     height: 88vh;
     overflow: hidden;
     max-width: 290px;
     z-index: 9;
     transition: .75s;
-    border-top-right-radius: 2.5em;
+    border-top-left-radius: 2.5em;
     background: #34495E;
     display:flex;
     flex-direction: column;
 }
 .menuNav {
     width: 0%;
+    visibility: hidden;
 }
 .menuNav.showMenu {
+    visibility: visible;
     width: 80%;
 }
 .menuNav li:first-child {
