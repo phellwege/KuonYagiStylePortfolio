@@ -22,7 +22,7 @@
     overflow: hidden;
     max-width: 290px;
     z-index: 9;
-    transition: .75s;
+    transition: .5s;
     border-top-left-radius: 2.5em;
     background: #34495E;
     display:flex;
@@ -32,9 +32,15 @@
     width: 0%;
     visibility: hidden;
 }
+.menuNav li a {
+    visibility: hidden;
+}
 .menuNav.showMenu {
     visibility: visible;
     width: 80%;
+}
+.menuNav.showMenu li a {
+    visibility: visible;
 }
 .menuNav li:first-child {
     margin-top: 3.5rem;
