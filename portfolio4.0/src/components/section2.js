@@ -1,13 +1,13 @@
 import './section.css'
-import Fullpage, { FullPageSections, FullpageSection, FullpageNavigation, FullpageCount, FullpageContext } from '@ap.cx/react-fullpage';
-
+import {  FullpageSection } from '@ap.cx/react-fullpage';
+import {Link} from 'react-router-dom';
 export default (props) => {
 
     return (
         <div className='sectionWrap'>
             <div className='section2Left'>
                 <h1>Projects</h1>
-                <button>View Projects</button>
+                <Link to='/Projects'>View Projects</Link>
             </div>
             <div className='section2Right'>
                 <h1>img</h1>

@@ -23,8 +23,8 @@ export default (props) => {
                         )}
                     </button>
                         <ul className={`menuNav ${navbarOpen ? " showMenu" : ""}`}>
-                            <li><Link to="#Section1" onClick={() => closeMenu()}>Home</Link></li>
-                            <li><Link to="#Section2" onClick={() => closeMenu()}>Section2</Link></li>
+                            <li><Link to="/" onClick={() => closeMenu()}>Home</Link></li>
+                            <li><Link to="/Projects" onClick={() => closeMenu()}>Projects</Link></li>
                             <li><Link to="#Section3" onClick={() => closeMenu()}>Section3</Link></li>
                             <li><Link to="#Section4" onClick={() => closeMenu()}>Section4</Link></li>
                         </ul>

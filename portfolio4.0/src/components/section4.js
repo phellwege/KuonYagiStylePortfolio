@@ -1,5 +1,5 @@
 import './section.css'
-import Fullpage, { FullPageSections, FullpageSection, FullpageNavigation, FullpageCount, FullpageContext } from '@ap.cx/react-fullpage';
+import {  FullpageSection } from '@ap.cx/react-fullpage';
 
 export default (props) => {
 
