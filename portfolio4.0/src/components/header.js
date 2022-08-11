@@ -13,7 +13,7 @@ export default () => {
                 </div>
                 <div className='headRight'>
                     <ul>
-                        <li>list item</li>
+                        <li><Link to="/">Home Icon</Link></li>
                         <li><a href='https://github.com/phellwege' target='_blank'>github</a></li>
                         <li><a href='https://www.linkedin.com/in/peter-hellwege/' target='_blank'>linkedin</a></li>
                         <Navbar/>
