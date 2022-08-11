@@ -1,0 +1,18 @@
+.projectWrap {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.projectLeft {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+.projectRight {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    text-align: left;
+}
