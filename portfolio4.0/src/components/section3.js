@@ -8,7 +8,7 @@ export default (props) => {
             <div className='section3Left'>
                 <h1>About Me</h1>
                 <h3>I love building something new <br/> from the ground up</h3>
-                <button>show me more</button>
+                <button  className='moreBtn'>show me more</button>
             </div>
             <div className='section3Right'>
                 <h1>img</h1>
