@@ -1,6 +1,7 @@
 .projectWrap {
     height: 100vh;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     width: 100%;
@@ -15,4 +16,10 @@
     display: flex;
     justify-content: space-around;
     text-align: left;
+}
+.innerDiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
 }

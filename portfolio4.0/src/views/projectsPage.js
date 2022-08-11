@@ -21,82 +21,93 @@ export default () => {
                     <FullPageSections>
                         <FullpageSection style={{SectionStyle}}>
                             <div className='projectWrap'>
-                                <div className='projectLeft'>
-                                    <p>Images Here</p>
+                                <div className='innerDiv'>
+                                    <div className='projectLeft'>
+                                        <p>Images Here</p>
+                                    </div>
+                                    <div className='projectRight'>
+                                        <p>description</p>
+                                    </div>
                                 </div>
-                                <div className='projectRight'>
-                                    <p>description</p>
-                                </div>
+                                <FullpageSection.Number/>
                             </div>
                         </FullpageSection>
                         <FullpageSection style={{SectionStyle}}>
                             <div className='projectWrap'>
-                                <div className='projectLeft'>
-                                    <p>Images Here</p>
+                                <div className='innerDiv'>
+                                    <div className='projectLeft'>
+                                        <p>Images Here</p>
+                                    </div>
+                                    <div className='projectRight'>
+                                        <p>description</p>
+                                    </div>
                                 </div>
-                                <div className='projectRight'>
-                                    <p>description</p>
-                                </div>
+                                <FullpageSection.Number/>
                             </div>
                         </FullpageSection>
                         <FullpageSection style={{SectionStyle}}>
                             <div className='projectWrap'>
-                                <div className='projectLeft'>
-                                    <p>Images Here</p>
+                                <div className='innerDiv'>
+                                    <div className='projectLeft'>
+                                        <p>Images Here</p>
+                                    </div>
+                                    <div className='projectRight'>
+                                        <p>description</p>
+                                    </div>
                                 </div>
-                                <div className='projectRight'>
-                                    <p>description</p>
-                                </div>
+                                <FullpageSection.Number/>
                             </div>
                         </FullpageSection>
                         <FullpageSection style={{SectionStyle}}>
                             <div className='projectWrap'>
-                                <div className='projectLeft'>
-                                    <p>Images Here</p>
+                                <div className='innerDiv'>
+                                    <div className='projectLeft'>
+                                        <p>Images Here</p>
+                                    </div>
+                                    <div className='projectRight'>
+                                        <p>description</p>
+                                    </div>
                                 </div>
-                                <div className='projectRight'>
-                                    <p>description</p>
-                                </div>
+                                <FullpageSection.Number/>
                             </div>
                         </FullpageSection>
                         <FullpageSection style={{SectionStyle}}>
                             <div className='projectWrap'>
-                                <div className='projectLeft'>
-                                    <p>Images Here</p>
+                                <div className='innerDiv'>
+                                    <div className='projectLeft'>
+                                        <p>Images Here</p>
+                                    </div>
+                                    <div className='projectRight'>
+                                        <p>description</p>
+                                    </div>
                                 </div>
-                                <div className='projectRight'>
-                                    <p>description</p>
-                                </div>
+                                <FullpageSection.Number/>
                             </div>
                         </FullpageSection>
                         <FullpageSection style={{SectionStyle}}>
                             <div className='projectWrap'>
-                                <div className='projectLeft'>
-                                    <p>Images Here</p>
+                                <div className='innerDiv'>
+                                    <div className='projectLeft'>
+                                        <p>Images Here</p>
+                                    </div>
+                                    <div className='projectRight'>
+                                        <p>description</p>
+                                    </div>
                                 </div>
-                                <div className='projectRight'>
-                                    <p>description</p>
-                                </div>
+                                <FullpageSection.Number/>
                             </div>
                         </FullpageSection>
                         <FullpageSection style={{SectionStyle}}>
                             <div className='projectWrap'>
-                                <div className='projectLeft'>
-                                    <p>Images Here</p>
+                                <div className='innerDiv'>
+                                    <div className='projectLeft'>
+                                        <p>Images Here</p>
+                                    </div>
+                                    <div className='projectRight'>
+                                        <p>description</p>
+                                    </div>
                                 </div>
-                                <div className='projectRight'>
-                                    <p>description</p>
-                                </div>
-                            </div>
-                        </FullpageSection>
-                        <FullpageSection style={{SectionStyle}}>
-                            <div className='projectWrap'>
-                                <div className='projectLeft'>
-                                    <p>Images Here</p>
-                                </div>
-                                <div className='projectRight'>
-                                    <p>description</p>
-                                </div>
+                                <FullpageSection.Number/>
                             </div>
                         </FullpageSection>
                     </FullPageSections>
