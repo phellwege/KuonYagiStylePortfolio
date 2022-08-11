@@ -1,4 +1,5 @@
 import './section.css'
+import Fullpage, { FullPageSections, FullpageSection, FullpageNavigation, FullpageCount, FullpageContext } from '@ap.cx/react-fullpage';
 
 export default (props) => {
 
@@ -10,7 +11,7 @@ export default (props) => {
             </div>
             <div className='section2Right'>
                 <h1>img</h1>
-                <h1>01</h1>
+                <h1>0<FullpageSection.Number/></h1>
             </div>
         </div>
     )
