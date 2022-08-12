@@ -35,9 +35,9 @@ export default () => {
                                         </div>
                                     </div>
                                 </div>
-                                <h4>
+                                <h2>
                                     <FullpageSection.Number/>
-                                </h4>
+                                </h2>
                             </div>
                         </FullpageSection>
                         <FullpageSection style={{SectionStyle}}>
@@ -56,9 +56,9 @@ export default () => {
                                         </div>
                                     </div>
                                 </div>
-                                <h4>
+                                <h2>
                                     <FullpageSection.Number/>
-                                </h4>
+                                </h2>
                             </div>
                         </FullpageSection>
                         <FullpageSection style={{SectionStyle}}>
@@ -77,9 +77,9 @@ export default () => {
                                         </div>
                                     </div>
                                 </div>
-                                <h4>
+                                <h2>
                                     <FullpageSection.Number/>
-                                </h4>
+                                </h2>
                             </div>
                         </FullpageSection>
                         <FullpageSection style={{SectionStyle}}>
@@ -98,9 +98,9 @@ export default () => {
                                         </div>
                                     </div>
                                 </div>
-                                <h4>
+                                <h2>
                                     <FullpageSection.Number/>
-                                </h4>
+                                </h2>
                             </div>
                         </FullpageSection>
                         <FullpageSection style={{SectionStyle}}>
@@ -119,9 +119,9 @@ export default () => {
                                         </div>
                                     </div>
                                 </div>
-                                <h4>
+                                <h2>
                                     <FullpageSection.Number/>
-                                </h4>
+                                </h2>
                             </div>
                         </FullpageSection>
                         <FullpageSection style={{SectionStyle}}>
@@ -140,9 +140,9 @@ export default () => {
                                         </div>
                                     </div>
                                 </div>
-                                <h4>
+                                <h2>
                                     <FullpageSection.Number/>
-                                </h4>
+                                </h2>
                             </div>
                         </FullpageSection>
                         <FullpageSection style={{SectionStyle}}>
@@ -161,9 +161,9 @@ export default () => {
                                         </div>
                                     </div>
                                 </div>
-                                <h4>
+                                <h2>
                                     <FullpageSection.Number/>
-                                </h4>
+                                </h2>
                             </div>
                         </FullpageSection>
                     </FullPageSections>

@@ -1,7 +1,7 @@
-import './section.css'
+import React, { useRef } from 'react';
+import './section.css';
 import {  FullpageSection } from '@ap.cx/react-fullpage';
 import {Link} from 'react-router-dom';
-
 
 
 export default () => {

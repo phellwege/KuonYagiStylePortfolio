@@ -2,10 +2,10 @@
     padding-left: 2%;
     padding-right: 2%;
     display:flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 .headRight {
-    right: 4%;
+    right: 2%;
     position: fixed;
     z-index: 1000;
 }
@@ -13,13 +13,12 @@
     display: flex;
     list-style: none;
 }
-.headRight ul li {
-    padding-left: 7px;
-    padding-right: 25px;
-}
 .headLeft {
     padding: 1.5%;
     left: 2%;
     position: fixed;
     z-index: 1000;
+}
+.headerIcon {
+    height: 15%;
 }

@@ -2,7 +2,8 @@ import './header.css'
 import {Link} from 'react-router-dom';
 import Navbar from './navbar';
 import resume from '../static/Peter.Hellwege.Resume.pdf';
-
+import Github from '../static/github.png';
+import Linkedin from '../static/linkedin.png';
 export default () => {
 
     return (
@@ -14,8 +15,8 @@ export default () => {
                 <div className='headRight'>
                     <ul>
                         <li><Link to="/">Home Icon</Link></li>
-                        <li><a href='https://github.com/phellwege' target='_blank'>github</a></li>
-                        <li><a href='https://www.linkedin.com/in/peter-hellwege/' target='_blank'>linkedin</a></li>
+                        <a href='https://github.com/phellwege' target='_blank'><img src={Github} className='headerIcon' alt='GitHub Icon'/></a>
+                        <a href='https://www.linkedin.com/in/peter-hellwege/' target='_blank'><img src={Linkedin} className='headerIcon' alt='LinkedIn Icon'/></a>
                         <Navbar/>
                     </ul>
                     {/* get icons from iconsdb.com */}

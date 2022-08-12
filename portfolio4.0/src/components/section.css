@@ -14,5 +14,8 @@
     background-color: red;
     color: white;
     height: 2.5em;
+    border-radius: .5em;
 }
-
+.moreBtn:hover {
+    cursor: pointer;
+}
