@@ -10,7 +10,7 @@ export default () => {
         <div className='sectionWrap'>
             <div className='section2Left'>
                 <h1>Projects</h1>
-                <Link to='/Projects' className='moreBtn'>View Projects</Link>
+                <Link to='/Projects'><button className='moreBtn'>View Projects</button></Link>
             </div>
             <div className='section2Right'>
                 <h1>img</h1>
