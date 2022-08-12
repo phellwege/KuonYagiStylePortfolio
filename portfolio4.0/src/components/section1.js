@@ -1,4 +1,5 @@
-import './section.css'
+import './section.css';
+import Loading from './loading';
 
 export default (props) => {
 
@@ -13,6 +14,7 @@ export default (props) => {
                     </h3>
                 </div>
                 <div className='section1Right'>
+                    <Loading/>
                     <h1>img</h1>
                     <h2>Portfolio</h2>
                 </div>

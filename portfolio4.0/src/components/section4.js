@@ -1,5 +1,6 @@
 import './section.css'
 import {  FullpageSection } from '@ap.cx/react-fullpage';
+import Loading from './loading';
 
 export default (props) => {
 
@@ -14,6 +15,7 @@ export default (props) => {
                 </div>
             </div>
             <div className='section4Right'>
+                <Loading/>
                 <h1>img</h1>
                 <h1>0<FullpageSection.Number/></h1>
             </div>
