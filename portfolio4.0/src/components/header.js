@@ -17,9 +17,10 @@ export default () => {
                         <li><Link to="/">Home Icon</Link></li>
                         <a href='https://github.com/phellwege' target='_blank'><img src={Github} className='headerIcon' alt='GitHub Icon'/></a>
                         <a href='https://www.linkedin.com/in/peter-hellwege/' target='_blank'><img src={Linkedin} className='headerIcon' alt='LinkedIn Icon'/></a>
-                        <Navbar/>
                     </ul>
-                    {/* get icons from iconsdb.com */}
+                    <div id='navbarOnHead'>
+                        <Navbar/>
+                    </div>
                 </div>
             </div>
         </>

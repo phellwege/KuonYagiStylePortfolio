@@ -38,12 +38,15 @@
 .menuNav.showMenu {
     visibility: visible;
     width: 80%;
+    display: flex;
+    justify-content: center;
 }
 .menuNav.showMenu li a {
     visibility: visible;
+    margin-bottom: 25%;
 }
 .menuNav li:first-child {
-    margin-top: 3.5rem;
+    margin-top: 25%;
 }
 .navBar button {
     background: transparent;
