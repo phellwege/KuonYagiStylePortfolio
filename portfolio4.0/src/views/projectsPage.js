@@ -1,5 +1,6 @@
 import Header from '../components/header';
 import './projectPage.css';
+import Loading from '../components/loading';
 
 import Fullpage, { FullPageSections, FullpageSection, FullpageNavigation } from '@ap.cx/react-fullpage';
 
@@ -24,7 +25,7 @@ export default () => {
                                 <div className='innerDiv'>
                                     <div className='projectLeft'>
                                         <h2>E-commerce Product Page</h2>
-                                        <p>images here</p>
+                                        <p><Loading/></p>
                                     </div>
                                     <div className='projectRight'>
                                         <h4>Description</h4>
@@ -45,7 +46,7 @@ export default () => {
                                 <div className='innerDiv'>
                                     <div className='projectLeft'>
                                         <h2>Rock-Paper-Scissors</h2>
-                                        <p>Images Here</p>
+                                        <p><Loading/></p>
                                     </div>
                                     <div className='projectRight'>
                                         <h4>Description</h4>
@@ -66,7 +67,7 @@ export default () => {
                                 <div className='innerDiv'>
                                     <div className='projectLeft'>
                                         <h2>Space Tourism</h2>
-                                        <p>Images Here</p>
+                                        <p><Loading/></p>
                                     </div>
                                     <div className='projectRight'>
                                         <h4>Description</h4>
@@ -87,7 +88,7 @@ export default () => {
                                 <div className='innerDiv'>
                                     <div className='projectLeft'>
                                         <h2>Party Time</h2>
-                                        <p>Images Here</p>
+                                        <p><Loading/></p>
                                     </div>
                                     <div className='projectRight'>
                                         <h4>Description</h4>
@@ -108,7 +109,7 @@ export default () => {
                                 <div className='innerDiv'>
                                     <div className='projectLeft'>
                                         <h2>Countdown Timer</h2>
-                                        <p>Images Here</p>
+                                        <p><Loading/></p>
                                     </div>
                                     <div className='projectRight'>
                                         <h4>Description</h4>
@@ -129,7 +130,7 @@ export default () => {
                                 <div className='innerDiv'>
                                     <div className='projectLeft'>
                                         <h2>Star Wars Homecoming</h2>
-                                        <p>Images Here</p>
+                                        <p><Loading/></p>
                                     </div>
                                     <div className='projectRight'>
                                         <h4>Description</h4>
@@ -150,7 +151,7 @@ export default () => {
                                 <div className='innerDiv'>
                                     <div className='projectLeft'>
                                         <h2>Tip Calculator</h2>
-                                        <p>Images Here</p>
+                                        <p><Loading/></p>
                                     </div>
                                     <div className='projectRight'>
                                         <h4>Description</h4>
