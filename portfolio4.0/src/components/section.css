@@ -41,7 +41,13 @@
 .SectionIconLink a {
     color: white;
 }
+.SectionIconLink a:hover {
+    text-shadow: 0px 0px 5px whitesmoke;
+}
 #emailMe {
     color: white;
     text-decoration: none;
+}
+#emailMe:hover {
+    text-shadow: 0px 0px 5px whitesmoke;
 }

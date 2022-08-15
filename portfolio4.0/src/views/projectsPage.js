@@ -35,7 +35,7 @@ export default () => {
                                         <h2>E-commerce Product Page</h2>
                                         <div className='projectImgDiv'>
                                             {/* <Loading/> */}
-                                            <img src={Ecommerce}/>
+                                            <img src={Ecommerce} loading='lazy'/>
                                         </div>
                                     </div>
                                     <div className='projectRight'>
@@ -59,7 +59,7 @@ export default () => {
                                         <h2>Rock-Paper-Scissors</h2>
                                         <div className='projectImgDiv'>
                                             {/* <Loading/> */}
-                                            <img src={RockPaperScissors}/>
+                                            <img src={RockPaperScissors} loading='lazy'/>
                                         </div>
                                     </div>
                                     <div className='projectRight'>
@@ -83,7 +83,7 @@ export default () => {
                                         <h2>Space Tourism</h2>
                                         <div className='projectImgDiv'>
                                             {/* <Loading/> */}
-                                            <img src={SpaceTourism}/>
+                                            <img src={SpaceTourism} loading='lazy'/>
                                         </div>
                                     </div>
                                     <div className='projectRight'>
@@ -107,7 +107,7 @@ export default () => {
                                         <h2>Party Time</h2>
                                         <div className='projectImgDiv'>
                                             {/* <Loading/> */}
-                                            <img src={PartyTime}/>
+                                            <img src={PartyTime} loading='lazy'/>
                                         </div>
                                     </div>
                                     <div className='projectRight'>
@@ -131,7 +131,7 @@ export default () => {
                                         <h2>Countdown Timer</h2>
                                         <div className='projectImgDiv'>
                                             {/* <Loading/> */}
-                                            <img src={Countdown}/>
+                                            <img src={Countdown} loading='lazy'/>
                                         </div>
                                     </div>
                                     <div className='projectRight'>
@@ -155,7 +155,7 @@ export default () => {
                                         <h2>Star Wars Homecoming</h2>
                                         <div className='projectImgDiv'>
                                             {/* <Loading/> */}
-                                            <img src={SWHomecoming}/>
+                                            <img src={SWHomecoming} loading='lazy'/>
                                         </div>
                                     </div>
                                     <div className='projectRight'>
@@ -179,7 +179,7 @@ export default () => {
                                         <h2>Tip Calculator</h2>
                                         <div className='projectImgDiv'>
                                             {/* <Loading/> */}
-                                            <img src={TipCalc}/>
+                                            <img src={TipCalc} loading='lazy'/>
                                         </div>
                                     </div>
                                     <div className='projectRight'>

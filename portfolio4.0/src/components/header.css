@@ -39,6 +39,10 @@
 .headWrap a {
     color: white;
     text-decoration: none;
+    font-weight: bold;
+}
+.headWrap a:hover {
+    text-shadow: 0px 0px 5px whitesmoke;
 }
 .github {
     border-radius: 50%;
