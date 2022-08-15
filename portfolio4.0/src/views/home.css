@@ -4,3 +4,7 @@
 ::-webkit-scrollbar {
     display: none;
 }
+.homeWrapper {
+    background-color: #1C2541;
+    color: white;
+}
