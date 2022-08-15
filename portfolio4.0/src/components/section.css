@@ -23,5 +23,8 @@
     background: rgba(0, 0, 0, 0.834) center url('../static/Ouroboros.png');
     z-index: 1;
     position: absolute;
-    display: none;
+    /* display: none; */
+}
+.SectionIcon {
+    height:20%;
 }

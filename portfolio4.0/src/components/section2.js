@@ -16,7 +16,9 @@ export default () => {
                 <div className='LoadingSection'>
                     <Loading/>
                 </div>
-                <h1>img</h1>
+                <div className='imgSection'>
+                    <h1>img</h1>
+                </div>
                 <h1>0<FullpageSection.Number/></h1>
             </div>
         </div>
