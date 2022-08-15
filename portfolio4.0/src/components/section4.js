@@ -16,14 +16,14 @@ export default (props) => {
                 <div className='socialLinks'>
                     <div className='SectionIconLink'>
                         <a href='https://github.com/phellwege' target='_blank'>
-                            <img src={Github} id='SectionIcon' alt='GitHub Icon'/>
+                            <img src={Github} id='githubSocial' alt='GitHub Icon'/>
                             <br/>
                             GitHub
                         </a>
                     </div>
                     <div className='SectionIconLink'>
                         <a href='https://www.linkedin.com/in/peter-hellwege/' target='_blank'>
-                            <img src={Linkedin} id='SectionIcon' alt='LinkedIn Icon'/>
+                            <img src={Linkedin} id='linkedinSocial' alt='LinkedIn Icon'/>
                             <br/>
                             LinkedIn
                         </a>

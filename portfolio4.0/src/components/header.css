@@ -39,3 +39,9 @@
 .headWrap a {
     color: white;
 }
+.github {
+    border-radius: 50%;
+}
+.linkedin {
+    border-radius: 15%;
+}
