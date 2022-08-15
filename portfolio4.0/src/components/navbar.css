@@ -24,9 +24,11 @@
     z-index: 9;
     transition: .5s;
     border-top-left-radius: 2.5em;
-    background: #34495E;
+    background: #0B132B;
     display:flex;
     flex-direction: column;
+    border: 2.5px solid grey;
+    border-right: none;
 }
 .menuNav {
     width: 0%;
@@ -60,7 +62,7 @@
     border: 1px solid transparent;
 }
 nav li a:hover:not(.active) {
-    background-color: #1ABC9C;
+    background-color: #5BC0BE;
     color: #AD1457;
     border: 1px solid darkgreen;
 }

@@ -23,16 +23,16 @@ export default () => {
                 <Fullpage>
                     <FullpageNavigation/>
                     <FullPageSections>
-                        <FullpageSection style={{SectionStyle}}>
+                        <FullpageSection style={{SectionStyle, backgroundColor:'#1C2541'}}>
                             <Section1/>
                         </FullpageSection>
-                        <FullpageSection style={{SectionStyle}}>
+                        <FullpageSection style={{SectionStyle, backgroundColor:'#3A506B'}}>
                             <Section2/>
                         </FullpageSection>
-                        <FullpageSection style={{SectionStyle}}>
+                        <FullpageSection style={{SectionStyle, backgroundColor:'#1C2541'}}>
                             <Section3/>
                         </FullpageSection>
-                        <FullpageSection style={{SectionStyle}}>
+                        <FullpageSection style={{SectionStyle, backgroundColor:'#3A506B'}}>
                             <Section4/>
                         </FullpageSection>
                     </FullPageSections>

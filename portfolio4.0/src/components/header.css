@@ -36,3 +36,6 @@
     position: fixed;
     z-index: 1000;
 }
+.headWrap a {
+    color: white;
+}

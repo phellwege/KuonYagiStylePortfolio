@@ -1,3 +1,4 @@
+
 .projectWrap {
     height: 100%;
     display: flex;
@@ -5,6 +6,7 @@
     align-items: center;
     justify-content: center;
     width: 100%;
+    color: white;
 }
 .projectLeft {
     width: 50%;
@@ -30,4 +32,7 @@
 .projectLinks {
     display: flex;
     justify-content: space-around;
+}
+.projectLinks a {
+    color: white;
 }

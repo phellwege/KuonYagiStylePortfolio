@@ -28,3 +28,6 @@
     height: 25%;
     overflow: hidden;
 }
+.SectionIconLink a {
+    color: white;
+}

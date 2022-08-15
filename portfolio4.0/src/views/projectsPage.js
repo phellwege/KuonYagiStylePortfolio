@@ -6,7 +6,7 @@ import Fullpage, { FullPageSections, FullpageSection, FullpageNavigation } from 
 
 export default () => {
 
-    const SectionStyle ={
+    const ProjectSectionStyle ={
         height: '100vh',
         width: '100%',
         display: 'flex', 
@@ -17,10 +17,10 @@ export default () => {
     return (
         <>
         <Header/>
-            <Fullpage>
+            <Fullpage >
                     <FullpageNavigation/>
                     <FullPageSections>
-                        <FullpageSection style={{SectionStyle}}>
+                        <FullpageSection style={{ProjectSectionStyle, backgroundColor:'#1C2541'}}>
                             <div className='projectWrap'>
                                 <div className='innerDiv'>
                                     <div className='projectLeft'>
@@ -41,7 +41,7 @@ export default () => {
                                 </h2>
                             </div>
                         </FullpageSection>
-                        <FullpageSection style={{SectionStyle}}>
+                        <FullpageSection style={{ProjectSectionStyle, backgroundColor:'#3A506B'}}>
                             <div className='projectWrap'>
                                 <div className='innerDiv'>
                                     <div className='projectLeft'>
@@ -62,7 +62,7 @@ export default () => {
                                 </h2>
                             </div>
                         </FullpageSection>
-                        <FullpageSection style={{SectionStyle}}>
+                        <FullpageSection style={{ProjectSectionStyle, backgroundColor:'#1C2541'}}>
                             <div className='projectWrap'>
                                 <div className='innerDiv'>
                                     <div className='projectLeft'>
@@ -83,7 +83,7 @@ export default () => {
                                 </h2>
                             </div>
                         </FullpageSection>
-                        <FullpageSection style={{SectionStyle}}>
+                        <FullpageSection style={{ProjectSectionStyle, backgroundColor:'#3A506B'}}>
                             <div className='projectWrap'>
                                 <div className='innerDiv'>
                                     <div className='projectLeft'>
@@ -104,7 +104,7 @@ export default () => {
                                 </h2>
                             </div>
                         </FullpageSection>
-                        <FullpageSection style={{SectionStyle}}>
+                        <FullpageSection style={{ProjectSectionStyle, backgroundColor:'#1C2541'}}>
                             <div className='projectWrap'>
                                 <div className='innerDiv'>
                                     <div className='projectLeft'>
@@ -125,7 +125,7 @@ export default () => {
                                 </h2>
                             </div>
                         </FullpageSection>
-                        <FullpageSection style={{SectionStyle}}>
+                        <FullpageSection style={{ProjectSectionStyle, backgroundColor:'#3A506B'}}>
                             <div className='projectWrap'>
                                 <div className='innerDiv'>
                                     <div className='projectLeft'>
@@ -146,7 +146,7 @@ export default () => {
                                 </h2>
                             </div>
                         </FullpageSection>
-                        <FullpageSection style={{SectionStyle}}>
+                        <FullpageSection style={{ProjectSectionStyle, backgroundColor:'#1C2541'}}>
                             <div className='projectWrap'>
                                 <div className='innerDiv'>
                                     <div className='projectLeft'>
