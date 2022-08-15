@@ -13,8 +13,10 @@ export default () => {
                 <Link to='/Projects'><button className='moreBtn'>View Projects</button></Link>
             </div>
             <div className='section2Right'>
-                <Loading/>
-                <h1>img</h1>
+                <div className='LoadingSection'>
+                    <Loading/>
+                    <h1>img</h1>
+                </div>
                 <h1>0<FullpageSection.Number/></h1>
             </div>
         </div>

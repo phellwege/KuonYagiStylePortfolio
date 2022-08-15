@@ -11,8 +11,10 @@ export default (props) => {
                 <button  className='moreBtn'>show me more</button>
             </div>
             <div className='section3Right'>
-                <Loading/>
-                <h1>img</h1>
+                <div className='LoadingSection'>
+                    <Loading/>
+                    <h1>img</h1>
+                </div>
                 <h1>0<FullpageSection.Number/></h1>
             </div>
         </div>
