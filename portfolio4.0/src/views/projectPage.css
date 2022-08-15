@@ -46,7 +46,11 @@
     justify-content: space-around;
     align-items: center;
     overflow: hidden;
+    
 }
 .projectImgDiv img {
     width: 60%;
+    border-radius: 2.5%;
+    border: 2.5px solid rgb(158, 158, 158);
+    padding:1%;
 }

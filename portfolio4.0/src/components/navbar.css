@@ -27,7 +27,7 @@
     background: #0B132B;
     display:flex;
     flex-direction: column;
-    border: 2.5px solid grey;
+    border: 2.5px solid rgb(158, 158, 158);
     border-right: none;
 }
 .menuNav {
