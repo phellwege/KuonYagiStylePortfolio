@@ -12,13 +12,17 @@
     justify-content: space-evenly;
 }
 .moreBtn {
-    background-color: red;
-    color: white;
+    background-color: #5BC0BE;
+    color: #1C2541;
     height: 2.5em;
     border-radius: .5em;
+    border: 2px solid white;
+    font-weight: bold;
 }
 .moreBtn:hover {
     cursor: pointer;
+    box-shadow: 0 0 25px whitesmoke;
+    color: white;
 }
 #githubSocial {
     border-radius: 50%;
@@ -36,4 +40,8 @@
 }
 .SectionIconLink a {
     color: white;
+}
+#emailMe {
+    color: white;
+    text-decoration: none;
 }

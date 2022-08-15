@@ -36,3 +36,12 @@
 .projectLinks a {
     color: white;
 }
+.projectImgDiv {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    overflow: hidden;
+}
+.projectImgDiv img {
+    width: 60%;
+}

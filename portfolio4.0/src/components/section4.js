@@ -11,7 +11,7 @@ export default (props) => {
             <div className='sectionLeft'>
                 <h1>Get In Touch</h1>
                 <h3>
-                    <a href='mailto:phellwege1@gmail.com'>phellwege1@gmail.com</a>
+                    <a href='mailto:phellwege1@gmail.com' id='emailMe'>phellwege1@gmail.com</a>
                 </h3>
                 <div className='socialLinks'>
                     <div className='SectionIconLink'>

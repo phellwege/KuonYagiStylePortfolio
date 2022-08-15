@@ -38,6 +38,7 @@
 }
 .headWrap a {
     color: white;
+    text-decoration: none;
 }
 .github {
     border-radius: 50%;
