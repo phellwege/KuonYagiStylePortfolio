@@ -20,12 +20,6 @@
 .moreBtn:hover {
     cursor: pointer;
 }
-.sectionLeft {
-    border: 1px solid red;
-}
-.sectionRight {
-    border: 1px solid red;
-}
 #SectionIcon {
     height: 25%;
     width: 25%;
