@@ -17,7 +17,9 @@ export default (props) => {
                 <div className='imgSection'>
                     <h1>img</h1>
                 </div>
-                <h1>0<FullpageSection.Number/></h1>
+                <div className='imgOverlay'>
+                    <h1>0<FullpageSection.Number/></h1>
+                </div>
             </div>
         </div>
     )

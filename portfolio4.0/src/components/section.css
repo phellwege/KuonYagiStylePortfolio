@@ -20,11 +20,31 @@
     cursor: pointer;
 }
 .LoadingSection {
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
     background: rgba(0, 0, 0, 0.834) center url('../static/Ouroboros.png');
     z-index: 1;
-    position: absolute;
+    right: 10%;
+    width: 25%;
+    height:7.5%;
     /* display: none; */
 }
 .SectionIcon {
     height:20%;
+}
+.imgSection {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    right: 10%;
+    width: 25%;
+    height:7.5%;
+    z-index: -999;
+}
+.imgOverlay {
+    z-index: 999;
+    color: red;
 }
