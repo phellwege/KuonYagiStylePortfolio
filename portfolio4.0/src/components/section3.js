@@ -4,22 +4,16 @@ import Loading from './loading';
 export default (props) => {
 
     return (
-        <div className='sectionWrap' id='AboutMeSection'>
-            <div className='section3Left'>
+        <div className='sectionWrap'>
+            <div className='sectionLeft'>
                 <h1>About Me</h1>
                 <h3>I love building something new <br/> from the ground up</h3>
                 <button  className='moreBtn'>show me more</button>
             </div>
-            <div className='section3Right'>
-                <div className='LoadingSection'>
+            <div className='sectionRight'>
                     <Loading/>
-                </div>
-                <div className='imgSection'>
                     <h1>img</h1>
-                </div>
-                <div className='imgOverlay'>
                     <h1>0<FullpageSection.Number/></h1>
-                </div>
             </div>
         </div>
     )

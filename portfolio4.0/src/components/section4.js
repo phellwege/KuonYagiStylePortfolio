@@ -8,32 +8,32 @@ export default (props) => {
 
     return (
         <div className='sectionWrap'>
-            <div className='section4Left'>
+            <div className='sectionLeft'>
                 <h1>Get In Touch</h1>
-                <h3><a href='mailto:phellwege1@gmail.com'>phellwege1@gmail.com</a></h3>
+                <h3>
+                    <a href='mailto:phellwege1@gmail.com'>phellwege1@gmail.com</a>
+                </h3>
                 <div className='socialLinks'>
-                    <a href='https://github.com/phellwege' target='_blank'>
-                        <img src={Github} className='SectionIcon' alt='GitHub Icon'/>
-                        <br/>
-                        GitHub
-                    </a>
-                    <a href='https://www.linkedin.com/in/peter-hellwege/' target='_blank'>
-                        <img src={Linkedin} className='SectionIcon' alt='LinkedIn Icon'/>
-                        <br/>
-                        LinkedIn
-                    </a>
+                    <div className='SectionIconLink'>
+                        <a href='https://github.com/phellwege' target='_blank'>
+                            <img src={Github} id='SectionIcon' alt='GitHub Icon'/>
+                            <br/>
+                            GitHub
+                        </a>
+                    </div>
+                    <div className='SectionIconLink'>
+                        <a href='https://www.linkedin.com/in/peter-hellwege/' target='_blank'>
+                            <img src={Linkedin} id='SectionIcon' alt='LinkedIn Icon'/>
+                            <br/>
+                            LinkedIn
+                        </a>
+                    </div>
                 </div>
             </div>
-            <div className='section4Right'>
-                <div className='LoadingSection'>
+            <div className='sectionRight'>
                     <Loading/>
-                </div>
-                <div className='imgSection'>
                     <h1>img</h1>
-                </div>
-                <div className='imgOverlay'>
                     <h1>0<FullpageSection.Number/></h1>
-                </div>
             </div>
         </div>
     )
