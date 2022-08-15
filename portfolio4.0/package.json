@@ -1,7 +1,7 @@
 {
   "name": "portfolio4.0",
   "version": "0.1.0",
-  "homepage": "https://phellwege.github.io/KuonYagiStylePortfolio/",
+  "homepage": "https://peters-portfolio.net",
   "private": true,
   "dependencies": {
     "@ap.cx/react-fullpage": "^0.3.0",

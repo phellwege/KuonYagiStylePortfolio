@@ -35,7 +35,9 @@ export default () => {
                                         <h2>E-commerce Product Page</h2>
                                         <div className='projectImgDiv'>
                                             {/* <Loading/> */}
-                                            <img src={Ecommerce} loading='lazy'/>
+                                            <a href='https://phellwege.github.io/ecommerce-product-page-component/' target='_blank'>
+                                            <img src={Ecommerce} loading='lazy' alt='E-commerce product page'/>
+                                            </a>
                                         </div>
                                     </div>
                                     <div className='projectRight'>
@@ -59,7 +61,9 @@ export default () => {
                                         <h2>Rock-Paper-Scissors</h2>
                                         <div className='projectImgDiv'>
                                             {/* <Loading/> */}
-                                            <img src={RockPaperScissors} loading='lazy'/>
+                                            <a href='https://phellwege.github.io/RockPaperScissors/' target='_blank'>
+                                                <img src={RockPaperScissors} loading='lazy' alt='Rock Paper Scissors page'/>
+                                            </a>
                                         </div>
                                     </div>
                                     <div className='projectRight'>
@@ -83,7 +87,9 @@ export default () => {
                                         <h2>Space Tourism</h2>
                                         <div className='projectImgDiv'>
                                             {/* <Loading/> */}
-                                            <img src={SpaceTourism} loading='lazy'/>
+                                            <a href='https://phellwege.github.io/SpaceTourism/' target='_blank'>
+                                                <img src={SpaceTourism} loading='lazy'  alt='Space Tourism page'/>
+                                            </a>
                                         </div>
                                     </div>
                                     <div className='projectRight'>
@@ -107,7 +113,9 @@ export default () => {
                                         <h2>Party Time</h2>
                                         <div className='projectImgDiv'>
                                             {/* <Loading/> */}
-                                            <img src={PartyTime} loading='lazy'/>
+                                            <a href='https://phellwege.github.io/ThePartyTime/' target='_blank'>
+                                                <img src={PartyTime} loading='lazy' alt='Party Time page'/>
+                                            </a>
                                         </div>
                                     </div>
                                     <div className='projectRight'>
@@ -131,7 +139,9 @@ export default () => {
                                         <h2>Countdown Timer</h2>
                                         <div className='projectImgDiv'>
                                             {/* <Loading/> */}
-                                            <img src={Countdown} loading='lazy'/>
+                                            <a href='https://phellwege.github.io/countdown/' target='_blank'>
+                                                <img src={Countdown} loading='lazy' alt='Countdown page'/>
+                                            </a>
                                         </div>
                                     </div>
                                     <div className='projectRight'>
@@ -155,7 +165,9 @@ export default () => {
                                         <h2>Star Wars Homecoming</h2>
                                         <div className='projectImgDiv'>
                                             {/* <Loading/> */}
-                                            <img src={SWHomecoming} loading='lazy'/>
+                                            <a href='http://ec2-3-14-141-156.us-east-2.compute.amazonaws.com/' target='_blank'>
+                                            <img src={SWHomecoming} loading='lazy' alt='Star Wars HomeComing page'/>
+                                            </a>
                                         </div>
                                     </div>
                                     <div className='projectRight'>
@@ -179,7 +191,9 @@ export default () => {
                                         <h2>Tip Calculator</h2>
                                         <div className='projectImgDiv'>
                                             {/* <Loading/> */}
-                                            <img src={TipCalc} loading='lazy'/>
+                                            <a href='' target='_blank'>
+                                                <img src={TipCalc} loading='lazy' alt='Tip Calculator page'/>
+                                            </a>
                                         </div>
                                     </div>
                                     <div className='projectRight'>
