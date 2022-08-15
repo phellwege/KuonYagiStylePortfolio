@@ -8,9 +8,10 @@
 }
 .headRight {
     right: 2%;
+    padding-top:1%;
     position: fixed;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     z-index: 1000;
 }
 .headRight #navbarOnHead {
@@ -21,6 +22,7 @@
     justify-content: space-around;
     list-style: none;
     overflow: hidden;
+    padding:.5%;
 }
 .headRight ul a {
     display: inline-block;
@@ -42,11 +44,17 @@
     font-weight: bold;
 }
 .headWrap a:hover {
-    text-shadow: 0px 0px 5px whitesmoke;
+    text-shadow: 0px 0px 10px whitesmoke;
 }
 .github {
     border-radius: 50%;
 }
+.github:hover {
+    box-shadow: 0 0 5px whitesmoke;
+}
 .linkedin {
     border-radius: 15%;
+}
+.linkedin:hover {
+    box-shadow: 0 0 5px whitesmoke;
 }
