@@ -55,7 +55,7 @@
     border: none;
 }
 #nav li a.active {
-    box-shadow: 0 0 5px #56f981;
+    box-shadow: 0 0 5px #5BC0BE;
 }
 #nav li a {
     color: white;
@@ -63,6 +63,4 @@
 }
 nav li a:hover:not(.active) {
     background-color: #5BC0BE;
-    color: #AD1457;
-    border: 1px solid darkgreen;
 }

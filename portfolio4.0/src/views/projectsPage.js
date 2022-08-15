@@ -20,7 +20,7 @@ export default () => {
             <Fullpage >
                     <FullpageNavigation/>
                     <FullPageSections>
-                        <FullpageSection style={{ProjectSectionStyle, backgroundColor:'#1C2541'}}>
+                        <FullpageSection style={{ProjectSectionStyle, background:'linear-gradient(#1C2541, #3A506B)'}}>
                             <div className='projectWrap'>
                                 <div className='innerDiv'>
                                     <div className='projectLeft'>
@@ -41,7 +41,7 @@ export default () => {
                                 </h2>
                             </div>
                         </FullpageSection>
-                        <FullpageSection style={{ProjectSectionStyle, backgroundColor:'#3A506B'}}>
+                        <FullpageSection style={{ProjectSectionStyle, background:'linear-gradient(#3A506B, #1C2541)'}}>
                             <div className='projectWrap'>
                                 <div className='innerDiv'>
                                     <div className='projectLeft'>
@@ -62,7 +62,7 @@ export default () => {
                                 </h2>
                             </div>
                         </FullpageSection>
-                        <FullpageSection style={{ProjectSectionStyle, backgroundColor:'#1C2541'}}>
+                        <FullpageSection style={{ProjectSectionStyle, background:'linear-gradient(#1C2541, #3A506B)'}}>
                             <div className='projectWrap'>
                                 <div className='innerDiv'>
                                     <div className='projectLeft'>
@@ -83,7 +83,7 @@ export default () => {
                                 </h2>
                             </div>
                         </FullpageSection>
-                        <FullpageSection style={{ProjectSectionStyle, backgroundColor:'#3A506B'}}>
+                        <FullpageSection style={{ProjectSectionStyle, background:'linear-gradient(#3A506B, #1C2541)'}}>
                             <div className='projectWrap'>
                                 <div className='innerDiv'>
                                     <div className='projectLeft'>
@@ -104,7 +104,7 @@ export default () => {
                                 </h2>
                             </div>
                         </FullpageSection>
-                        <FullpageSection style={{ProjectSectionStyle, backgroundColor:'#1C2541'}}>
+                        <FullpageSection style={{ProjectSectionStyle, background:'linear-gradient(#1C2541, #3A506B)'}}>
                             <div className='projectWrap'>
                                 <div className='innerDiv'>
                                     <div className='projectLeft'>
@@ -125,7 +125,7 @@ export default () => {
                                 </h2>
                             </div>
                         </FullpageSection>
-                        <FullpageSection style={{ProjectSectionStyle, backgroundColor:'#3A506B'}}>
+                        <FullpageSection style={{ProjectSectionStyle, background:'linear-gradient(#3A506B, #1C2541)'}}>
                             <div className='projectWrap'>
                                 <div className='innerDiv'>
                                     <div className='projectLeft'>
@@ -146,7 +146,7 @@ export default () => {
                                 </h2>
                             </div>
                         </FullpageSection>
-                        <FullpageSection style={{ProjectSectionStyle, backgroundColor:'#1C2541'}}>
+                        <FullpageSection style={{ProjectSectionStyle, background:'linear-gradient(#1C2541, #3A506B)'}}>
                             <div className='projectWrap'>
                                 <div className='innerDiv'>
                                     <div className='projectLeft'>
