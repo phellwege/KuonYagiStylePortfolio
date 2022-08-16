@@ -52,7 +52,7 @@ export default (props) => {
                     <img src={MongoDB} alt="Mongo" id="Mongo"/>
                     <img src={MySQL} alt="MySQL" id="MySQL"/>
                 </div>
-                        <h1>Stacks</h1>
+                        <h2>Technical Expertise</h2>
                 </div>
             </div>
         </>

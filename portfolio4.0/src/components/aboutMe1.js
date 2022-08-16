@@ -1,6 +1,6 @@
 import './aboutMe.css';
 import Loading from './loading';
-
+import Headshot from '../static/HeadShot.jpeg'
 export default (props) => {
 
     return (
@@ -14,9 +14,10 @@ export default (props) => {
                     </h3>
                 </div>
                 <div className='sectionRight'>
-                        <Loading/>
-                        <h1>img</h1>
-                        <h1>Portfolio</h1>
+                        {/* <Loading/> */}
+                        <img src={Headshot} id='headshot'/>
+                        <h3>A bit about me</h3>
+                        <p>lorem ipsum dolor sit amet</p>
                 </div>
             </div>
         </>

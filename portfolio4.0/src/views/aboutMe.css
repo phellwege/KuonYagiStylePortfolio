@@ -7,3 +7,8 @@
     box-shadow: 0 0 2px whitesmoke;
     margin: 1%;
 }
+#headshot {
+    border-radius: 50%;
+    width:25%;
+    height:25%;
+}
