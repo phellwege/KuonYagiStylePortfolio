@@ -1,0 +1,9 @@
+.sectionRight {
+    width: 50%;
+}
+.skills img {
+    border-radius: 50%;
+    height: 55px;
+    box-shadow: 0 0 2px whitesmoke;
+    margin: 1%;
+}
