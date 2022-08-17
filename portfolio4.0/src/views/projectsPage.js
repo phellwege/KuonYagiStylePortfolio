@@ -32,9 +32,10 @@ export default () => {
                 <Coverflow
                     displayQuantityOfSide={2}
                     navigation={true}
-                    infiniteScroll
+                    infiniteScroll={true}
                     enableHeading={true}
                     currentFigureScale='2'
+                    otherFigureScale='.75'
                     loading='lazy'
                     media={{
                         '@media (max-width: 900px)': {
@@ -85,10 +86,11 @@ export default () => {
                                             <a href='https://github.com/phellwege/ecommerce-product-page-component' target='_blank'>Github Repo</a>
                                         </div>
                                     </div>
+                                    <br/>
+                                    <h2>
+                                        <FullpageSection.Number/>
+                                    </h2>
                                 </div>
-                                <h2>
-                                    <FullpageSection.Number/>
-                                </h2>
                             </div>
                         </FullpageSection>
                         <FullpageSection style={{ProjectSectionStyle, background:'linear-gradient(#3A506B, #1C2541)'}}>
@@ -111,10 +113,11 @@ export default () => {
                                             <a href='https://github.com/phellwege/RockPaperScissors' target='_blank'>Github Repo</a>
                                         </div>
                                     </div>
+                                    <br/>
+                                    <h2>
+                                        <FullpageSection.Number/>
+                                    </h2>
                                 </div>
-                                <h2>
-                                    <FullpageSection.Number/>
-                                </h2>
                             </div>
                         </FullpageSection>
                         <FullpageSection style={{ProjectSectionStyle, background:'linear-gradient(#1C2541, #3A506B)'}}>
@@ -137,10 +140,11 @@ export default () => {
                                             <a href='https://github.com/phellwege/SpaceTourism' target='_blank'>Github Repo</a>
                                         </div>
                                     </div>
+                                    <br/>
+                                    <h2>
+                                        <FullpageSection.Number/>
+                                    </h2>
                                 </div>
-                                <h2>
-                                    <FullpageSection.Number/>
-                                </h2>
                             </div>
                         </FullpageSection>
                         <FullpageSection style={{ProjectSectionStyle, background:'linear-gradient(#3A506B, #1C2541)'}}>
@@ -163,10 +167,11 @@ export default () => {
                                             <a href='https://github.com/phellwege/ThePartyTime' target='_blank'>Github Repo</a>
                                         </div>
                                     </div>
+                                    <br/>
+                                    <h2>
+                                        <FullpageSection.Number/>
+                                    </h2>
                                 </div>
-                                <h2>
-                                    <FullpageSection.Number/>
-                                </h2>
                             </div>
                         </FullpageSection>
                         <FullpageSection style={{ProjectSectionStyle, background:'linear-gradient(#1C2541, #3A506B)'}}>
@@ -189,10 +194,11 @@ export default () => {
                                             <a href='https://github.com/phellwege/countdown' target='_blank'>Github Repo</a>
                                         </div>
                                     </div>
+                                    <br/>
+                                    <h2>
+                                        <FullpageSection.Number/>
+                                    </h2>
                                 </div>
-                                <h2>
-                                    <FullpageSection.Number/>
-                                </h2>
                             </div>
                         </FullpageSection>
                         <FullpageSection style={{ProjectSectionStyle, background:'linear-gradient(#3A506B, #1C2541)'}}>
@@ -215,10 +221,11 @@ export default () => {
                                             <a href='https://github.com/bdsullivan123/homecoming' target='_blank'>Github Repo</a>
                                         </div>
                                     </div>
+                                    <br/>
+                                    <h2>
+                                        <FullpageSection.Number/>
+                                    </h2>
                                 </div>
-                                <h2>
-                                    <FullpageSection.Number/>
-                                </h2>
                             </div>
                         </FullpageSection>
                         <FullpageSection style={{ProjectSectionStyle, background:'linear-gradient(#1C2541, #3A506B)'}}>
@@ -241,10 +248,11 @@ export default () => {
                                             <a href='https://github.com/phellwege/Tip_Calculator' target='_blank'>Github Repo</a>
                                         </div>
                                     </div>
+                                    <br/>
+                                    <h2>
+                                        <FullpageSection.Number/>
+                                    </h2>
                                 </div>
-                                <h2>
-                                    <FullpageSection.Number/>
-                                </h2>
                             </div>
                         </FullpageSection>
                     </FullPageSections>
