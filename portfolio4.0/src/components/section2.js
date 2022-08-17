@@ -2,17 +2,18 @@ import React, { useRef } from 'react';
 import './section.css';
 import {  FullpageSection } from '@ap.cx/react-fullpage';
 import {Link} from 'react-router-dom';
-import Loading from './loading';
 
 import Coverflow from 'react-coverflow';
 import { StyleRoot } from 'radium';
-import Ecommerce from '../static/CaptureHomeEcommercePrd.PNG'
-import RockPaperScissors from '../static/CaptureHomeRockPaperScissors.PNG'
-import SpaceTourism from '../static/CaptureSpaceTourism.PNG'
-import PartyTime from '../static/giphyHomePage.gif'
-import Countdown from '../static/CaptureCountDown.PNG'
-import SWHomecoming from '../static/giphySWHomePage.gif'
-import TipCalc from '../static/giphyTipCalc.gif'
+import Ecommerce from '../static/CaptureHomeEcommercePrd.PNG';
+import RockPaperScissors from '../static/CaptureHomeRockPaperScissors.PNG';
+import SpaceTourism from '../static/CaptureSpaceTourism.PNG';
+import PartyTime from '../static/giphyHomePage.gif';
+import Countdown from '../static/CaptureCountDown.PNG';
+import SWHomecoming from '../static/giphySWHomePage.gif';
+import TipCalc from '../static/giphyTipCalc.gif';
+
+
 export default () => {
 
     return (
@@ -23,11 +24,11 @@ export default () => {
             </div>
             <div className='sectionRight'>
                     <StyleRoot>
-                        <Coverflow id='coverflow'
+                        <Coverflow
                             displayQuantityOfSide={2}
-                            navigation
+                            navigation={true}
                             infiniteScroll
-                            enableHeading
+                            enableHeading={false}
                             loading='lazy'
                             media={{
                                 '@media (max-width: 900px)': {
@@ -49,7 +50,7 @@ export default () => {
                             <img src={TipCalc} alt='Tip Calculator' data-action="https://phellwege.github.io/Tip_Calculator/"/>
                         </Coverflow>
                     </StyleRoot>
-                    <h1 className='pgNum'>0<FullpageSection.Number/></h1>
+                    <h1 className='ProjectPgNum'>0<FullpageSection.Number/></h1>
             </div>
         </div>
     )

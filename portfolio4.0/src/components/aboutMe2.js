@@ -24,11 +24,33 @@ export default (props) => {
         <>
             <div className='sectionWrap'>
                 <div className='sectionLeft'>
-                    <h1>Peter Hellwege</h1>
-                    <h3>Full-Stack Software Engineer / 
-                        <br/> 
-                        Data Engineer.
-                    </h3>
+                    <ul>
+                        <div id='topDiv'>
+                            <div>
+                                <li>stuff 1</li>
+                                <li>stuff 2</li>
+                                <li>stuff 3</li>
+                                <li>stuff 4</li>
+                                <li>stuff 5</li>
+                            </div>
+                            <div>
+                                <li>stuff 1</li>
+                                <li>stuff 2</li>
+                                <li>stuff 3</li>
+                                <li>stuff 4</li>
+                                <li>stuff 5</li>
+                            </div>
+                        </div>
+                    </ul>
+                    <ul>
+                        <div id='bottomDiv'>
+                            <li>stuff 1</li>
+                            <li>stuff 2</li>
+                            <li>stuff 3</li>
+                            <li>stuff 4</li>
+                            <li>stuff 5</li>
+                        </div>
+                    </ul>
                 </div>
                 <div className='sectionRight'>
                 <div className="skills">
