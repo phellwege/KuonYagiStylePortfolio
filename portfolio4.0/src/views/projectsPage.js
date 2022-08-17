@@ -31,7 +31,7 @@ export default () => {
             <StyleRoot>
                 <Coverflow
                     displayQuantityOfSide={2}
-                    navigation={true}
+                    navigation={false}
                     infiniteScroll={true}
                     enableHeading={true}
                     currentFigureScale='2'
