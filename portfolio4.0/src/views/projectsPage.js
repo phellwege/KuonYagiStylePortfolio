@@ -1,7 +1,8 @@
 import Header from '../components/header';
 import './projectPage.css';
 import Loading from '../components/loading';
-
+import Coverflow from 'react-coverflow';
+import { StyleRoot } from 'radium';
 import Ecommerce from '../static/CaptureHomeEcommercePrd.PNG'
 import RockPaperScissors from '../static/CaptureHomeRockPaperScissors.PNG'
 import SpaceTourism from '../static/CaptureSpaceTourism.PNG'
@@ -24,7 +25,42 @@ export default () => {
 
     return (
         <>
+        <div className="projectPageWrap">
         <Header/>
+            <div id='CoverFlowElement'>
+            <StyleRoot>
+                <Coverflow
+                    displayQuantityOfSide={2}
+                    navigation={true}
+                    infiniteScroll
+                    enableHeading={true}
+                    loading='lazy'
+                    media={{
+                        '@media (max-width: 900px)': {
+                        width: '100%',
+                        height: '100vh'
+                        },
+                        '@media (min-width: 900px)': {
+                        width: '100%',
+                        height: '100vh'
+                        }
+                    }}
+                    >
+                    <img src={Ecommerce} alt='E-commerce Product Page' data-action="https://phellwege.github.io/ecommerce-product-page-component/"/>
+                    <img src={RockPaperScissors} alt='Rock-Paper-Scissors' data-action="https://phellwege.github.io/RockPaperScissors/"/>
+                    <img src={SpaceTourism} alt='Space Tourism' data-action="https://phellwege.github.io/SpaceTourism/"/>
+                    <img src={PartyTime} alt='PartyTime' data-action="https://phellwege.github.io/ThePartyTime/"/>
+                    <img src={Countdown} alt='Countdown' data-action="https://phellwege.github.io/countdown/"/>
+                    <img src={SWHomecoming} alt='Star Wars Homecoming' data-action="http://ec2-3-14-141-156.us-east-2.compute.amazonaws.com/"/>
+                    <img src={TipCalc} alt='Tip Calculator' data-action="https://phellwege.github.io/Tip_Calculator/"/>
+                </Coverflow>
+            </StyleRoot>
+            </div>
+        </div>
+
+
+        
+        <div className="ProjectFullPage">
             <Fullpage >
                     <FullpageNavigation/>
                     <FullPageSections>
@@ -34,7 +70,7 @@ export default () => {
                                     <div className='projectLeft'>
                                         <h2>E-commerce Product Page</h2>
                                         <div className='projectImgDiv'>
-                                            {/* <Loading/> */}
+                                            
                                             <a href='https://phellwege.github.io/ecommerce-product-page-component/' target='_blank'>
                                             <img src={Ecommerce} loading='lazy' alt='E-commerce product page'/>
                                             </a>
@@ -60,7 +96,7 @@ export default () => {
                                     <div className='projectLeft'>
                                         <h2>Rock-Paper-Scissors</h2>
                                         <div className='projectImgDiv'>
-                                            {/* <Loading/> */}
+                                            
                                             <a href='https://phellwege.github.io/RockPaperScissors/' target='_blank'>
                                                 <img src={RockPaperScissors} loading='lazy' alt='Rock Paper Scissors page'/>
                                             </a>
@@ -86,7 +122,7 @@ export default () => {
                                     <div className='projectLeft'>
                                         <h2>Space Tourism</h2>
                                         <div className='projectImgDiv'>
-                                            {/* <Loading/> */}
+                                            
                                             <a href='https://phellwege.github.io/SpaceTourism/' target='_blank'>
                                                 <img src={SpaceTourism} loading='lazy'  alt='Space Tourism page'/>
                                             </a>
@@ -112,7 +148,7 @@ export default () => {
                                     <div className='projectLeft'>
                                         <h2>Party Time</h2>
                                         <div className='projectImgDiv'>
-                                            {/* <Loading/> */}
+                                            
                                             <a href='https://phellwege.github.io/ThePartyTime/' target='_blank'>
                                                 <img src={PartyTime} loading='lazy' alt='Party Time page'/>
                                             </a>
@@ -138,7 +174,7 @@ export default () => {
                                     <div className='projectLeft'>
                                         <h2>Countdown Timer</h2>
                                         <div className='projectImgDiv'>
-                                            {/* <Loading/> */}
+                                            
                                             <a href='https://phellwege.github.io/countdown/' target='_blank'>
                                                 <img src={Countdown} loading='lazy' alt='Countdown page'/>
                                             </a>
@@ -164,7 +200,7 @@ export default () => {
                                     <div className='projectLeft'>
                                         <h2>Star Wars Homecoming</h2>
                                         <div className='projectImgDiv'>
-                                            {/* <Loading/> */}
+                                            
                                             <a href='http://ec2-3-14-141-156.us-east-2.compute.amazonaws.com/' target='_blank'>
                                             <img src={SWHomecoming} loading='lazy' alt='Star Wars HomeComing page'/>
                                             </a>
@@ -190,7 +226,7 @@ export default () => {
                                     <div className='projectLeft'>
                                         <h2>Tip Calculator</h2>
                                         <div className='projectImgDiv'>
-                                            {/* <Loading/> */}
+                                            
                                             <a href='' target='_blank'>
                                                 <img src={TipCalc} loading='lazy' alt='Tip Calculator page'/>
                                             </a>
@@ -212,6 +248,7 @@ export default () => {
                         </FullpageSection>
                     </FullPageSections>
                 </Fullpage>
+            </div>
         </>
     )
 }
