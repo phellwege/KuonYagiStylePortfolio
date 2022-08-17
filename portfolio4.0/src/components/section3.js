@@ -16,7 +16,7 @@ export default (props) => {
                 </Link>
             </div>
             <div className='sectionRight'>
-                    <Loading/>
+                    {/* <Loading/> */}
                     <h1>img</h1>
                     <h1>0<FullpageSection.Number/></h1>
             </div>

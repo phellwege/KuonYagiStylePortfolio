@@ -14,7 +14,7 @@ export default (props) => {
                     </h3>
                 </div>
                 <div className='sectionRight'>
-                        <Loading/>
+                        {/* <Loading/> */}
                         <h1>img</h1>
                         <h1>Portfolio</h1>
                 </div>
