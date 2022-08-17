@@ -34,6 +34,7 @@ export default () => {
                     navigation={true}
                     infiniteScroll
                     enableHeading={true}
+                    currentFigureScale='2'
                     loading='lazy'
                     media={{
                         '@media (max-width: 900px)': {
