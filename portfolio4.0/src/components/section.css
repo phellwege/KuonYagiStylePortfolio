@@ -61,6 +61,11 @@
 }
 .ProjectPgNum {
     position: absolute;
-    right:17.5%;
-    bottom:56%;
+    z-index: 1000;
+    right:10%;
+    bottom:55%;
+}
+
+#ProjectsSectionRight img{
+    width:70%;
 }

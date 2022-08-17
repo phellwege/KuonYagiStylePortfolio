@@ -27,7 +27,19 @@ export default (props) => {
                     <ul>
                         <div id='topDiv'>
                             <div>
-                                <li>stuff 1</li>
+                                <li class="skill-set__item">
+                                    <div class="skill-set__icon"><img src={JavaScript} alt="JavaScript" id="JavaScript"/></div>
+                                    <div class="skill-set__detail">
+                                        <div class="skill-set__meta">
+                                        <div class="skill-set__name">
+                                            <h4 class="small-title small-title--skill">Illustrator</h4>
+                                            <p class="skill-set__year">3YEARS</p>
+                                        </div>
+                                        <p class="small-title small-title--skill skill-set__high">90<span class="skill-set__ratio">%</span></p>
+                                        </div>
+                                        <div class="skill-set__bar p90 js-scroll in"></div>
+                                    </div>
+                                </li>
                                 <li>stuff 2</li>
                                 <li>stuff 3</li>
                                 <li>stuff 4</li>
