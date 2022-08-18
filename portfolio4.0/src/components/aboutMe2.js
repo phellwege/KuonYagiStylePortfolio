@@ -26,41 +26,119 @@ export default (props) => {
                 <div className='sectionLeft'>
                     <ul>
                         <div id='topDiv'>
-                            <div>
-                                <li class="skill-set__item">
-                                    <div class="skill-set__icon"><img src={JavaScript} alt="JavaScript" id="JavaScript"/></div>
-                                    <div class="skill-set__detail">
-                                        <div class="skill-set__meta">
-                                        <div class="skill-set__name">
-                                            <h4 class="small-title small-title--skill">Illustrator</h4>
-                                            <p class="skill-set__year">3YEARS</p>
-                                        </div>
-                                        <p class="small-title small-title--skill skill-set__high">90<span class="skill-set__ratio">%</span></p>
-                                        </div>
-                                        <div class="skill-set__bar p90 js-scroll in"></div>
+                            <div className="skills">
+                                <li>
+                                    <img src={JavaScript} alt="Javascript" id="JavaScript"/>
+                                    <div>
+                                        <h4>JavaScript</h4>
+                                        <p>counter here</p>
                                     </div>
                                 </li>
-                                <li>stuff 2</li>
-                                <li>stuff 3</li>
-                                <li>stuff 4</li>
-                                <li>stuff 5</li>
+                                <li>
+                                    <img src={Java} alt="Java"/>
+                                    <div>
+                                        <h4>Java</h4>
+                                        <p>counter here</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <img src={Html} alt="HTML" id="HTML"/>
+                                    <div>
+                                        <h4>HTML</h4>
+                                        <p>counter here</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <img src={Css} alt="CSS" id="Css"/>
+                                    <div>
+                                        <h4>CSS</h4>
+                                        <p>counter here</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <img src={Python} alt="Python" id="Python"/>
+                                    <div>
+                                        <h4>Python</h4>
+                                        <p>counter here</p>
+                                    </div>
+                                </li>
                             </div>
-                            <div>
-                                <li>stuff 1</li>
-                                <li>stuff 2</li>
-                                <li>stuff 3</li>
-                                <li>stuff 4</li>
-                                <li>stuff 5</li>
+                            <div className="skills">
+                                <li>
+                                    <img src={jQuery} alt="jQuery" id="jQuery"/>
+                                    <div>
+                                        <h4>JQUERY</h4>
+                                        <p>counter here</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <img src={Bootstrap} alt="Bootstrap" id="Bootstrap"/>
+                                    <div>
+                                        <h4>Bootstrap</h4>
+                                        <p>counter here</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    stuff 3
+                                    <div>
+                                        <h4>dunno yet</h4>
+                                        <p>counter here</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <img src={Ajax} alt="Ajax" id="Ajax"/>
+                                    <div>
+                                        <h4>Ajax</h4>
+                                        <p>counter here</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    stuff 5
+                                    <div>
+                                        <h4>dunno yet</h4>
+                                        <p>counter here</p>
+                                    </div>
+                                </li>
                             </div>
                         </div>
                     </ul>
                     <ul>
-                        <div id='bottomDiv'>
-                            <li>stuff 1</li>
-                            <li>stuff 2</li>
-                            <li>stuff 3</li>
-                            <li>stuff 4</li>
-                            <li>stuff 5</li>
+                        <div className="skills" id='bottomDiv'>
+                            <li>
+                                <img src={Node} alt="Nodejs" id="Node"/>
+                                <div>
+                                    <h4>Nodejs</h4>
+                                    <p>counter here</p>
+                                </div>
+                            </li>
+                            <li>
+                                <img src={Django} alt="Django" id="Django"/>
+                                <div>
+                                    <h4>Django</h4>
+                                    <p>counter here</p>
+                                </div>
+                            </li>
+                            <li>
+                                <img src={Express} alt="Express" id="Express"/>
+                                <div>
+                                    <h4>Express</h4>
+                                    <p>counter here</p>
+                                </div>
+                            </li>
+                            <li>
+                                <img src={MongoDB} alt="Mongo" id="Mongo"/>
+                                <div>
+                                    <h4>MongoDB</h4>
+                                    <p>counter here</p>
+                                </div>
+                            </li>
+                            <li>
+                                <img src={MySQL} alt="MySQL" id="MySQL"/>
+                                <div>
+                                    <h4>MySQL</h4>
+                                    <p>counter here</p>
+                                </div>
+                            </li>
                         </div>
                     </ul>
                 </div>
