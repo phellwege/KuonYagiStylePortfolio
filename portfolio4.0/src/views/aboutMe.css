@@ -1,5 +1,7 @@
-.sectionRight {
-    width: 50%;
+.aboutSectionRight {
+    width: 25%;
+    margin-right: 10%;
+    padding-bottom: 10%;;
 }
 .skills img {
     border-radius: 50%;
@@ -9,8 +11,8 @@
 }
 #headshot {
     border-radius: 50%;
-    width:25%;
-    height:25%;
+    width:55%;
+    height:55%;
 }
 .aboutMePageWrap {
     background: linear-gradient(#1C2541, #3A506B);
@@ -21,10 +23,21 @@
 }
 .skills li {
     display: flex;
+    justify-content: space-evenly;
 }
-.skills li div {
-    padding-left: 7.5%;
+
+.skills li div h4 {
+    padding-left: 10%;
+}
+.skills li div p {
+    text-align: center;
+    color: red;
+    font-style: italic;
 }
 .mainSection {
     width: 100%;
+}
+.innerDiv {
+    display: flex;
+    
 }

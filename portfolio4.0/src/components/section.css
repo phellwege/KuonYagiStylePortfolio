@@ -67,6 +67,9 @@ img#linkedinSocial {
 #ProjectsSectionRight img{
     width:70%;
 }
+.sectionRight {
+    width: 50%;
+}
 @media (max-width: 900px){
     .sectionWrap {
         display: flex;

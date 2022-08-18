@@ -2,6 +2,7 @@ import './navbar.css';
 import {Link} from 'react-router-dom';
 import { MdClose } from "react-icons/md";
 import { FiMenu } from "react-icons/fi";
+import resume from '../static/Peter.Hellwege.Resume.pdf';
 import React, { useEffect, useState } from 'react';
 
 export default (props) => {
@@ -26,7 +27,7 @@ export default (props) => {
                             <li><Link to="/" onClick={() => closeMenu()}>Home</Link></li>
                             <li><Link to="/Projects" onClick={() => closeMenu()}>Projects</Link></li>
                             <li><Link to="/AboutMe" onClick={() => closeMenu()}>About Me</Link></li>
-                            
+                            <li><a href={resume} download="../static/Peter.Hellwege.Resume.pdf">Download CV</a></li>
                         </ul>
                 </nav>
         </div>
