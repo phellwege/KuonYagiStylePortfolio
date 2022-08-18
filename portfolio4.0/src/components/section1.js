@@ -8,6 +8,24 @@ export default (props) => {
             <div className='sectionWrap'>
                 <div className='sectionLeft'>
                     <h1>Peter Hellwege</h1>
+                        <div
+                            style={{
+                            background: '#5BC0BE',
+                            height: '3px',
+                            width: '18%',
+                            marginLeft: '25%'
+                            }}
+                        />
+                        <br/>
+                        <div
+                            style={{
+                            background: '#5BC0BE',
+                            height: '3px',
+                            width: '18%',
+                            marginLeft: '42%'
+                            }}
+                        />
+                        <br/>
                     <h3>Full-Stack Software Engineer / 
                         <br/> 
                         Data Engineer.

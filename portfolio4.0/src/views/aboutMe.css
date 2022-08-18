@@ -22,3 +22,9 @@
 .skills li {
     display: flex;
 }
+.skills li div {
+    padding-left: 7.5%;
+}
+.mainSection {
+    width: 100%;
+}

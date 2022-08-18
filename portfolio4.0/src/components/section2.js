@@ -21,6 +21,24 @@ export default () => {
         <div className='sectionWrap'>
             <div className='sectionLeft'>
                 <h1>Projects</h1>
+                <div
+                    style={{
+                    background: '#5BC0BE',
+                    height: '3px',
+                    width: '18%',
+                    marginLeft: '35%'
+                    }}
+                />
+                <br/>
+                <div
+                    style={{
+                    background: '#5BC0BE',
+                    height: '3px',
+                    width: '15%',
+                    marginLeft: '25%'
+                    }}
+                />
+                <br/>
                 <Link to='/Projects'><button className='moreBtn'>View Projects</button></Link>
             </div>
             <div className='sectionRight' id='ProjectsSectionRight'>

@@ -9,6 +9,24 @@ export default (props) => {
         <div className='sectionWrap'>
             <div className='sectionLeft'>
                 <h1>Get In Touch</h1>
+                <div
+                    style={{
+                    background: '#5BC0BE',
+                    height: '3px',
+                    width: '18%',
+                    marginLeft: '35%'
+                    }}
+                />
+                <br/>
+                <div
+                    style={{
+                    background: '#5BC0BE',
+                    height: '3px',
+                    width: '15%',
+                    marginLeft: '25%'
+                    }}
+                />
+                <br/>
                 <h3>
                     <a href='mailto:phellwege1@gmail.com' id='emailMe'>phellwege1@gmail.com</a>
                 </h3>

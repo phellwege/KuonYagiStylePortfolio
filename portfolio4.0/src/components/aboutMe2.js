@@ -23,7 +23,7 @@ export default (props) => {
     return (
         <>
             <div className='sectionWrap'>
-                <div className='sectionLeft'>
+                <div className='mainSection'>
                     <ul>
                         <div id='topDiv'>
                             <div className="skills">
@@ -100,10 +100,7 @@ export default (props) => {
                                     </div>
                                 </li>
                             </div>
-                        </div>
-                    </ul>
-                    <ul>
-                        <div className="skills" id='bottomDiv'>
+                        <div className="skills">
                             <li>
                                 <img src={Node} alt="Nodejs" id="Node"/>
                                 <div>
@@ -140,31 +137,8 @@ export default (props) => {
                                 </div>
                             </li>
                         </div>
+                        </div>
                     </ul>
-                </div>
-                <div className='sectionRight'>
-                <div className="skills">
-                    <img src={JavaScript} alt="Javascript" id="JavaScript"/>
-                    <img src={Java} alt="Java"/>
-                    <img src={Html} alt="HTML" id="HTML"/>
-                    <img src={Css} alt="CSS" id="Css"/>
-                    <img src={Python} alt="Python" id="Python"/>
-                </div>
-                <div className="skills">
-                    <img src={jQuery} alt="jQuery" id="jQuery"/>
-                    <img src={Bootstrap} alt="Bootstrap" id="Bootstrap"/>
-                    {/* <img src={DataBricks} alt='DataBricks' id="DataBricks"/> */}
-                    <img src={Ajax} alt="Ajax" id="Ajax"/>
-                    {/* <img src={DataFactory} alt='DataFactory' id='DataFactory'/> */}
-                </div>
-                <div className="skills">
-                    <img src={Node} alt="Nodejs" id="Node"/>
-                    <img src={Django} alt="Django" id="Django"/>
-                    <img src={Express} alt="Express" id="Express"/>
-                    <img src={MongoDB} alt="Mongo" id="Mongo"/>
-                    <img src={MySQL} alt="MySQL" id="MySQL"/>
-                </div>
-                        <h2>Technical Expertise</h2>
                 </div>
             </div>
         </>
