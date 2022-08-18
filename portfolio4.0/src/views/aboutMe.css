@@ -39,3 +39,17 @@
 .innerDiv {
     display: flex;
 }
+@media (max-width: 900px){
+    .aboutSectionRight {
+        width: 80%; 
+        margin-left: 10%;
+    }
+    div.skills li {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .skills li div h4 {
+        padding-left: 0;
+    }
+}

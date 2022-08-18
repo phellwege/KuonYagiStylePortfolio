@@ -1,34 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
-html,
-body,
-#root {
-    height: 100%;
-    width: 100%;
-}
-
-body {
-    font-family: system-ui;
-    margin: 0;
-}
-
-*,
-*:after,
-*:before {
-    box-sizing: border-box;
-}
-
-.flex {
-    display: flex;
-    align-items: center;
-}
-
-.flex.fill {
-    height: 100%;
-}
-
-.flex.center {
-    justify-content: center;
-}
 
 .sectionWrap {
     display: flex;
