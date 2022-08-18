@@ -5,7 +5,7 @@ import {Link} from 'react-router-dom';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import "swiper/css";
 import "swiper/css/pagination";
-import { Pagination } from "swiper";
+import { Pagination, Lazy} from "swiper";
 
 import Ecommerce from '../static/CaptureHomeEcommercePrd.PNG';
 import RockPaperScissors from '../static/CaptureHomeRockPaperScissors.PNG';
@@ -29,29 +29,29 @@ export default () => {
                 pagination={{
                 dynamicBullets: true,
                 }}
-                modules={[Pagination]}
+                modules={[Pagination, Lazy]}
                 className="mySwiper"
             >
                 <SwiperSlide>
-                    <img src={Ecommerce}/>
+                    <img src={Ecommerce} alt='E-commerce Product Page'/>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img src={RockPaperScissors}/>
+                    <img src={RockPaperScissors} alt='Rock-Paper-Scissors'/>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img src={SpaceTourism}/>
+                    <img src={SpaceTourism} alt='Space Tourism'/>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img src={PartyTime}/>
+                    <img src={PartyTime} alt='Party Time'/>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img src={Countdown}/>
+                    <img src={Countdown} alt='Countdown'/>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img src={SWHomecoming}/>
+                    <img src={SWHomecoming} alt='Star Wars Homecoming'/>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img src={TipCalc}/>
+                    <img src={TipCalc} alt='Tip Calculator'/>
                 </SwiperSlide>
                 
                 ...
