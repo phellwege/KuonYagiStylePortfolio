@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Ultra&display=swap');
 
 .sectionWrap {
     display: flex;
@@ -69,6 +69,12 @@ img#linkedinSocial {
 }
 .sectionRight {
     width: 50%;
+}
+.numbers {
+    font-family: 'Ultra', serif;
+}
+.ProjectPgNum {
+    font-family: 'Ultra', serif;
 }
 @media (max-width: 900px){
     .sectionWrap {
