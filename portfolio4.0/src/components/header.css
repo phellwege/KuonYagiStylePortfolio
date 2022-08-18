@@ -48,6 +48,7 @@
 .headWrap a:hover {
     text-shadow: 0px 0px 10px whitesmoke;
 }
+
 .github {
     border-radius: 50%;
 }
@@ -59,4 +60,7 @@
 }
 .linkedin:hover {
     box-shadow: 0 0 5px whitesmoke;
+}
+.HomeIcon {
+    border-radius: 50%;
 }
