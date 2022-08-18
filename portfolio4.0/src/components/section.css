@@ -27,18 +27,16 @@
     box-shadow: 0 0 5px whitesmoke;
     color: white;
 }
-#githubSocial {
-    border-radius: 50%;
-    height: 25%;
-    width: 25%;
+img#githubSocial {
+    height: 75%;
+    width: 75%;
 }
-#linkedinSocial {
-    border-radius: 15%;
-    height: 25%;
-    width: 25%;
+img#linkedinSocial {
+    height: 65%;
+    width: 65%;
 }
 .SectionIconLink {
-    height: 25%;
+    height: 100%;
     overflow: hidden;
 }
 .SectionIconLink a {

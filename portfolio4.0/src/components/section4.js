@@ -1,8 +1,8 @@
 import './section.css'
 import {  FullpageSection } from '@ap.cx/react-fullpage';
 import Loading from './loading';
-import Github from '../static/github.png';
-import Linkedin from '../static/linkedin.png';
+import Github from '../static/github-10-32.png';
+import Linkedin from '../static/linkedin-3-32.png';
 
 export default (props) => {
 
