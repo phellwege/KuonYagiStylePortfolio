@@ -21,7 +21,7 @@ export default () => {
         <div className='sectionWrap'>
             <div className='sectionLeft'>
                 <h1>Projects</h1>
-                <div
+                <div className='lineBreak'
                     style={{
                     background: '#5BC0BE',
                     height: '4px',
@@ -31,7 +31,7 @@ export default () => {
                     }}
                 />
                 <br/>
-                <div
+                <div className='lineBreak'
                     style={{
                     background: '#5BC0BE',
                     height: '4px',

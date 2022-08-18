@@ -88,4 +88,7 @@ img#linkedinSocial {
     .ProjectPgNum {
         bottom: 50%;
     }
+    .lineBreak {
+        display: none;
+    }
 }

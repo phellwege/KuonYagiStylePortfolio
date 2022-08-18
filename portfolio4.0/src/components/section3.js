@@ -8,7 +8,7 @@ export default (props) => {
         <div className='sectionWrap'>
             <div className='sectionLeft'>
                 <h1>About Me</h1>
-                <div
+                <div className='lineBreak'
                     style={{
                     background: '#5BC0BE',
                     height: '4px',
@@ -17,8 +17,8 @@ export default (props) => {
                     borderRadius: '.25em'
                     }}
                 />
-                <br/>
-                <div
+                <br className='lineBreak'/>
+                <div className='lineBreak'
                     style={{
                     background: '#5BC0BE',
                     height: '4px',
@@ -27,7 +27,7 @@ export default (props) => {
                     borderRadius: '.25em'
                     }}
                 />
-                <br/>
+                <br className='lineBreak'/>
                 <h3>I love building something new <br/> from the ground up</h3>
                 <Link to='/AboutMe'>
                     <button  className='moreBtn'>

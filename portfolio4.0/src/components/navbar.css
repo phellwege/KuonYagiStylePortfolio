@@ -66,3 +66,8 @@
 nav li a:hover:not(.active) {
     background-color: #5BC0BE;
 }
+@media (max-width: 900px){
+    .menuNav.showMenu li a {
+        height: 50%;
+    }
+}
