@@ -15,18 +15,20 @@
     z-index: 1000;
 }
 .headRight #navbarOnHead {
-    padding: 2%;
+    padding: 2.5%;
 }
-.headRight ul {
+.headRight {
+    width: 25%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.headRight a {
     display: flex;
     justify-content: space-around;
     list-style: none;
     overflow: hidden;
-    padding:.5%;
-}
-.headRight ul a {
-    display: inline-block;
-    height: 15%;
+    height: 75%;
+    padding:2.5%;
 }
 .headRight ul a img{
     display: inline-block;

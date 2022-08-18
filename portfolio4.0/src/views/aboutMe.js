@@ -7,28 +7,13 @@ import AboutMe2 from '../components/aboutMe2';
 
 export default () => {
 
-    const SectionStyle ={
-        height: '100vh',
-        width: '100%',
-        display: 'flex', 
-        justifyContent: 'center',
-        alignItems: 'center'
-    };
-
     return (
-        <>
+        <div className="aboutMePageWrap">
             <Header/>
-                <Fullpage>
-                    <FullpageNavigation/>
-                    <FullPageSections>
-                        <FullpageSection style={{SectionStyle, background:'linear-gradient(#1C2541, #3A506B)'}}>
-                            <AboutMe1/>
-                        </FullpageSection>
-                        <FullpageSection style={{SectionStyle, background:'linear-gradient(#3A506B, #1C2541)'}}>
-                            <AboutMe2/>
-                        </FullpageSection>
-                    </FullPageSections>
-                </Fullpage>
-        </>
+            <div className="AboutMeBody">
+                <AboutMe1/>
+                <AboutMe2/>
+            </div>
+        </div>
     )
 }

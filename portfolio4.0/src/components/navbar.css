@@ -46,6 +46,8 @@
 .menuNav.showMenu li a {
     visibility: visible;
     margin-bottom: 25%;
+    height: 20%;
+    border-radius: .5em;
 }
 .menuNav li:first-child {
     margin-top: 25%;

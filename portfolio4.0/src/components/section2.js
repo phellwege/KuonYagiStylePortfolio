@@ -3,8 +3,7 @@ import './section.css';
 import {  FullpageSection } from '@ap.cx/react-fullpage';
 import {Link} from 'react-router-dom';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import "swiper/css";
-import "swiper/css/pagination";
+import "swiper/css/bundle";
 import { Pagination, Lazy} from "swiper";
 
 import Ecommerce from '../static/CaptureHomeEcommercePrd.PNG';

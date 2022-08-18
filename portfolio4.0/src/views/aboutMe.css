@@ -12,6 +12,10 @@
     width:25%;
     height:25%;
 }
-* {
+.aboutMePageWrap {
+    background: linear-gradient(#1C2541, #3A506B);
+}
+.AboutMeBody {
     color: white;
+    margin-top: 10%;
 }
