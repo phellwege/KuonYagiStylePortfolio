@@ -64,7 +64,25 @@ img#linkedinSocial {
     right:10%;
     bottom:55%;
 }
-
 #ProjectsSectionRight img{
     width:70%;
+}
+@media (max-width: 900px){
+    .sectionWrap {
+        display: flex;
+        flex-direction: column;
+    }
+    .sectionRight {
+        width:95%;
+    }
+    #ProjectsSectionRight img {
+        width: 100%;
+    }
+    .socialLinks {
+        width: 100%;
+        margin-left: none;
+    }
+    .ProjectPgNum {
+        bottom: 50%;
+    }
 }

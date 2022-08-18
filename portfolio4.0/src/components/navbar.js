@@ -26,7 +26,7 @@ export default (props) => {
                             <li><Link to="/" onClick={() => closeMenu()}>Home</Link></li>
                             <li><Link to="/Projects" onClick={() => closeMenu()}>Projects</Link></li>
                             <li><Link to="/AboutMe" onClick={() => closeMenu()}>About Me</Link></li>
-                            <li><Link to="#Section4" onClick={() => closeMenu()}>Contact Me</Link></li>
+                            
                         </ul>
                 </nav>
         </div>
