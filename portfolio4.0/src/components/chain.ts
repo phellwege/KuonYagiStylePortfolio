@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState } from 'react';
 import {
   useTransition,
   useSpring,
@@ -6,10 +6,10 @@ import {
   config,
   animated,
   useSpringRef,
-} from '@react-spring/web'
+} from '@react-spring/web';
 
-import data from './data'
-import styles from './styles.module.css'
+import data from './data';
+import styles from './styles.module.css';
 
 export default function App() {
   const [open, set] = useState(false)
@@ -24,7 +24,6 @@ export default function App() {
       background: open ? 'white' : 'hotpink',
     },
   })
-
   const transApi = useSpringRef()
   const transition = useTransition(open ? data : [], {
     ref: transApi,
@@ -33,15 +32,12 @@ export default function App() {
     enter: { opacity: 1, scale: 1 },
     leave: { opacity: 0, scale: 0 },
   })
-
   // This will orchestrate the two animations above, comment the last arg and it creates a sequence
   useChain(open ? [springApi, transApi] : [transApi, springApi], [
     0,
     open ? 0.1 : 0.6,
   ])
-
   return (
-    
       <div className={styles.wrapper}>
         <animated.div
           style={{ ...rest, width: size, height: size }}
