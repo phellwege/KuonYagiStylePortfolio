@@ -64,3 +64,16 @@
 .HomeIcon {
     border-radius: 50%;
 }
+@media (max-width: 900px){
+    .headWrap {
+        display: flex;
+        flex-direction: column;
+    }
+    .headRight {
+        width:95%;
+        padding-top: 25%;
+    }
+    .headLeft {
+        display:none;
+    }
+}
