@@ -14,11 +14,12 @@
     margin-left: 25%;
     justify-content: space-evenly;
 }
-.moreBtn {
+button.moreBtn {
     background-color: #5BC0BE;
     color: #1C2541;
-    height: 2.5em;
-    border-radius: .5em;
+    height: 3em;
+    padding: .5em;
+    border-radius: 25em;
     border: 2px solid white;
     font-weight: bold;
 }
