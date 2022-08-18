@@ -38,7 +38,7 @@ export default (props) => {
             <div className='sectionRight'>
                     {/* <Loading/> */}
                     <h1>img</h1>
-                    <h1>0<FullpageSection.Number/></h1>
+                    <h1 className='numbers'>0<FullpageSection.Number/></h1>
             </div>
         </div>
     )

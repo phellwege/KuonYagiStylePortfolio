@@ -72,9 +72,11 @@ img#linkedinSocial {
 }
 .numbers {
     font-family: 'Ultra', serif;
+    color: #5BC0BE;
 }
 .ProjectPgNum {
     font-family: 'Ultra', serif;
+    color: #5BC0BE;
 }
 @media (max-width: 900px){
     .sectionWrap {
