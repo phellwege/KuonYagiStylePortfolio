@@ -11,18 +11,20 @@ export default (props) => {
                 <div
                     style={{
                     background: '#5BC0BE',
-                    height: '3px',
+                    height: '4px',
                     width: '18%',
-                    marginLeft: '25%'
+                    marginLeft: '25%',
+                    borderRadius: '.25em'
                     }}
                 />
                 <br/>
                 <div
                     style={{
                     background: '#5BC0BE',
-                    height: '3px',
+                    height: '4px',
                     width: '18%',
-                    marginLeft: '42%'
+                    marginLeft: '42%',
+                    borderRadius: '.25em'
                     }}
                 />
                 <br/>

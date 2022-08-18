@@ -24,18 +24,20 @@ export default () => {
                 <div
                     style={{
                     background: '#5BC0BE',
-                    height: '3px',
+                    height: '4px',
                     width: '18%',
-                    marginLeft: '35%'
+                    marginLeft: '35%',
+                    borderRadius: '.25em'
                     }}
                 />
                 <br/>
                 <div
                     style={{
                     background: '#5BC0BE',
-                    height: '3px',
+                    height: '4px',
                     width: '15%',
-                    marginLeft: '25%'
+                    marginLeft: '25%',
+                    borderRadius: '.25em'
                     }}
                 />
                 <br/>
