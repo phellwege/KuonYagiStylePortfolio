@@ -65,7 +65,7 @@ img#linkedinSocial {
     bottom:30%;
 }
 #getInTouchPgNum {
-    bottom:6%;
+    bottom:5%;
 }
 #ProjectsSectionRight img{
     width:70%;
@@ -79,6 +79,10 @@ img#linkedinSocial {
     position: absolute;
     z-index: 1000;
     right:10%;
+}
+.ProjectNumbers {
+    font-family: 'Ultra', serif;
+    color: #5BC0BE;
 }
 @media (max-width: 900px){
     .sectionWrap {

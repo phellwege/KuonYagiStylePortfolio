@@ -87,7 +87,7 @@ export default () => {
                                         </div>
                                     </div>
                                     <br/>
-                                    <h2 className='numbers'>
+                                    <h2 className='ProjectNumbers'>
                                         <FullpageSection.Number/>
                                     </h2>
                                 </div>
@@ -114,7 +114,7 @@ export default () => {
                                         </div>
                                     </div>
                                     <br/>
-                                    <h2 className='numbers'>
+                                    <h2 className='ProjectNumbers'>
                                         <FullpageSection.Number/>
                                     </h2>
                                 </div>
@@ -141,7 +141,7 @@ export default () => {
                                         </div>
                                     </div>
                                     <br/>
-                                    <h2 className='numbers'>
+                                    <h2 className='ProjectNumbers'>
                                         <FullpageSection.Number/>
                                     </h2>
                                 </div>
@@ -168,7 +168,7 @@ export default () => {
                                         </div>
                                     </div>
                                     <br/>
-                                    <h2 className='numbers'>
+                                    <h2 className='ProjectNumbers'>
                                         <FullpageSection.Number/>
                                     </h2>
                                 </div>
@@ -195,7 +195,7 @@ export default () => {
                                         </div>
                                     </div>
                                     <br/>
-                                    <h2 className='numbers'>
+                                    <h2 className='ProjectNumbers'>
                                         <FullpageSection.Number/>
                                     </h2>
                                 </div>
@@ -222,7 +222,7 @@ export default () => {
                                         </div>
                                     </div>
                                     <br/>
-                                    <h2 className='numbers'>
+                                    <h2 className='ProjectNumbers'>
                                         <FullpageSection.Number/>
                                     </h2>
                                 </div>
@@ -249,7 +249,7 @@ export default () => {
                                         </div>
                                     </div>
                                     <br/>
-                                    <h2 className='numbers'>
+                                    <h2 className='ProjectNumbers'>
                                         <FullpageSection.Number/>
                                     </h2>
                                 </div>
