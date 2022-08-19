@@ -3,6 +3,7 @@ import './LightBox.css';
 import close from '../static/icon-close.svg';
 import {Link} from 'react-router-dom';
 import resume from '../static/Peter.Hellwege.Resume.pdf';
+import walker from '../static/Sentinel_Walk.gif'
 export default (props) => {
         
     const lightBoxShow = () => {
@@ -24,8 +25,11 @@ const {active}=props;
             <div className="lightBoxBox">
                 <img src={close} id='closeIcon' onClick={lightBoxShow} alt='close icon'/>
                 <div className="lightBoxContainer">
-                    <h1>this and that</h1>
-                    <p>can you see this</p>
+                    <h1>You Found Me!</h1>
+                    <p>A hidden Portfolio
+                        <br/>
+                        Page
+                    </p>
                     <div className='lightBoxText'>
                         <h4 id='lightboxReturn' onClick={lightBoxShow}>Return</h4>
                         <Link to='/Projects'>Projects</Link>
@@ -33,6 +37,7 @@ const {active}=props;
                         <a href={resume} download="../static/Peter.Hellwege.Resume.pdf">Download CV</a>
                     </div>
                 </div>
+                <img src={walker} id='lightboxWalker' alt='warhammer walker'/>
             </div>
         </div>
     )

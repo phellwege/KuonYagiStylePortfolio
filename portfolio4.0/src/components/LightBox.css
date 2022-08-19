@@ -46,9 +46,14 @@
     text-decoration: none;
     font-weight: bold;
 }
+#lightboxWalker {
+    width: 35%;
+    position: absolute;
+    right: -17%;
+    bottom: -6.5%;
+}
 @media (max-width: 900px) {
     .lightBoxWrap {
-        display: none;
         height: 75vh
     }
 }

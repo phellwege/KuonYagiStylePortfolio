@@ -1,6 +1,8 @@
 import './aboutMe.css';
-import ProgressBar from './progressBar';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import "swiper/css/bundle";
 import JavaScript from '../static/JavaScript.png';
+import { Pagination, Lazy} from "swiper";
 import Java from '../static/java.png';
 import Python from '../static/python.png';
 import jQuery from '../static/jQuery.png';
@@ -25,8 +27,107 @@ export default (props) => {
             <div className='sectionWrap'>
                 <div className='mainSection'>
                     <h2>Experience</h2>
-                    <br/>
-                    
+                    {/* <br/> */}
+                    <Swiper
+                        pagination={{
+                        dynamicBullets: true,
+                        }}
+                        modules={[Pagination, Lazy]}
+                        className="aboutMeSwiper"
+                    >
+                        <SwiperSlide>
+                            <div className='skills'>
+                                <img src={JavaScript} alt='JavaScript'/>
+                                <h4>JavaScript</h4>
+                                <p>2.5 yrs</p>
+                            </div>
+                        </SwiperSlide>
+                        <SwiperSlide>
+                            <div className='skills'>
+                                <img src={Java} alt='Java'/>
+                                <h4>Java</h4>
+                                <p>1 yrs</p>
+                            </div>
+                        </SwiperSlide>
+                        <SwiperSlide>
+                            <div className='skills'>
+                                <img src={Python} alt='Python'/>
+                                <h4>Python</h4>
+                                <p>2.5 yrs</p>
+                            </div>
+                        </SwiperSlide>
+                        <SwiperSlide>
+                            <div className='skills'>
+                                <img src={jQuery} alt='jQuery'/>
+                                <h4>jQuery</h4>
+                                <p>1.5 yrs</p>
+                            </div>
+                        </SwiperSlide>
+                        <SwiperSlide>
+                            <div className='skills'>
+                                <img src={Ajax} alt='Ajax'/>
+                                <h4>Ajax</h4>
+                                <p>2 yrs</p>
+                            </div>
+                        </SwiperSlide>
+                        <SwiperSlide>
+                            <div className='skills'>
+                                <img src={Bootstrap} alt='Bootstrap'/>
+                                <h4>Bootstrap</h4>
+                                <p>1.5 yrs</p>
+                            </div>
+                        </SwiperSlide>
+                        <SwiperSlide>
+                            <div className='skills'>
+                                <img src={Node} alt='Node'/>
+                                <h4>Node</h4>
+                                <p>1.5 yrs</p>
+                            </div>
+                        </SwiperSlide>
+                        <SwiperSlide>
+                            <div className='skills'>
+                                <img src={Express} alt='Express'/>
+                                <h4>Express</h4>
+                                <p>1.5 yrs</p>
+                            </div>
+                        </SwiperSlide>
+                        <SwiperSlide>
+                            <div className='skills'>
+                                <img src={MySQL} alt='MySQL'/>
+                                <h4>MySQL</h4>
+                                <p>2 yrs</p>
+                            </div>
+                        </SwiperSlide>
+                        <SwiperSlide>
+                            <div className='skills'>
+                                <img src={Django} alt='Django'/>
+                                <h4>Django</h4>
+                                <p>1 yrs</p>
+                            </div>
+                        </SwiperSlide>
+                        <SwiperSlide>
+                            <div className='skills'>
+                                <img src={MongoDB} alt='MongoDB'/>
+                                <h4>MongoDB</h4>
+                                <p>2 yrs</p>
+                            </div>
+                        </SwiperSlide>
+                        <SwiperSlide>
+                            <div className='skills'>
+                                <img src={Html} alt='Html'/>
+                                <h4>Html</h4>
+                                <p>4 yrs</p>
+                            </div>
+                        </SwiperSlide>
+                        <SwiperSlide>
+                            <div className='skills'>
+                                <img src={Css} alt='CSS'/>
+                                <h4>CSS</h4>
+                                <p>4 yrs</p>
+                            </div>
+                        </SwiperSlide>
+                        ...
+                    </Swiper>
                 </div>
             </div>
         </>

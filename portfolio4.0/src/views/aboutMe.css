@@ -21,20 +21,17 @@
     color: white;
     margin-top: 10%;
 }
-.skills li {
-    display: flex;
-    justify-content: space-evenly;
+.skills h4 {
+    
 }
-.skills li div h4 {
-    padding-left: 10%;
-}
-.skills li div p {
+.skills p {
     text-align: center;
     color: red;
     font-style: italic;
 }
 .mainSection {
-    width: 100%;
+    width: 80%;
+    
 }
 .innerDiv {
     display: flex;

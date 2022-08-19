@@ -51,6 +51,7 @@ export default (props) => {
                 <div className='sectionRight'>
                         <img src={martian} alt='the planet Mars'/>
                         <h1 className='rightTitle' id='section1RightTitle' onClick={lightBoxShow}>Portfolio</h1>
+                        <h1 className='rightTitle' id='section1RightTitle2'>Portfolio</h1>
                 </div>
             </div>
         </>

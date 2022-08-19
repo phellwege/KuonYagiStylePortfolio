@@ -92,8 +92,8 @@ img#linkedinSocial {
 #section1RightTitle {
     bottom: 82%;
 }
-#section1RightTitle:hover {
-    cursor: pointer;
+#section1RightTitle2 {
+    display:none;
 }
 @media (max-width: 900px){
     .sectionWrap {
@@ -127,7 +127,11 @@ img#linkedinSocial {
         width:50%;
     }
     #section1RightTitle {
+        display:none;
+    }
+    #section1RightTitle2 {
         bottom: 77%;
-        right:8%;
+        right:6%;
+        display: block;
     }
 }
