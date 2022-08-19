@@ -1,6 +1,6 @@
 import './section.css';
 import Loading from './loading';
-
+import martian from '../static/image-mars.png'
 export default (props) => {
 
     return (
@@ -34,9 +34,8 @@ export default (props) => {
                     </h3>
                 </div>
                 <div className='sectionRight'>
-                        {/* <Loading/> */}
-                        <h1>img</h1>
-                        <h1>Portfolio</h1>
+                        <img src={martian} alt='the planet Mars'/>
+                        <h1 className='rightTitle' id='section1RightTitle'>Portfolio</h1>
                 </div>
             </div>
         </>

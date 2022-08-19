@@ -84,10 +84,19 @@ img#linkedinSocial {
     font-family: 'Ultra', serif;
     color: #5BC0BE;
 }
+.rightTitle {
+    position: absolute;
+    z-index: 1000;
+    right:12%;
+}
+#section1RightTitle {
+    bottom: 82%;
+}
 @media (max-width: 900px){
     .sectionWrap {
         display: flex;
         flex-direction: column;
+        align-content: center;
     }
     .sectionRight {
         width:95%;
