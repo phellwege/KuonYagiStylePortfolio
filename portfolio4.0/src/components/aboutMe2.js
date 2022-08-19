@@ -26,8 +26,23 @@ export default (props) => {
         <>
             <div className='sectionWrap'>
                 <div className='mainSection'>
+                    
+                    <div className='trifold'>
+                        <div>
+                            <h3>Design</h3>
+                            <p>lorem ipsum dolor sit am</p>
+                        </div>
+                        <div>
+                            <h3>Technology</h3>
+                            <p>lorem ipsum dolor sit amet</p>
+                        </div>
+                        <div>
+                            <h3>Story</h3>
+                            <p>lorem ipsum dolor sit amet</p>
+                        </div>
+                    </div>
+                    <br/>
                     <h2>Experience</h2>
-                    {/* <br/> */}
                     <Swiper
                         pagination={{
                         dynamicBullets: true,

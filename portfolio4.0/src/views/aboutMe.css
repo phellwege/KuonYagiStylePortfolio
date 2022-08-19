@@ -24,6 +24,11 @@
 .skills h4 {
     
 }
+.trifold {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
 .skills p {
     text-align: center;
     color: red;
@@ -31,7 +36,6 @@
 }
 .mainSection {
     width: 80%;
-    
 }
 .innerDiv {
     display: flex;
