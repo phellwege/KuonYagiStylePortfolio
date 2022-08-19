@@ -75,7 +75,7 @@ export default () => {
                 
                 ...
             </Swiper>
-                    <h1 className='ProjectPgNum'>0<FullpageSection.Number/></h1>
+                    <h1 className='numbers' id='ProjectPgNum'>0<FullpageSection.Number/></h1>
             </div>
         </div>
     )

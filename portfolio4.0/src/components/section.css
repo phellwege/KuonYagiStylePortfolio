@@ -58,11 +58,14 @@ img#linkedinSocial {
     font-family: 'Lato', sans-serif;
     font-size: 3.5em;
 }
-.ProjectPgNum {
-    position: absolute;
-    z-index: 1000;
-    right:10%;
+#ProjectPgNum {
     bottom:55%;
+}
+#aboutMePgNum {
+    bottom:30%;
+}
+#getInTouchPgNum {
+    bottom:6%;
 }
 #ProjectsSectionRight img{
     width:70%;
@@ -73,10 +76,9 @@ img#linkedinSocial {
 .numbers {
     font-family: 'Ultra', serif;
     color: #5BC0BE;
-}
-.ProjectPgNum {
-    font-family: 'Ultra', serif;
-    color: #5BC0BE;
+    position: absolute;
+    z-index: 1000;
+    right:10%;
 }
 @media (max-width: 900px){
     .sectionWrap {
@@ -93,8 +95,14 @@ img#linkedinSocial {
         width: 100%;
         margin-left: none;
     }
-    .ProjectPgNum {
+    #ProjectPgNum {
         bottom: 50%;
+    }
+    #aboutMePgNum {
+        bottom:25%;
+    }
+    #getInTouchPgNum {
+        bottom:0;
     }
     .lineBreak {
         display: none;

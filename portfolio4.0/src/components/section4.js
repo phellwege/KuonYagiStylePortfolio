@@ -51,7 +51,7 @@ export default (props) => {
             </div>
             <div className='sectionRight'>
                     <h1>img</h1>
-                    <h1 className='numbers'>0<FullpageSection.Number/></h1>
+                    <h1 className='numbers' id='getInTouchPgNum'>0<FullpageSection.Number/></h1>
             </div>
         </div>
     )
