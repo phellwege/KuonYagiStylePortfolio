@@ -92,6 +92,9 @@ img#linkedinSocial {
 #section1RightTitle {
     bottom: 82%;
 }
+#section1RightTitle:hover {
+    cursor: pointer;
+}
 @media (max-width: 900px){
     .sectionWrap {
         display: flex;
@@ -119,5 +122,12 @@ img#linkedinSocial {
     }
     .lineBreak {
         display: none;
+    }
+    .sectionRight img {
+        width:50%;
+    }
+    #section1RightTitle {
+        bottom: 77%;
+        right:8%;
     }
 }
