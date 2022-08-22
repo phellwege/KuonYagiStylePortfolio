@@ -34,7 +34,7 @@ export default (props) => {
                         </div>
                         <div>
                             <h3>Technology</h3>
-                            <p>lorem ipsum dolor sit amet</p>
+                            <p>I'm a Full-Stack Developer, and Data Engineer. Comfortable with multiple languages and full software lifecycles. </p>
                         </div>
                         <div>
                             <h3>Story</h3>
@@ -130,7 +130,7 @@ export default (props) => {
                         <SwiperSlide>
                             <div className='skills'>
                                 <img src={Html} alt='Html'/>
-                                <h4>Html</h4>
+                                <h4>HTML</h4>
                                 <p>4 yrs</p>
                             </div>
                         </SwiperSlide>

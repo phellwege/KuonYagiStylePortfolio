@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
 .aboutSectionRight {
     width: 25%;
     margin-right: 10%;
@@ -21,13 +23,17 @@
     color: white;
     margin-top: 10%;
 }
+
 .skills h4 {
-    
+    font-family: 'Righteous', cursive;
 }
 .trifold {
     display: flex;
     justify-content: space-around;
     align-items: center;
+}
+.trifold div{
+    width: 30%;
 }
 .skills p {
     text-align: center;
