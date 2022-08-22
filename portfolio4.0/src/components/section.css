@@ -126,8 +126,9 @@ img#linkedinSocial {
     #ProjectsSectionRight img {
         width: 100%;
     }
-    .socialLinks {
-        width: 100%;
+    div.socialLinks {
+        width: 80%;
+        margin-left: 10%;
         margin-left: none;
         align-items: top;
     }
@@ -154,8 +155,8 @@ img#linkedinSocial {
         right:6%;
         display: block;
     }
-    .SectionIconLink {
-        height: 100%;
+    div.SectionIconLink {
+        height: 80%;
         overflow:visible;
     }
 }
