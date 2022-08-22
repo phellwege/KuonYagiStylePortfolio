@@ -38,7 +38,7 @@ export default (props) => {
                 </Link>
             </div>
             <div className='sectionRight'>
-                    <img src={HeadShot} alt='Headshot' id='Section3HeadShot'/>
+                    <img src={HeadShot} alt='Headshot' id='Section3HeadShot' loading='lazy'/>
                     <h1 className='numbers' id='aboutMePgNum'>0<FullpageSection.Number/></h1>
             </div>
         </div>
