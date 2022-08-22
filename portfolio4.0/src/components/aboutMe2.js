@@ -26,23 +26,8 @@ export default (props) => {
         <>
             <div className='sectionWrap'>
                 <div className='mainSection'>
-                    
-                    <div className='trifold'>
-                        <div>
-                            <h3>Design</h3>
-                            <p>lorem ipsum dolor sit am</p>
-                        </div>
-                        <div>
-                            <h3>Technology</h3>
-                            <p>I'm a Full-Stack Developer, and Data Engineer. Comfortable with multiple languages and full software lifecycles. </p>
-                        </div>
-                        <div>
-                            <h3>Story</h3>
-                            <p>lorem ipsum dolor sit amet</p>
-                        </div>
-                    </div>
-                    <br/>
-                    <h2>Experience</h2>
+                    <h3>Experience</h3>
+                        <h4>with Technology</h4>
                     <Swiper
                         pagination={{
                         dynamicBullets: true,
@@ -143,6 +128,23 @@ export default (props) => {
                         </SwiperSlide>
                         ...
                     </Swiper>
+                    <br/>
+                    <div className='trifold'>
+                        <div>
+                            <h3>Data</h3>
+                            <p>Worked as a Data Engineer with a fortune 100 company. Wrote complex SQL queries for an onPrem server and migrated that server to Azure Cloud Services. Utilize Azure Data Bricks extensively and Azure Data Factory. Assisted with the architecture, creation, and implementation of data pipelines.</p>
+                        </div>
+                        <div>
+                            <h3>Full-Stack</h3>
+                            <p>Comfortable with multiple languages and full software lifecycles. Worked extensively with ReactJS as a front-end framework, and Node as a backend, but experienced with multiple other Frameworks and Servers including OOP stacks. Also comfortable with Python for data processing and ingestion, or Django for web applications.</p>
+                        </div>
+                        <div>
+                            <h3>Story</h3>
+                            <p>I first discovered software engineering somewhat by accident. I was working odd jobs in customer service, sales, and technical support. I needed something that used my mind, and required some problem solving. Enter Software engineering - I've been loving it ever since.</p>
+                        </div>
+                    </div>
+                    <br/>
+                    
                 </div>
             </div>
         </>

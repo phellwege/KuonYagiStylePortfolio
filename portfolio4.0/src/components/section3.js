@@ -1,6 +1,7 @@
 import './section.css'
 import {  FullpageSection } from '@ap.cx/react-fullpage';
 import {Link} from 'react-router-dom';
+import HeadShot from '../static/HeadShot.jpeg';
 import Loading from './loading';
 export default (props) => {
 
@@ -36,8 +37,7 @@ export default (props) => {
                 </Link>
             </div>
             <div className='sectionRight'>
-                    {/* <Loading/> */}
-                    <h1>img</h1>
+                    <img src={HeadShot} alt='Headshot' id='Section3HeadShot'/>
                     <h1 className='numbers' id='aboutMePgNum'>0<FullpageSection.Number/></h1>
             </div>
         </div>

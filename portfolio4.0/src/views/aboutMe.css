@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
 .aboutSectionRight {
     width: 25%;
     margin-right: 10%;
@@ -23,17 +23,19 @@
     color: white;
     margin-top: 10%;
 }
-
 .skills h4 {
     font-family: 'Righteous', cursive;
 }
 .trifold {
     display: flex;
     justify-content: space-around;
-    align-items: center;
+    align-items: top;
 }
-.trifold div{
+.trifold div {
     width: 30%;
+}
+.trifold div h3 {
+    font-family: 'Abril Fatface', cursive;
 }
 .skills p {
     text-align: center;
@@ -59,5 +61,16 @@
     }
     .skills li div h4 {
         padding-left: 0;
+    }
+    .trifold {
+        flex-direction: column;
+    }
+    .trifold div {
+        width: 80%;
+        margin-left: 10%;
+        margin-bottom: 2%;
+    }
+    .sectionWrap {
+        padding-top: 5%;
     }
 }

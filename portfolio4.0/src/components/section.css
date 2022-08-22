@@ -95,6 +95,11 @@ img#linkedinSocial {
 #section1RightTitle2 {
     display:none;
 }
+#Section3HeadShot {
+    width: 35%;
+    border-radius: 50%;
+    border: 5px solid #5BC0BE;
+}
 @media (max-width: 900px){
     .sectionWrap {
         display: flex;
