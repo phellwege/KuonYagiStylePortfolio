@@ -7,7 +7,7 @@ export default (props) => {
 
     return (
         <div className='sectionWrap'>
-            <div className='sectionLeft'>
+            <div className='mainDiv'>
                 <h1>Get In Touch</h1>
                 <div className='lineBreak'
                     style={{
@@ -30,8 +30,16 @@ export default (props) => {
                 />
                 <br className='lineBreak'/>
                 <h3>
+                    Email: 
+                    <br/>
                     <a href='mailto:phellwege1@gmail.com' id='emailMe'>phellwege1@gmail.com</a>
                 </h3>
+                <h3>
+                    Phone:
+                    <br/> 
+                    <a href="tel:2086973323" id='phoneMe'>(208) 697-3323</a>
+                </h3>
+                <br/>
                 <div className='socialLinks'>
                     <div className='SectionIconLink'>
                         <a href='https://github.com/phellwege' target='_blank'>
@@ -50,7 +58,6 @@ export default (props) => {
                 </div>
             </div>
             <div className='sectionRight'>
-                    <h1>img</h1>
                     <h1 className='numbers' id='getInTouchPgNum'>0<FullpageSection.Number/></h1>
             </div>
         </div>

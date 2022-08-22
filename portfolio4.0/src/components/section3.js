@@ -30,6 +30,7 @@ export default (props) => {
                 />
                 <br className='lineBreak'/>
                 <h3>I love building something new <br/> from the ground up</h3>
+                <br/>
                 <Link to='/AboutMe'>
                     <button  className='moreBtn'>
                         show me more

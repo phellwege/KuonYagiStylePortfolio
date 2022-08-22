@@ -15,6 +15,7 @@
     border-radius: 50%;
     width:55%;
     height:55%;
+    border: 5px solid #5BC0BE;
 }
 .aboutMePageWrap {
     background: linear-gradient(#1C2541, #3A506B);
