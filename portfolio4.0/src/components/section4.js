@@ -8,7 +8,8 @@ export default (props) => {
     return (
         <div className='sectionWrap'>
             <div className='mainDiv'>
-                <h1>Get In Touch</h1>
+                <h1 id='noClicky'>Get In Touch</h1>
+                <br/>
                 <div className='lineBreak'
                     style={{
                     background: '#5BC0BE',

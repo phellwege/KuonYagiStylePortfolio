@@ -4,7 +4,7 @@ export default (props) => {
 
     return (
         <>
-            <div className='sectionWrap'>
+            <div className='sectionWrap' id='noClicky'>
                 <div className='sectionLeft'>
                     <h1>Peter Hellwege</h1>
                     <h3>

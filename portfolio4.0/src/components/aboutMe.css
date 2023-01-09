@@ -70,3 +70,6 @@
 #bottomDiv {
     list-style: none;
 }
+:root {
+    --swiper-theme-color: #5BC0BE;
+}

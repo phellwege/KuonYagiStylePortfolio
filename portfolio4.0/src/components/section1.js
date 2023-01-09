@@ -1,28 +1,15 @@
 import './section.css';
 import Loading from './loading';
 import martian from '../static/image-mars.png';
-import LightBox from './lightBox';
+
 
 export default (props) => {
-
-    const lightBoxShow = () => {
-        const x = document.getElementsByClassName('lightBoxWrap')[0];
-        const y = document.getElementsByClassName('cartBoxWrap')[0];
-        if(x.style.display == 'block') {
-            x.style.display = 'none';
-            y.style.display = 'none';
-        }
-        else {
-            x.style.display = 'block';
-            y.style.display = 'none';
-        }
-}
     return (
         <>
-            <div className='sectionWrap'>
-            <LightBox/>
+            <div className='sectionWrap' id='noClicky'>
                 <div className='sectionLeft'>
                     <h1>Peter Hellwege</h1>
+                    <br/>
                         <div className='lineBreak'
                             style={{
                             background: '#5BC0BE',
@@ -43,14 +30,14 @@ export default (props) => {
                             }}
                         />
                         <br className='lineBreak'/>
-                    <h3>Full-Stack Software Engineer / 
+                    <h3>Full-Stack Software Engineer & 
                         <br/> 
                         Data Engineer.
                     </h3>
                 </div>
                 <div className='sectionRight'>
                         <img src={martian} alt='the planet Mars'/>
-                        <h1 className='rightTitle' id='section1RightTitle' onClick={lightBoxShow}>Portfolio</h1>
+                        <h1 className='rightTitle' id='section1RightTitle'>Portfolio</h1>
                         <h1 className='rightTitle' id='section1RightTitle2'>Portfolio</h1>
                 </div>
             </div>

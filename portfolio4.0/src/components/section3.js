@@ -8,7 +8,8 @@ export default (props) => {
     return (
         <div className='sectionWrap'>
             <div className='sectionLeft'>
-                <h1>About Me</h1>
+                <h1 id='noClicky'>About Me</h1>
+                <br/>
                 <div className='lineBreak'
                     style={{
                     background: '#5BC0BE',
@@ -29,7 +30,7 @@ export default (props) => {
                     }}
                 />
                 <br className='lineBreak'/>
-                <h3>I love building something new <br/> from the ground up</h3>
+                <h3 id='noClicky'>I love building something new <br/> from the ground up</h3>
                 <br/>
                 <Link to='/AboutMe'>
                     <button  className='moreBtn'>

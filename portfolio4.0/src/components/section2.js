@@ -20,7 +20,8 @@ export default () => {
     return (
         <div className='sectionWrap'>
             <div className='sectionLeft'>
-                <h1>Projects</h1>
+                <h1 id='noClicky'>Projects</h1>
+                <br/>
                 <div className='lineBreak'
                     style={{
                     background: '#5BC0BE',

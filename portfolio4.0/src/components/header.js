@@ -4,7 +4,7 @@ import Navbar from './navbar';
 import resume from '../static/Peter.Hellwege.Resume.pdf';
 import Github from '../static/github-10-32.png';
 import Linkedin from '../static/linkedin-3-32.png';
-import HomeIco from '../static/gear-32.png';
+import HomeIco from '../static/IMG_1226.PNG';
 export default () => {
 
     return (
@@ -14,7 +14,7 @@ export default () => {
                 <a href={resume} download="../static/Peter.Hellwege.Resume.pdf">Peter Hellwege</a>
                 </div>
                 <div className='headRight'>
-                        <Link to="/"><img src={HomeIco} className='HomeIcon' alt='Home Icon'/></Link>
+                        <Link to="/" className='HomeIcon'><img src={HomeIco} alt='Home Icon'/></Link>
                         <a href='https://github.com/phellwege' target='_blank'><img src={Github} className='github' alt='GitHub Icon'/></a>
                         <a href='https://www.linkedin.com/in/peter-hellwege/' target='_blank'><img src={Linkedin} className='linkedin' alt='LinkedIn Icon'/></a>
                     <div id='navbarOnHead'>

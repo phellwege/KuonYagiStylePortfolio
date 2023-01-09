@@ -26,8 +26,8 @@ export default (props) => {
         <>
             <div className='sectionWrap'>
                 <div className='mainSection'>
-                    <h3>Experience</h3>
-                        <h4>with Technology</h4>
+                    <h3 id='noClicky'>Experience</h3>
+                        <h4 id='noClicky'>with Technology</h4>
                     <Swiper
                         pagination={{
                         dynamicBullets: true,
@@ -129,7 +129,7 @@ export default (props) => {
                         ...
                     </Swiper>
                     <br/>
-                    <div className='trifold'>
+                    <div className='trifold' id='noClicky'>
                         <div>
                             <h3>Data</h3>
                             <p>Worked as a Data Engineer with a fortune 100 company. Wrote complex SQL queries for an onPrem server and migrated that server to Azure Cloud Services. Utilize Azure Data Bricks extensively and Azure Data Factory. Assisted with the architecture, creation, and implementation of data pipelines.</p>
