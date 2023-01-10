@@ -3,7 +3,7 @@ import {Link} from 'react-router-dom';
 import { MdClose } from "react-icons/md";
 import { FiMenu } from "react-icons/fi";
 import resume from '../static/Peter.Hellwege.Resume.pdf';
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState, useRef } from 'react';
 
 export default (props) => {
     
@@ -14,9 +14,22 @@ export default (props) => {
     const closeMenu = () => {
         setNavbarOpen(false)
     }
+
+    let menuRef = useRef();
+    useEffect(() => {
+        let handler = (event) => {
+            if(!menuRef.current.contains(event.target)){
+                setNavbarOpen(false);
+            }
+        }
+        document.addEventListener('mousedown', handler)
+        return () => {
+            document.removeEventListener('mousedown', handler);
+        }
+    })
     return (
         <div id='Hamburger_Menu'>
-                <nav className="navBar">
+                <nav ref={menuRef} className="navBar">
                     <button onClick={handleToggle}>{navbarOpen ? (
                         <MdClose style={{ color: "#7b7b7b", width: "40px", height: "40px" }} />
                         ) : (
