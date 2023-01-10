@@ -13,10 +13,13 @@ export default () => {
             width: '100%',
             display: 'flex', 
             justifyContent: 'center',
-            alignItems: 'center'
+            alignItems: 'center',
+            background: 'linear-gradient(#1C2541, #3A506B)'
         };
 
     return (
+        <>
+        
         <div className='homeWrapper'>
             <Header/>
                 <Fullpage>
@@ -37,6 +40,7 @@ export default () => {
                     </FullPageSections>
                 </Fullpage>
         </div>
+        </>
     )
 }
 

@@ -83,7 +83,7 @@
 }
 @media (max-width: 768px){
     .sectionWrap {
-        margin-top:20%;
+        padding-top:10%;
     }
     #hideOnMobile {
         display: none;

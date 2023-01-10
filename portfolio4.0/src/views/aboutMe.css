@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
 .aboutSectionRight {
     width: 25%;
     margin-right: 10%;
@@ -19,6 +20,7 @@
 }
 .aboutMePageWrap {
     background: linear-gradient(#1C2541, #3A506B);
+    margin: 0;
 }
 .AboutMeBody {
     color: white;
@@ -40,7 +42,6 @@
 }
 .skills p {
     text-align: center;
-    color: red;
     font-style: italic;
 }
 .mainSection {

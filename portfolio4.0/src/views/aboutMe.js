@@ -8,12 +8,15 @@ import AboutMe2 from '../components/aboutMe2';
 export default () => {
 
     return (
-        <div className="aboutMePageWrap">
-            <Header/>
-            <div className="AboutMeBody">
-                <AboutMe1/>
-                <AboutMe2/>
+        <>
+            
+            <div className="aboutMePageWrap">
+                <Header/>
+                <div className="AboutMeBody">
+                    <AboutMe1/>
+                    <AboutMe2/>
+                </div>
             </div>
-        </div>
+        </>
     )
 }
