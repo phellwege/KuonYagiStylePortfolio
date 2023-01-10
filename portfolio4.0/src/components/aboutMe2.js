@@ -133,11 +133,11 @@ export default (props) => {
                     <div className='trifold' id='noClicky'>
                         <div>
                             <h3>Data</h3>
-                            <p>Worked as a Data Engineer with a fortune 100 company. Wrote complex SQL queries for an onPrem server and migrated that server to Azure Cloud Services. Utilize Azure Data Bricks extensively and Azure Data Factory. Assisted with the architecture, creation, and implementation of data pipelines.</p>
+                            <p>Work as a Data Engineer with a fortune 100 company. Writing complex SQL queries for an onPrem server and migrated that server to Azure Cloud Services. Utilize Azure Data Bricks extensively and Azure Data Factory. Assist with the architecture design, creation, and implementation of data pipelines.</p>
                         </div>
                         <div>
                             <h3>Full-Stack</h3>
-                            <p>Comfortable with multiple languages and full software lifecycles. Worked extensively with ReactJS as a front-end framework, and Node as a backend, but experienced with multiple other Frameworks and Servers including OOP stacks. Also comfortable with Python for data processing and ingestion, or Django for web applications.</p>
+                            <p>Comfortable with multiple languages, and full software life cycles. Work extensively with ReactJS as a front-end framework, and Node as a backend, but experienced with multiple other Frameworks, and Servers including OOP stacks. Comfortable with Python for data processing and ingestion, or Django for web applications.</p>
                         </div>
                         <div>
                             <h3>Story</h3>
