@@ -61,6 +61,7 @@
 }
 .skills p {
     color: greenyellow;
+    margin-bottom: 1%;
 }
 .sectionLeft {
     width:50%;
@@ -80,7 +81,7 @@
 .swiper {
     color: #5BC0BE;
 }
-@media (max-width: 600px){
+@media (max-width: 768px){
     .sectionWrap {
         margin-top:20%;
     }
@@ -89,5 +90,8 @@
     }
     .skills h4 {
         margin-bottom: 4%;
+    }
+    .skills p {
+        margin-bottom: 2%;
     }
 }

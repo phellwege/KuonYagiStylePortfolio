@@ -134,22 +134,25 @@ img#linkedinSocial {
     -ms-user-select: none;
     user-select: none;
 }
-@media (max-width: 600px){
+@media (max-width: 768px){
     .sectionWrap {
         display: flex;
         flex-direction: column;
         align-content: center;
     }
+    div.mainDiv {
+        width: 80%;
+        margin-left: 0%;
+    }
     .sectionRight {
         width:95%;
+        margin-left: 2.5%;
     }
     #ProjectsSectionRight img {
         width: 100%;
     }
     div.socialLinks {
-        /* width: 80%;
-        margin-left: 10%; */
-        margin-left: none;
+        margin-right: none;
         align-items: top;
     }
     #ProjectPgNum {
