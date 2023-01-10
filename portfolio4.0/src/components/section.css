@@ -134,6 +134,9 @@ img#linkedinSocial {
     -ms-user-select: none;
     user-select: none;
 }
+.swiper img:hover {
+    cursor: pointer;
+}
 @media (max-width: 768px){
     .sectionWrap {
         display: flex;
