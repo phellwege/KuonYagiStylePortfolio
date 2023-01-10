@@ -134,7 +134,7 @@ img#linkedinSocial {
     -ms-user-select: none;
     user-select: none;
 }
-@media (max-width: 900px){
+@media (max-width: 600px){
     .sectionWrap {
         display: flex;
         flex-direction: column;

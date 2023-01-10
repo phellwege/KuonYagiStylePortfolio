@@ -6,6 +6,7 @@
     width: 100%;
     height: 100%;
     align-items: center;
+    margin: 0;
 }
 .socialLinks {
     display: flex;
@@ -58,6 +59,12 @@
     font-family: 'Lato', sans-serif;
     font-size: 3.5em;
 }
+.skills p {
+    color: greenyellow;
+}
+.skills h4 {
+    margin-bottom: 4%;
+}
 .sectionLeft {
     width:50%;
 }
@@ -72,4 +79,15 @@
 }
 :root {
     --swiper-theme-color: #5BC0BE;
+}
+.swiper {
+    color: #5BC0BE;
+}
+@media (max-width: 600px){
+    .sectionWrap {
+        padding-top:10%;
+    }
+    #hideOnMobile {
+        display: none;
+    }
 }

@@ -7,7 +7,7 @@ export default (props) => {
             <div className='sectionWrap' id='noClicky'>
                 <div className='sectionLeft'>
                     <h1>Peter Hellwege</h1>
-                    <h3>
+                    <h3 id='hideOnMobile'>
                         Passionate About Software
                         <br/>
                         And Data Engineering
@@ -16,6 +16,7 @@ export default (props) => {
                 <div className='aboutSectionRight'>
                         <img src={Headshot} alt='headshot img' id='headshot'/>
                         <h3>A Bit About Me</h3>
+                        <br/>
                         <p>
                             In my spare time I enjoy art, fishing, riding my bike, or just reading a book.
                             I'm located in scenic Boise ID, but love to travel.
