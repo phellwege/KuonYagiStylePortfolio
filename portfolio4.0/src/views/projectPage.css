@@ -64,15 +64,18 @@
 .projectPageWrap {
     background: linear-gradient(#1C2541, #3A506B);
 }
-@media (max-width: 900px){
+@media (max-width: 768px){
     .ProjectFullPage {
         display: block;
     }
     #CoverFlowElement {
         display: none;
     }
+    div.projectRight {
+        margin-left: 10%;
+    }
 }
-@media (min-width: 900px) {
+@media (min-width: 768px) {
     .ProjectFullPage {
         display: none;
     }
