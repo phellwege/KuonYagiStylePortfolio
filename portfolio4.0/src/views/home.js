@@ -8,7 +8,6 @@ import Section3 from '../components/section3';
 import Section4 from '../components/section4';
 
 export default () => {
-
         const SectionStyle ={
             height: '100vh',
             width: '100%',

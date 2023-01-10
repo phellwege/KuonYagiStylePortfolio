@@ -8,7 +8,6 @@ import AboutMe2 from '../components/aboutMe2';
 export default () => {
 
     return (
-        
         <div className="aboutMePageWrap">
             <Header/>
             <div className="AboutMeBody">
