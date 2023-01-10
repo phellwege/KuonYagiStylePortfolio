@@ -28,6 +28,7 @@ export default (props) => {
                 <div className='mainSection'>
                     <h3 id='noClicky'>Experience</h3>
                         <h4 id='noClicky'>with Technology</h4>
+                        <br/>
                     <Swiper
                         pagination={{
                         dynamicBullets: true,

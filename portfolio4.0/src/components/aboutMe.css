@@ -62,9 +62,6 @@
 .skills p {
     color: greenyellow;
 }
-.skills h4 {
-    margin-bottom: 4%;
-}
 .sectionLeft {
     width:50%;
 }
@@ -85,9 +82,12 @@
 }
 @media (max-width: 600px){
     .sectionWrap {
-        padding-top:10%;
+        margin-top:20%;
     }
     #hideOnMobile {
         display: none;
+    }
+    .skills h4 {
+        margin-bottom: 4%;
     }
 }
