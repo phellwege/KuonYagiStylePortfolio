@@ -13,7 +13,7 @@ import PartyTime from '../static/giphyHomePage.gif';
 import Countdown from '../static/CaptureCountDown.PNG';
 import SWHomecoming from '../static/giphySWHomePage.gif';
 import TipCalc from '../static/giphyTipCalc.gif';
-
+import Resumancy  from '../static/CaptureHomeResumancy.gif';
 
 export default () => {
 
@@ -52,6 +52,9 @@ export default () => {
                 modules={[Pagination, Lazy]}
                 className="mySwiper"
             >
+                <SwiperSlide>
+                    <img src={Resumancy} alt='Resumancy Home Page'/>
+                </SwiperSlide>
                 <SwiperSlide>
                     <img src={Ecommerce} alt='E-commerce Product Page'/>
                 </SwiperSlide>

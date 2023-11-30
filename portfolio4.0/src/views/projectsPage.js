@@ -3,14 +3,14 @@ import './projectPage.css';
 import Loading from '../components/loading';
 import Coverflow from 'react-coverflow';
 import { StyleRoot } from 'radium';
-import Ecommerce from '../static/CaptureHomeEcommercePrd.PNG'
-import RockPaperScissors from '../static/CaptureHomeRockPaperScissors.PNG'
-import SpaceTourism from '../static/CaptureSpaceTourism.PNG'
-import PartyTime from '../static/giphyHomePage.gif'
-import Countdown from '../static/CaptureCountDown.PNG'
-import SWHomecoming from '../static/giphySWHomePage.gif'
-import TipCalc from '../static/giphyTipCalc.gif'
-
+import Ecommerce from '../static/CaptureHomeEcommercePrd.PNG';
+import RockPaperScissors from '../static/CaptureHomeRockPaperScissors.PNG';
+import SpaceTourism from '../static/CaptureSpaceTourism.PNG';
+import PartyTime from '../static/giphyHomePage.gif';
+import Countdown from '../static/CaptureCountDown.PNG';
+import SWHomecoming from '../static/giphySWHomePage.gif';
+import TipCalc from '../static/giphyTipCalc.gif';
+import Resumancy from '../static/CaptureHomeResumancy.gif';
 import Fullpage, { FullPageSections, FullpageSection, FullpageNavigation } from '@ap.cx/react-fullpage';
 
 export default () => {
@@ -52,21 +52,49 @@ export default () => {
                     <img src={Ecommerce} alt='E-commerce Product Page' data-action="https://phellwege.github.io/ecommerce-product-page-component/"/>
                     <img src={RockPaperScissors} alt='Rock-Paper-Scissors' data-action="https://phellwege.github.io/RockPaperScissors/"/>
                     <img src={SpaceTourism} alt='Space Tourism' data-action="https://phellwege.github.io/SpaceTourism/"/>
+                    <img src={Resumancy} alt='Resumancy' data-action='https://resumancy.com'/>
                     <img src={PartyTime} alt='PartyTime' data-action="https://phellwege.github.io/ThePartyTime/"/>
                     <img src={Countdown} alt='Countdown' data-action="https://phellwege.github.io/countdown/"/>
                     <img src={SWHomecoming} alt='Star Wars Homecoming' data-action="http://ec2-3-14-141-156.us-east-2.compute.amazonaws.com/"/>
                     <img src={TipCalc} alt='Tip Calculator' data-action="https://phellwege.github.io/Tip_Calculator/"/>
+                    
                 </Coverflow>
             </StyleRoot>
             </div>
         </div>
 
-
-        
         <div className="ProjectFullPage">
             <Fullpage >
                     <FullpageNavigation/>
                     <FullPageSections>
+                        <FullpageSection style={{ProjectSectionStyle, background:'linear-gradient(#1C2541, #3A506B)'}}>
+                            <div className='projectWrap'>
+                                <div className='innerDiv'>
+                                    <div className='projectLeft'>
+                                        <h2>Resumancy Home Page</h2>
+                                        <br/>
+                                        <div className='projectImgDiv'>
+                                            <a href='https://resumancy.com' target='_blank'>
+                                            <img src={Resumancy} loading='lazy' alt='E-commerce product page'/>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div className='projectRight'>
+                                        <br/>
+                                        <h4>Description</h4>
+                                        <p>Resumancy is an AI Resume creation suit I built from the ground up. Resumancy has the user create a base resume which it enhances using AI, then Resumancy can custom tailor resumes for any given job description, and produce cover letters.</p>
+                                        <br/>
+                                        <div className='projectLinks'>
+                                            <a href='https://resumancy.com' target='_blank'>Deployed Site</a>
+                                        </div>
+                                    </div>
+                                    <br/>
+                                    <h2 className='ProjectNumbers'>
+                                        <FullpageSection.Number/>
+                                    </h2>
+                                </div>
+                            </div>
+                        </FullpageSection>
                         <FullpageSection style={{ProjectSectionStyle, background:'linear-gradient(#1C2541, #3A506B)'}}>
                             <div className='projectWrap'>
                                 <div className='innerDiv'>
