@@ -74,7 +74,7 @@ export default () => {
                                         <h2>Resumancy Home Page</h2>
                                         <br/>
                                         <div className='projectImgDiv'>
-                                            <a href='https://resumancy.com' target='_blank'>
+                                            <a href='https://resumancy.com' target='_blank' rel="noopener">
                                             <img src={Resumancy} loading='lazy' alt='E-commerce product page'/>
                                             </a>
                                         </div>
@@ -85,7 +85,7 @@ export default () => {
                                         <p>Resumancy is an AI Resume creation suit I built from the ground up. Resumancy has the user create a base resume which it enhances using AI, then Resumancy can custom tailor resumes for any given job description, and produce cover letters.</p>
                                         <br/>
                                         <div className='projectLinks'>
-                                            <a href='https://resumancy.com' target='_blank'>Deployed Site</a>
+                                            <a href='https://resumancy.com' target='_blank' rel="noopener">Deployed Site</a>
                                         </div>
                                     </div>
                                     <br/>
@@ -102,7 +102,7 @@ export default () => {
                                         <h2>E-commerce Product Page</h2>
                                         <br/>
                                         <div className='projectImgDiv'>
-                                            <a href='https://phellwege.github.io/ecommerce-product-page-component/' target='_blank'>
+                                            <a href='https://phellwege.github.io/ecommerce-product-page-component/' target='_blank' rel="noopener">
                                             <img src={Ecommerce} loading='lazy' alt='E-commerce product page'/>
                                             </a>
                                         </div>
@@ -113,8 +113,8 @@ export default () => {
                                         <p>E-Commerce Product Page Component is a functional ReactJS page, with a lot of ternary statements, use of props, active states and state management. This was a coding challenge from frontEndMentor.io</p>
                                         <br/>
                                         <div className='projectLinks'>
-                                            <a href='https://phellwege.github.io/ecommerce-product-page-component/' target='_blank'>Deployed Site</a>
-                                            <a href='https://github.com/phellwege/ecommerce-product-page-component' target='_blank'>Github Repo</a>
+                                            <a href='https://phellwege.github.io/ecommerce-product-page-component/' target='_blank' rel="noopener">Deployed Site</a>
+                                            <a href='https://github.com/phellwege/ecommerce-product-page-component' target='_blank' rel="noopener">Github Repo</a>
                                         </div>
                                     </div>
                                     <br/>
@@ -132,7 +132,7 @@ export default () => {
                                         <br/>
                                         <div className='projectImgDiv'>
                                             
-                                            <a href='https://phellwege.github.io/RockPaperScissors/' target='_blank'>
+                                            <a href='https://phellwege.github.io/RockPaperScissors/' target='_blank' rel="noopener">
                                                 <img src={RockPaperScissors} loading='lazy' alt='Rock Paper Scissors page'/>
                                             </a>
                                         </div>
@@ -143,8 +143,8 @@ export default () => {
                                         <p>Rock-Paper-Scissors is a simple game that keeps track of your score through state management. I designed the architecture to be as smooth as possible without the need for any page changes.</p>
                                         <br/>
                                         <div className='projectLinks'>
-                                            <a href='https://phellwege.github.io/RockPaperScissors/' target='_blank'>Deployed Site</a>
-                                            <a href='https://github.com/phellwege/RockPaperScissors' target='_blank'>Github Repo</a>
+                                            <a href='https://phellwege.github.io/RockPaperScissors/' target='_blank' rel="noopener">Deployed Site</a>
+                                            <a href='https://github.com/phellwege/RockPaperScissors' target='_blank' rel="noopener">Github Repo</a>
                                         </div>
                                     </div>
                                     <br/>
@@ -162,7 +162,7 @@ export default () => {
                                         <br/>
                                         <div className='projectImgDiv'>
                                             
-                                            <a href='https://phellwege.github.io/SpaceTourism/' target='_blank'>
+                                            <a href='https://phellwege.github.io/SpaceTourism/' target='_blank' rel="noopener">
                                                 <img src={SpaceTourism} loading='lazy'  alt='Space Tourism page'/>
                                             </a>
                                         </div>
@@ -173,8 +173,8 @@ export default () => {
                                         <p>Space Tourism is a multi-page front end challenge. It's mobile friendly down to 375px wide and functions by indexing a JSON file.</p>
                                         <br/>
                                         <div className='projectLinks'>
-                                            <a href='https://phellwege.github.io/SpaceTourism/' target='_blank'>Deployed Site</a>
-                                            <a href='https://github.com/phellwege/SpaceTourism' target='_blank'>Github Repo</a>
+                                            <a href='https://phellwege.github.io/SpaceTourism/' target='_blank' rel="noopener">Deployed Site</a>
+                                            <a href='https://github.com/phellwege/SpaceTourism' target='_blank' rel="noopener">Github Repo</a>
                                         </div>
                                     </div>
                                     <br/>
@@ -191,7 +191,7 @@ export default () => {
                                         <h2>Party Time</h2>
                                         <br/>
                                         <div className='projectImgDiv'>
-                                            <a href='https://phellwege.github.io/ThePartyTime/' target='_blank'>
+                                            <a href='https://phellwege.github.io/ThePartyTime/' target='_blank' rel="noopener">
                                                 <img src={PartyTime} loading='lazy' alt='Party Time page'/>
                                             </a>
                                         </div>
@@ -202,8 +202,8 @@ export default () => {
                                         <p>Party Time is an ongoing single page application built from the ground up using ReactJS, CSS, and Javascript. It's been a really fun and frustrating project to help me in my pursuit of constantly improving my code and knowledge of implementation</p>
                                         <br/>
                                         <div className='projectLinks'>
-                                            <a href='https://phellwege.github.io/ThePartyTime/' target='_blank'>Deployed Site</a>
-                                            <a href='https://github.com/phellwege/ThePartyTime' target='_blank'>Github Repo</a>
+                                            <a href='https://phellwege.github.io/ThePartyTime/' target='_blank' rel="noopener">Deployed Site</a>
+                                            <a href='https://github.com/phellwege/ThePartyTime' target='_blank' rel="noopener">Github Repo</a>
                                         </div>
                                     </div>
                                     <br/>
@@ -220,7 +220,7 @@ export default () => {
                                         <h2>Countdown Timer</h2>
                                         <br/>
                                         <div className='projectImgDiv'>
-                                            <a href='https://phellwege.github.io/countdown/' target='_blank'>
+                                            <a href='https://phellwege.github.io/countdown/' target='_blank' rel="noopener">
                                                 <img src={Countdown} loading='lazy' alt='Countdown page'/>
                                             </a>
                                         </div>
@@ -231,8 +231,8 @@ export default () => {
                                         <p>Countdown timer was a quick challenge in order to build a really good looking countdown component, that can then be integrated into other projects.</p>
                                         <br/>
                                         <div className='projectLinks'>
-                                            <a href='https://phellwege.github.io/countdown/' target='_blank'>Deployed Site</a>
-                                            <a href='https://github.com/phellwege/countdown' target='_blank'>Github Repo</a>
+                                            <a href='https://phellwege.github.io/countdown/' target='_blank' rel="noopener">Deployed Site</a>
+                                            <a href='https://github.com/phellwege/countdown' target='_blank' rel="noopener">Github Repo</a>
                                         </div>
                                     </div>
                                     <br/>
@@ -249,7 +249,7 @@ export default () => {
                                         <h2>Star Wars Homecoming</h2>
                                         <br/>
                                         <div className='projectImgDiv'>
-                                            <a href='http://ec2-3-14-141-156.us-east-2.compute.amazonaws.com/' target='_blank'>
+                                            <a href='http://ec2-3-14-141-156.us-east-2.compute.amazonaws.com/' target='_blank' rel="noopener">
                                             <img src={SWHomecoming} loading='lazy' alt='Star Wars HomeComing page'/>
                                             </a>
                                         </div>
@@ -260,8 +260,8 @@ export default () => {
                                         <p>Star Wars HomeComing is a text based interactive game. Where you can create your own custom character, and travel the known galaxy. It's a lightweight Python application, that is easy to use with a nice UI.</p>
                                         <br/>
                                         <div className='projectLinks'>
-                                            <a href='http://ec2-3-14-141-156.us-east-2.compute.amazonaws.com/' target='_blank'>Deployed Site</a>
-                                            <a href='https://github.com/bdsullivan123/homecoming' target='_blank'>Github Repo</a>
+                                            <a href='http://ec2-3-14-141-156.us-east-2.compute.amazonaws.com/' target='_blank' rel="noopener">Deployed Site</a>
+                                            <a href='https://github.com/bdsullivan123/homecoming' target='_blank' rel="noopener">Github Repo</a>
                                         </div>
                                     </div>
                                     <br/>
@@ -278,7 +278,7 @@ export default () => {
                                         <h2>Tip Calculator</h2>
                                         <br/>
                                         <div className='projectImgDiv'>
-                                            <a href='' target='_blank'>
+                                            <a href='' target='_blank' rel="noopener">
                                                 <img src={TipCalc} loading='lazy' alt='Tip Calculator page'/>
                                             </a>
                                         </div>
@@ -289,8 +289,8 @@ export default () => {
                                         <p>Tip Calculator is a front end mini project to keep my HTML, CSS, and JavaScript skills sharp. I followed a basic wireframe from frontendmentor.</p>
                                         <br/>
                                         <div className='projectLinks'>
-                                            <a href='https://phellwege.github.io/Tip_Calculator/' target='_blank'>Deployed Site</a>
-                                            <a href='https://github.com/phellwege/Tip_Calculator' target='_blank'>Github Repo</a>
+                                            <a href='https://phellwege.github.io/Tip_Calculator/' target='_blank' rel="noopener">Deployed Site</a>
+                                            <a href='https://github.com/phellwege/Tip_Calculator' target='_blank' rel="noopener">Github Repo</a>
                                         </div>
                                     </div>
                                     <br/>
