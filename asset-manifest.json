@@ -1,10 +1,11 @@
 {
   "files": {
     "main.css": "/static/css/main.80915232.css",
-    "main.js": "/static/js/main.1c2d5008.js",
+    "main.js": "/static/js/main.c2cc9b4f.js",
     "static/js/787.29be1576.chunk.js": "/static/js/787.29be1576.chunk.js",
     "static/media/giphySWHomePage.gif": "/static/media/giphySWHomePage.b9af4e3c78012b6cd659.gif",
     "static/media/CaptureSpaceTourism.PNG": "/static/media/CaptureSpaceTourism.99c310af32ad2311ebd7.PNG",
+    "static/media/CaptureHomeResumancy.gif": "/static/media/CaptureHomeResumancy.9f9c770b64abb35b6016.gif",
     "static/media/IMG_1226.PNG": "/static/media/IMG_1226.c7dbac2eed582ff54450.PNG",
     "static/media/giphyHomePage.gif": "/static/media/giphyHomePage.b70c495f8edba69ba46b.gif",
     "static/media/HeadShot.jpeg": "/static/media/HeadShot.3aacadd46b0e07de8b6b.jpeg",
@@ -29,11 +30,11 @@
     "static/media/django.png": "/static/media/django.a6eb1432659f94281776.png",
     "index.html": "/index.html",
     "main.80915232.css.map": "/static/css/main.80915232.css.map",
-    "main.1c2d5008.js.map": "/static/js/main.1c2d5008.js.map",
+    "main.c2cc9b4f.js.map": "/static/js/main.c2cc9b4f.js.map",
     "787.29be1576.chunk.js.map": "/static/js/787.29be1576.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.80915232.css",
-    "static/js/main.1c2d5008.js"
+    "static/js/main.c2cc9b4f.js"
   ]
 }
