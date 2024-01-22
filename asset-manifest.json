@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.d2d5f7d5.css",
-    "main.js": "/static/js/main.78999bc1.js",
+    "main.js": "/static/js/main.e1c9f418.js",
     "static/js/787.581dc859.chunk.js": "/static/js/787.581dc859.chunk.js",
     "static/media/giphySWHomePage.gif": "/static/media/giphySWHomePage.b9af4e3c78012b6cd659.gif",
     "static/media/CaptureSpaceTourism.PNG": "/static/media/CaptureSpaceTourism.99c310af32ad2311ebd7.PNG",
@@ -30,11 +30,11 @@
     "static/media/django.png": "/static/media/django.a6eb1432659f94281776.png",
     "index.html": "/index.html",
     "main.d2d5f7d5.css.map": "/static/css/main.d2d5f7d5.css.map",
-    "main.78999bc1.js.map": "/static/js/main.78999bc1.js.map",
+    "main.e1c9f418.js.map": "/static/js/main.e1c9f418.js.map",
     "787.581dc859.chunk.js.map": "/static/js/787.581dc859.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d2d5f7d5.css",
-    "static/js/main.78999bc1.js"
+    "static/js/main.e1c9f418.js"
   ]
 }
