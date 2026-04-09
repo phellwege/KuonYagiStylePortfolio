@@ -43,14 +43,14 @@ export default (props) => {
                 <br/>
                 <div className='socialLinks'>
                     <div className='SectionIconLink'>
-                        <a href='https://github.com/phellwege' target='_blank'>
+                        <a href='https://github.com/phellwege' target='_blank' rel='noreferrer'>
                             <img src={Github} id='githubSocial' alt='GitHub Icon'/>
                             <br/>
                             GitHub
                         </a>
                     </div>
                     <div className='SectionIconLink'>
-                        <a href='https://www.linkedin.com/in/peter-hellwege/' target='_blank'>
+                        <a href='https://www.linkedin.com/in/peter-hellwege/' target='_blank' rel='noreferrer'>
                             <img src={Linkedin} id='linkedinSocial' alt='LinkedIn Icon'/>
                             <br/>
                             LinkedIn

@@ -15,8 +15,8 @@ export default () => {
                 </div>
                 <div className='headRight'>
                         <Link to="/" className='HomeIcon'><img src={HomeIco} alt='Home Icon'/></Link>
-                        <a href='https://github.com/phellwege' target='_blank'><img src={Github} className='github' alt='GitHub Icon'/></a>
-                        <a href='https://www.linkedin.com/in/peter-hellwege/' target='_blank'><img src={Linkedin} className='linkedin' alt='LinkedIn Icon'/></a>
+                        <a href='https://github.com/phellwege' target='_blank' rel='noreferrer'><img src={Github} className='github' alt='GitHub Icon'/></a>
+                        <a href='https://www.linkedin.com/in/peter-hellwege/' target='_blank' rel='noreferrer'><img src={Linkedin} className='linkedin' alt='LinkedIn Icon'/></a>
                     <div id='navbarOnHead'>
                         <Navbar/>
                     </div>

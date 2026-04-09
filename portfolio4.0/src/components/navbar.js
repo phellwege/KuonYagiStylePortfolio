@@ -26,7 +26,7 @@ export default (props) => {
         return () => {
             document.removeEventListener('mousedown', handler);
         }
-    })
+    }, [])
     return (
         <div id='Hamburger_Menu'>
                 <nav ref={menuRef} className="navBar">

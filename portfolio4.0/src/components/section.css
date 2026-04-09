@@ -137,6 +137,39 @@ img#linkedinSocial {
 .swiper img:hover {
     cursor: pointer;
 }
+.parallaxStars {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: 0;
+    overflow: hidden;
+}
+.star {
+    position: absolute;
+    background: white;
+    border-radius: 50%;
+    opacity: 0;
+    animation: twinkle 3s ease-in-out infinite;
+}
+@keyframes twinkle {
+    0%, 100% { opacity: 0.2; }
+    50% { opacity: 1; }
+}
+.parallaxScene {
+    position: relative;
+    z-index: 1;
+}
+.parallaxMars {
+    will-change: transform;
+}
+.sectionLeft {
+    position: relative;
+    z-index: 1;
+    will-change: transform;
+}
 @media (max-width: 768px){
     .sectionWrap {
         display: flex;
