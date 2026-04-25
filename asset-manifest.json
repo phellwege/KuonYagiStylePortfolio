@@ -1,23 +1,26 @@
 {
   "files": {
-    "main.css": "/static/css/main.bee07136.css",
-    "main.js": "/static/js/main.e95dbbcb.js",
+    "main.css": "/static/css/main.dcff21d3.css",
+    "main.js": "/static/js/main.0bb7e5c3.js",
+    "static/js/45.279be4f3.chunk.js": "/static/js/45.279be4f3.chunk.js",
     "static/js/787.581dc859.chunk.js": "/static/js/787.581dc859.chunk.js",
+    "static/js/489.8457c086.chunk.js": "/static/js/489.8457c086.chunk.js",
+    "static/media/HomeScreen.png": "/static/media/HomeScreen.6fe97abd4db31c8c4095.png",
     "static/media/giphySWHomePage.gif": "/static/media/giphySWHomePage.b9af4e3c78012b6cd659.gif",
     "static/media/CaptureSpaceTourism.PNG": "/static/media/CaptureSpaceTourism.99c310af32ad2311ebd7.PNG",
     "static/media/CaptureHomeResumancy.gif": "/static/media/CaptureHomeResumancy.9f9c770b64abb35b6016.gif",
-    "static/media/IMG_1226.PNG": "/static/media/IMG_1226.c7dbac2eed582ff54450.PNG",
     "static/media/giphyHomePage.gif": "/static/media/giphyHomePage.b70c495f8edba69ba46b.gif",
+    "static/media/AUsVQ-equirectangular.jpg": "/static/media/AUsVQ-equirectangular.cabf8868ecada26c19a4.jpg",
     "static/media/HeadShot.jpeg": "/static/media/HeadShot.3aacadd46b0e07de8b6b.jpeg",
     "static/media/CaptureHomeRockPaperScissors.PNG": "/static/media/CaptureHomeRockPaperScissors.d55e252077fbd75125d3.PNG",
     "static/media/shogunDemo.gif": "/static/media/shogunDemo.7f4661cf72d7f9a866ab.gif",
     "static/media/CaptureHomeEcommercePrd.PNG": "/static/media/CaptureHomeEcommercePrd.523c0bab78856d909432.PNG",
-    "static/media/Peter.Hellwege.Resume.pdf": "/static/media/Peter.Hellwege.Resume.22e03cfe01cc5dd60c84.pdf",
+    "static/media/Screenshot 2026-04-24 171522.png": "/static/media/Screenshot 2026-04-24 171522.d737769ee4284be8cbea.png",
+    "static/media/titan_texture_map_8k_by_fargetanik_db0f8m0-fullview.jpg": "/static/media/titan_texture_map_8k_by_fargetanik_db0f8m0-fullview.e920ef17112556005259.jpg",
     "static/media/giphyTipCalc.gif": "/static/media/giphyTipCalc.74635542d38342767c62.gif",
-    "static/media/image-mars.png": "/static/media/image-mars.1b224c8663251270d79f.png",
     "static/media/java.png": "/static/media/java.c5ce8592f54e4a041fe0.png",
     "static/media/CaptureCountDown.PNG": "/static/media/CaptureCountDown.49c3e7cf9a238f56131d.PNG",
-    "static/media/Ouroboros.png": "/static/media/Ouroboros.5da6d31fa421f3c81825.png",
+    "static/media/hired-or-die.png": "/static/media/hired-or-die.0d9d72669ee609016306.png",
     "static/media/python.png": "/static/media/python.60748c5dba0e3739afa4.png",
     "static/media/jQuery.png": "/static/media/jQuery.15de37f22b84c1c7d211.png",
     "static/media/expressjs.png": "/static/media/expressjs.d6e21c9863dfdde404af.png",
@@ -29,13 +32,16 @@
     "static/media/JavaScript.png": "/static/media/JavaScript.db7cd700cc11c4e5c0c2.png",
     "static/media/HTML.png": "/static/media/HTML.a55d95bf8ba7728d0860.png",
     "static/media/django.png": "/static/media/django.a6eb1432659f94281776.png",
+    "static/media/Peter.Hellwege.Resume.pdf": "/static/media/Peter.Hellwege.Resume.f659d306d5e425e79df7.pdf",
     "index.html": "/index.html",
-    "main.bee07136.css.map": "/static/css/main.bee07136.css.map",
-    "main.e95dbbcb.js.map": "/static/js/main.e95dbbcb.js.map",
-    "787.581dc859.chunk.js.map": "/static/js/787.581dc859.chunk.js.map"
+    "main.dcff21d3.css.map": "/static/css/main.dcff21d3.css.map",
+    "main.0bb7e5c3.js.map": "/static/js/main.0bb7e5c3.js.map",
+    "45.279be4f3.chunk.js.map": "/static/js/45.279be4f3.chunk.js.map",
+    "787.581dc859.chunk.js.map": "/static/js/787.581dc859.chunk.js.map",
+    "489.8457c086.chunk.js.map": "/static/js/489.8457c086.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bee07136.css",
-    "static/js/main.e95dbbcb.js"
+    "static/css/main.dcff21d3.css",
+    "static/js/main.0bb7e5c3.js"
   ]
 }
