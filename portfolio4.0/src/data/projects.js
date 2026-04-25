@@ -7,13 +7,16 @@ import SWHomecoming from '../static/giphySWHomePage.gif';
 import TipCalc from '../static/giphyTipCalc.gif';
 import Resumancy from '../static/CaptureHomeResumancy.gif';
 import ShogunDemo from '../static/shogunDemo.gif';
+import CrimsonScan from '../static/Screenshot 2026-04-24 171522.png';
+import ShadowFlight from '../static/HomeScreen.png';
+import HiredOrDie from '../static/hired-or-die.png';
 
 const projects = [
     {
         title: 'Resumancy Home Page',
         image: Resumancy,
         alt: 'Resumancy Home Page',
-        description: 'Resumancy is an AI Resume creation suit I built from the ground up. Resumancy has the user create a base resume which it enhances using AI, then Resumancy can custom tailor resumes for any given job description, and produce cover letters.',
+        description: 'A full-stack AI resume platform built from the ground up. Users create a base resume that gets AI-enhanced, then Resumancy can tailor it to any job description and generate matching cover letters — streamlining the entire application process.',
         deployedUrl: 'https://resumancy.com',
         repoUrl: null,
     },
@@ -40,6 +43,31 @@ const projects = [
         description: 'Rock-Paper-Scissors is a simple game that keeps track of your score through state management. I designed the architecture to be as smooth as possible without the need for any page changes.',
         deployedUrl: 'https://phellwege.github.io/RockPaperScissors/',
         repoUrl: 'https://github.com/phellwege/RockPaperScissors',
+    },
+    {
+        title: 'CrimsonScan — Medical Image Analysis',
+        image: CrimsonScan,
+        alt: 'CrimsonScan Medical AI Demo',
+        description: 'An AI/ML medical analysis platform that identifies blood cell abnormalities, parasitic and viral infections, and cancer-indicative lymphocyte counts from microscopic and electron microscope imagery. Trained on 177k+ manually annotated images achieving 96-97% accuracy. Features confidence-scored results with human-in-the-loop review and continuous model retraining.',
+        deployedUrl: null,
+        repoUrl: null,
+        status: 'Discontinued',
+    },
+    {
+        title: 'ShadowFlight',
+        image: ShadowFlight,
+        alt: 'ShadowFlight Homepage',
+        description: 'A client-facing website built for ShadowFlight, a wormhole corporation in Eve Online. Developed in React with responsive layouts, dark/light theme toggle, and integrated tools like SeAT login and Pathfinder. Deployed to a custom domain and actively used by the organization.',
+        deployedUrl: 'https://shadowflight.org/',
+        repoUrl: 'https://github.com/phellwege/shadowflight',
+    },
+    {
+        title: 'Hired Or Die Trying',
+        image: HiredOrDie,
+        alt: 'Hired Or Die Trying',
+        description: 'A satirical text adventure about surviving the modern software engineering job market. Navigate absurd interview loops, ghost recruiters, and leetcode gauntlets in this tongue-in-cheek browser game. It\'s funny because it\'s true.',
+        deployedUrl: 'https://phellwege.github.io/hired_or_die_trying/',
+        repoUrl: 'https://github.com/phellwege/hired_or_die_trying',
     },
     {
         title: 'Space Tourism',
@@ -70,7 +98,7 @@ const projects = [
         image: SWHomecoming,
         alt: 'Star Wars Homecoming',
         description: "Star Wars HomeComing is a text based interactive game. Where you can create your own custom character, and travel the known galaxy. It's a lightweight Python application, that is easy to use with a nice UI.",
-        deployedUrl: 'http://ec2-3-14-141-156.us-east-2.compute.amazonaws.com/',
+        deployedUrl: null,
         repoUrl: 'https://github.com/bdsullivan123/homecoming',
     },
     {

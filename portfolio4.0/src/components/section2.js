@@ -1,58 +1,59 @@
 import React from 'react';
+import { motion } from 'framer-motion';
+import { Link } from 'react-router-dom';
 import './section.css';
-import {  FullpageSection } from '@ap.cx/react-fullpage';
-import {Link} from 'react-router-dom';
-import { Swiper, SwiperSlide } from 'swiper/react';
-import "swiper/css/bundle";
-import { Pagination, Lazy} from "swiper";
 import projects from '../data/projects';
 
-export default () => {
-
-    return (
-        <div className='sectionWrap'>
-            <div className='sectionLeft'>
-                <h1 id='noClicky'>Projects</h1>
-                <br/>
-                <div className='lineBreak'
-                    style={{
-                    background: '#5BC0BE',
-                    height: '4px',
-                    width: '18%',
-                    marginLeft: '35%',
-                    borderRadius: '.25em'
-                    }}
-                />
-                <br/>
-                <div className='lineBreak'
-                    style={{
-                    background: '#5BC0BE',
-                    height: '4px',
-                    width: '15%',
-                    marginLeft: '25%',
-                    borderRadius: '.25em'
-                    }}
-                />
-                <br/>
-                <Link to='/Projects'><button className='moreBtn'>View Projects</button></Link>
-            </div>
-            <div className='sectionRight' id='ProjectsSectionRight'>
-            <Swiper
-                pagination={{
-                dynamicBullets: true,
-                }}
-                modules={[Pagination, Lazy]}
-                className="mySwiper"
+export default function Section2() {
+  return (
+    <section className="content-section">
+      <div className="section-inner">
+        <motion.div
+          className="section-header"
+          initial={{ opacity: 0, x: -40 }}
+          whileInView={{ opacity: 1, x: 0 }}
+          viewport={{ once: true, amount: 0.5 }}
+          transition={{ duration: 0.6 }}
+        >
+          <h2 className="section-title">Projects</h2>
+          <div className="title-accent" />
+        </motion.div>
+        <motion.div
+          className="projects-preview-grid"
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          viewport={{ once: true, amount: 0.3 }}
+          transition={{ duration: 0.5, delay: 0.2 }}
+        >
+          {projects.slice(0, 4).map((project, i) => (
+            <motion.div
+              key={i}
+              className="preview-card"
+              initial={{ opacity: 0, y: 30 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.5, delay: 0.1 * i }}
+              whileHover={{ y: -8, transition: { duration: 0.25 } }}
             >
-                {projects.map((project, index) => (
-                    <SwiperSlide key={index}>
-                        <img src={project.image} alt={project.alt}/>
-                    </SwiperSlide>
-                ))}
-                ...
-            </Swiper>
-                    <h1 className='numbers' id='ProjectPgNum'>0<FullpageSection.Number/></h1>
-            </div>
-        </div>
-    )
+              <img src={project.image} alt={project.alt} loading="lazy" />
+              <div className="preview-overlay">
+                <span>{project.title}</span>
+              </div>
+            </motion.div>
+          ))}
+        </motion.div>
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.5, delay: 0.5 }}
+          className="section-cta"
+        >
+          <Link to="/Projects">
+            <button className="cta-btn">View All Projects</button>
+          </Link>
+        </motion.div>
+      </div>
+    </section>
+  );
 }

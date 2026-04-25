@@ -1,110 +1,105 @@
+import React, { useRef, useCallback } from 'react';
+import { motion } from 'framer-motion';
 import Header from '../components/header';
 import './projectPage.css';
-import Coverflow from 'react-coverflow';
-import { StyleRoot } from 'radium';
-import Fullpage, { FullPageSections, FullpageSection, FullpageNavigation } from '@ap.cx/react-fullpage';
 import projects from '../data/projects';
 
-export default () => {
+function ProjectCard({ project, index }) {
+  const cardRef = useRef(null);
 
-    const ProjectSectionStyle ={
-        height: '100vh',
-        width: '100%',
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center'
-    };
+  const handleMouseMove = useCallback((e) => {
+    const card = cardRef.current;
+    if (!card) return;
+    const rect = card.getBoundingClientRect();
+    const x = e.clientX - rect.left;
+    const y = e.clientY - rect.top;
+    const centerX = rect.width / 2;
+    const centerY = rect.height / 2;
+    const rotateX = ((y - centerY) / centerY) * -8;
+    const rotateY = ((x - centerX) / centerX) * 8;
+    card.style.transform = `perspective(800px) rotateX(${rotateX}deg) rotateY(${rotateY}deg) scale3d(1.02, 1.02, 1.02)`;
+  }, []);
 
-    const gradients = [
-        'linear-gradient(#1C2541, #3A506B)',
-        'linear-gradient(#3A506B, #1C2541)',
-    ];
+  const handleMouseLeave = useCallback(() => {
+    if (cardRef.current) {
+      cardRef.current.style.transform = 'perspective(800px) rotateX(0) rotateY(0) scale3d(1, 1, 1)';
+    }
+  }, []);
 
-    return (
-        <>
-        <div className="projectPageWrap">
-        <Header/>
-            <div id='CoverFlowElement'>
-            <StyleRoot>
-                <Coverflow
-                    displayQuantityOfSide={2}
-                    navigation={false}
-                    infiniteScroll={true}
-                    enableHeading={true}
-                    currentFigureScale='2'
-                    otherFigureScale='.75'
-                    loading='lazy'
-                    media={{
-                        '@media (max-width: 900px)': {
-                        width: '100%',
-                        height: '100vh'
-                        },
-                        '@media (min-width: 900px)': {
-                        width: '100%',
-                        height: '100vh'
-                        }
-                    }}
-                    >
-
-                    {projects.map((project, index) => (
-                        <img
-                            key={index}
-                            src={project.image}
-                            alt={project.alt}
-                            data-action={project.deployedUrl || project.repoUrl || '#'}
-                        />
-                    ))}
-
-                </Coverflow>
-            </StyleRoot>
-            </div>
+  return (
+    <motion.div
+      className="project-card-wrapper"
+      initial={{ opacity: 0, y: 50 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      viewport={{ once: true, amount: 0.2 }}
+      transition={{ duration: 0.5, delay: index * 0.08 }}
+    >
+      <div
+        ref={cardRef}
+        className="project-card glass-panel"
+        onMouseMove={handleMouseMove}
+        onMouseLeave={handleMouseLeave}
+      >
+        <div className="card-img-container">
+          <img src={project.image} alt={project.alt} loading="lazy" />
         </div>
+        <div className="card-body">
+          <h3 className="card-title">{project.title}</h3>
+          <p className="card-desc">{project.description}</p>
+          <div className="card-links">
+            {project.status && (
+              <span className="card-link status-badge">{project.status}</span>
+            )}
+            {project.deployedUrl && (
+              <a href={project.deployedUrl} target="_blank" rel="noreferrer" className="card-link primary">
+                Live Site
+              </a>
+            )}
+            {project.repoUrl && (
+              <a href={project.repoUrl} target="_blank" rel="noreferrer" className="card-link">
+                GitHub
+              </a>
+            )}
+          </div>
+        </div>
+        <div className="card-number">{String(index + 1).padStart(2, '0')}</div>
+      </div>
+    </motion.div>
+  );
+}
 
-        <div className="ProjectFullPage">
-            <Fullpage >
-                    <FullpageNavigation/>
-                    <FullPageSections>
-                        {projects.map((project, index) => (
-                            <FullpageSection
-                                key={index}
-                                style={{ProjectSectionStyle, background: gradients[index % 2]}}
-                            >
-                                <div className='projectWrap'>
-                                    <div className='innerDiv'>
-                                        <div className='projectLeft'>
-                                            <h2>{project.title}</h2>
-                                            <br/>
-                                            <div className='projectImgDiv'>
-                                                <a href={project.deployedUrl || project.repoUrl || '#'} target='_blank' rel="noreferrer">
-                                                    <img src={project.image} loading='lazy' alt={project.alt}/>
-                                                </a>
-                                            </div>
-                                        </div>
-                                        <div className='projectRight'>
-                                            <br/>
-                                            <h4>Description</h4>
-                                            <p>{project.description}</p>
-                                            <br/>
-                                            <div className='projectLinks'>
-                                                {project.deployedUrl && (
-                                                    <a href={project.deployedUrl} target='_blank' rel="noreferrer">Deployed Site</a>
-                                                )}
-                                                {project.repoUrl && (
-                                                    <a href={project.repoUrl} target='_blank' rel="noreferrer">Github Repo</a>
-                                                )}
-                                            </div>
-                                        </div>
-                                        <br/>
-                                        <h2 className='ProjectNumbers'>
-                                            <FullpageSection.Number/>
-                                        </h2>
-                                    </div>
-                                </div>
-                            </FullpageSection>
-                        ))}
-                    </FullPageSections>
-                </Fullpage>
-            </div>
-        </>
-    )
+export default function ProjectsPage() {
+  return (
+    <motion.div
+      className="projects-page"
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      exit={{ opacity: 0 }}
+      transition={{ duration: 0.4 }}
+    >
+      <Header />
+      <div className="projects-hero">
+        <motion.h1
+          className="projects-hero-title"
+          initial={{ opacity: 0, y: 30 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6, delay: 0.2 }}
+        >
+          Projects
+        </motion.h1>
+        <motion.div
+          className="title-accent"
+          style={{ margin: '0.75rem auto 0' }}
+          initial={{ scaleX: 0 }}
+          animate={{ scaleX: 1 }}
+          transition={{ duration: 0.5, delay: 0.5 }}
+        />
+      </div>
+      <div className="projects-grid">
+        {projects.map((project, index) => (
+          <ProjectCard key={index} project={project} index={index} />
+        ))}
+      </div>
+    </motion.div>
+  );
 }

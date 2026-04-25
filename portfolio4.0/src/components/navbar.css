@@ -1,73 +1,53 @@
-#Hamburger_Menu a {
-        display: block;
-        padding: 10px 40px;
-        text-decoration: none;
-        color: white;
-        text-transform: uppercase;
-        font-weight: bold;
+.nav-container {
+  position: relative;
 }
-.navBar {
-    position: relative;
+
+.nav-toggle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: none;
+  border: none;
+  color: var(--text-dim);
+  cursor: pointer;
+  padding: 0.4rem;
+  transition: color 0.2s ease;
 }
-.navBar button {
-    cursor: pointer;
+
+.nav-toggle:hover {
+  color: var(--accent);
 }
-.menuNav {
-    list-style: none;
-    position: fixed;
-    top: 12%;
-    right: 0;
-    bottom: 0;
-    height: 88vh;
-    overflow: hidden;
-    max-width: 290px;
-    z-index: 9;
-    transition: .5s;
-    border-top-left-radius: 2.5em;
-    background: #0B132B;
-    display:flex;
-    flex-direction: column;
-    border: 2.5px solid rgb(158, 158, 158);
-    border-right: none;
+
+.nav-dropdown {
+  position: absolute;
+  top: calc(100% + 0.75rem);
+  right: 0;
+  background: rgba(28, 37, 65, 0.85);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid var(--glass-border);
+  border-radius: 12px;
+  padding: 0.6rem;
+  min-width: 180px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
 }
-.menuNav {
-    width: 0%;
-    visibility: hidden;
+
+.nav-item {
+  display: block;
+  padding: 0.7rem 1rem;
+  font-family: var(--font-body);
+  font-size: 0.9rem;
+  font-weight: 400;
+  color: var(--text-dim);
+  text-decoration: none;
+  border-radius: 8px;
+  transition: all 0.2s ease;
 }
-.menuNav li a {
-    visibility: hidden;
-}
-.menuNav.showMenu {
-    visibility: visible;
-    width: 80%;
-    display: flex;
-    justify-content: center;
-}
-.menuNav.showMenu li a {
-    visibility: visible;
-    margin-bottom: 25%;
-    height: 20%;
-    border-radius: .5em;
-}
-.menuNav li:first-child {
-    margin-top: 25%;
-}
-.navBar button {
-    background: transparent;
-    border: none;
-}
-#nav li a.active {
-    box-shadow: 0 0 5px #5BC0BE;
-}
-#nav li a {
-    color: white;
-    border: 1px solid transparent;
-}
-nav li a:hover:not(.active) {
-    background-color: #5BC0BE;
-}
-@media (max-width: 900px){
-    .menuNav.showMenu li a {
-        height: 50%;
-    }
+
+.nav-item:hover {
+  color: var(--accent);
+  background: var(--glass-highlight);
 }

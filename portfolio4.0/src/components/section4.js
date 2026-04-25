@@ -1,66 +1,75 @@
-import './section.css'
-import {  FullpageSection } from '@ap.cx/react-fullpage';
-import Github from '../static/github-10-32.png';
-import Linkedin from '../static/linkedin-3-32.png';
+import React from 'react';
+import { motion } from 'framer-motion';
+import './section.css';
+import { FiGithub, FiLinkedin, FiMail, FiPhone } from 'react-icons/fi';
 
-export default (props) => {
+export default function Section4() {
+  const contactItems = [
+    { icon: <FiMail />, label: 'Email', value: 'phellwege1@gmail.com', href: 'mailto:phellwege1@gmail.com' },
+    { icon: <FiPhone />, label: 'Phone', value: '(208) 697-3323', href: 'tel:2086973323' },
+  ];
 
-    return (
-        <div className='sectionWrap'>
-            <div className='mainDiv'>
-                <h1 id='noClicky'>Get In Touch</h1>
-                <br/>
-                <div className='lineBreak'
-                    style={{
-                    background: '#5BC0BE',
-                    height: '4px',
-                    width: '18%',
-                    marginLeft: '35%',
-                    borderRadius: '.25em'
-                    }}
-                />
-                <br className='lineBreak'/>
-                <div className='lineBreak'
-                    style={{
-                    background: '#5BC0BE',
-                    height: '4px',
-                    width: '15%',
-                    marginLeft: '25%',
-                    borderRadius: '.25em'
-                    }}
-                />
-                <br className='lineBreak'/>
-                <h3>
-                    Email: 
-                    <br/>
-                    <a href='mailto:phellwege1@gmail.com' id='emailMe'>phellwege1@gmail.com</a>
-                </h3>
-                <h3>
-                    Phone:
-                    <br/> 
-                    <a href="tel:2086973323" id='phoneMe'>(208) 697-3323</a>
-                </h3>
-                <br/>
-                <div className='socialLinks'>
-                    <div className='SectionIconLink'>
-                        <a href='https://github.com/phellwege' target='_blank' rel='noreferrer'>
-                            <img src={Github} id='githubSocial' alt='GitHub Icon'/>
-                            <br/>
-                            GitHub
-                        </a>
-                    </div>
-                    <div className='SectionIconLink'>
-                        <a href='https://www.linkedin.com/in/peter-hellwege/' target='_blank' rel='noreferrer'>
-                            <img src={Linkedin} id='linkedinSocial' alt='LinkedIn Icon'/>
-                            <br/>
-                            LinkedIn
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <div className='sectionRight'>
-                    <h1 className='numbers' id='getInTouchPgNum'>0<FullpageSection.Number/></h1>
-            </div>
+  const socialLinks = [
+    { icon: <FiGithub />, label: 'GitHub', href: 'https://github.com/phellwege' },
+    { icon: <FiLinkedin />, label: 'LinkedIn', href: 'https://www.linkedin.com/in/peter-hellwege/' },
+  ];
+
+  return (
+    <section className="content-section contact-section">
+      <div className="section-inner">
+        <motion.div
+          className="section-header"
+          initial={{ opacity: 0, y: 30 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true, amount: 0.5 }}
+          transition={{ duration: 0.6 }}
+        >
+          <h2 className="section-title">Get In Touch</h2>
+          <div className="title-accent" />
+        </motion.div>
+
+        <div className="contact-grid">
+          {contactItems.map((item, i) => (
+            <motion.a
+              key={i}
+              href={item.href}
+              className="contact-card glass-panel"
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.5, delay: 0.1 * i }}
+              whileHover={{ y: -4, transition: { duration: 0.2 } }}
+            >
+              <span className="contact-icon">{item.icon}</span>
+              <span className="contact-label">{item.label}</span>
+              <span className="contact-value">{item.value}</span>
+            </motion.a>
+          ))}
         </div>
-    )
+
+        <motion.div
+          className="social-row"
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.5, delay: 0.3 }}
+        >
+          {socialLinks.map((link, i) => (
+            <motion.a
+              key={i}
+              href={link.href}
+              target="_blank"
+              rel="noreferrer"
+              className="social-link"
+              whileHover={{ scale: 1.1, y: -2 }}
+              whileTap={{ scale: 0.95 }}
+            >
+              {link.icon}
+              <span>{link.label}</span>
+            </motion.a>
+          ))}
+        </motion.div>
+      </div>
+    </section>
+  );
 }

@@ -1,47 +1,40 @@
-import './section.css'
-import {  FullpageSection } from '@ap.cx/react-fullpage';
-import {Link} from 'react-router-dom';
+import React from 'react';
+import { motion } from 'framer-motion';
+import { Link } from 'react-router-dom';
+import './section.css';
 import HeadShot from '../static/HeadShot.jpeg';
-import Loading from './loading';
-export default (props) => {
 
-    return (
-        <div className='sectionWrap'>
-            <div className='sectionLeft'>
-                <h1 id='noClicky'>About Me</h1>
-                <br/>
-                <div className='lineBreak'
-                    style={{
-                    background: '#5BC0BE',
-                    height: '4px',
-                    width: '18%',
-                    marginLeft: '25%',
-                    borderRadius: '.25em'
-                    }}
-                />
-                <br className='lineBreak'/>
-                <div className='lineBreak'
-                    style={{
-                    background: '#5BC0BE',
-                    height: '4px',
-                    width: '18%',
-                    marginLeft: '42%',
-                    borderRadius: '.25em'
-                    }}
-                />
-                <br className='lineBreak'/>
-                <h3 id='noClicky'>I love building something new <br/> from the ground up</h3>
-                <br/>
-                <Link to='/AboutMe'>
-                    <button  className='moreBtn'>
-                        show me more
-                    </button>
-                </Link>
-            </div>
-            <div className='sectionRight'>
-                    <img src={HeadShot} alt='Headshot' id='Section3HeadShot' loading='lazy'/>
-                    <h1 className='numbers' id='aboutMePgNum'>0<FullpageSection.Number/></h1>
-            </div>
-        </div>
-    )
+export default function Section3() {
+  return (
+    <section className="content-section">
+      <div className="section-inner about-preview">
+        <motion.div
+          className="about-preview-image"
+          initial={{ opacity: 0, scale: 0.8 }}
+          whileInView={{ opacity: 1, scale: 1 }}
+          viewport={{ once: true, amount: 0.5 }}
+          transition={{ duration: 0.7, ease: 'easeOut' }}
+        >
+          <img src={HeadShot} alt="Headshot" />
+          <div className="image-glow" />
+        </motion.div>
+        <motion.div
+          className="about-preview-text"
+          initial={{ opacity: 0, x: 40 }}
+          whileInView={{ opacity: 1, x: 0 }}
+          viewport={{ once: true, amount: 0.5 }}
+          transition={{ duration: 0.6, delay: 0.2 }}
+        >
+          <h2 className="section-title">About Me</h2>
+          <div className="title-accent" />
+          <p className="about-preview-desc">
+            I love building something new from the ground up
+          </p>
+          <Link to="/AboutMe">
+            <button className="cta-btn">Learn More</button>
+          </Link>
+        </motion.div>
+      </div>
+    </section>
+  );
 }

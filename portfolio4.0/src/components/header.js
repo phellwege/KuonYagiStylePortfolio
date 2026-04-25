@@ -1,27 +1,34 @@
-import './header.css'
-import {Link} from 'react-router-dom';
+import React from 'react';
+import { motion } from 'framer-motion';
+import { Link } from 'react-router-dom';
+import './header.css';
 import Navbar from './navbar';
 import resume from '../static/Peter.Hellwege.Resume.pdf';
-import Github from '../static/github-10-32.png';
-import Linkedin from '../static/linkedin-3-32.png';
-import HomeIco from '../static/IMG_1226.PNG';
-export default () => {
+import { FiGithub, FiLinkedin } from 'react-icons/fi';
 
-    return (
-        <>
-            <div className='headWrap'>
-                <div className='headLeft'>
-                <a href={resume} download="../static/Peter.Hellwege.Resume.pdf">Peter Hellwege</a>
-                </div>
-                <div className='headRight'>
-                        <Link to="/" className='HomeIcon'><img src={HomeIco} alt='Home Icon'/></Link>
-                        <a href='https://github.com/phellwege' target='_blank' rel='noreferrer'><img src={Github} className='github' alt='GitHub Icon'/></a>
-                        <a href='https://www.linkedin.com/in/peter-hellwege/' target='_blank' rel='noreferrer'><img src={Linkedin} className='linkedin' alt='LinkedIn Icon'/></a>
-                    <div id='navbarOnHead'>
-                        <Navbar/>
-                    </div>
-                </div>
-            </div>
-        </>
-    )
+export default function Header() {
+  return (
+    <motion.header
+      className="header"
+      initial={{ y: -20, opacity: 0 }}
+      animate={{ y: 0, opacity: 1 }}
+      transition={{ duration: 0.5, delay: 0.1 }}
+    >
+      <div className="header-left">
+        <a href={resume} download="Peter.Hellwege.Resume.pdf" className="header-name">
+          Peter Hellwege
+        </a>
+      </div>
+      <div className="header-right">
+        <Link to="/" className="header-link">Home</Link>
+        <a href="https://github.com/phellwege" target="_blank" rel="noreferrer" className="header-icon">
+          <FiGithub />
+        </a>
+        <a href="https://www.linkedin.com/in/peter-hellwege/" target="_blank" rel="noreferrer" className="header-icon">
+          <FiLinkedin />
+        </a>
+        <Navbar />
+      </div>
+    </motion.header>
+  );
 }

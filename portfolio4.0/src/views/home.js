@@ -1,46 +1,49 @@
-import React, { useEffect, useRef } from "react";
+import React, { Suspense, useRef, useEffect } from 'react';
+import { motion, useScroll, useTransform } from 'framer-motion';
 import './home.css';
-import Fullpage, { FullPageSections, FullpageSection, FullpageNavigation } from '@ap.cx/react-fullpage';
 import Header from '../components/header';
 import Section1 from '../components/section1';
 import Section2 from '../components/section2';
 import Section3 from '../components/section3';
 import Section4 from '../components/section4';
+import ProjectionOverlay from '../components/ProjectionOverlay';
 
-export default () => {
-        const SectionStyle ={
-            height: '100vh',
-            width: '100%',
-            display: 'flex', 
-            justifyContent: 'center',
-            alignItems: 'center',
-            background: 'linear-gradient(#1C2541, #3A506B)'
-        };
+const Scene3D = React.lazy(() => import('../components/Scene3D'));
 
-    return (
-        <>
-        
-        <div className='homeWrapper'>
-            <Header/>
-                <Fullpage>
-                    <FullpageNavigation/>
-                    <FullPageSections>
-                        <FullpageSection style={{SectionStyle, background:'linear-gradient(#1C2541, #3A506B)'}}>
-                            <Section1/>
-                        </FullpageSection>
-                        <FullpageSection style={{SectionStyle, background:'linear-gradient(#3A506B, #1C2541)'}}>
-                            <Section2/>
-                        </FullpageSection>
-                        <FullpageSection style={{SectionStyle, background:'linear-gradient(#1C2541, #3A506B)'}}>
-                            <Section3/>
-                        </FullpageSection>
-                        <FullpageSection style={{SectionStyle, background:'linear-gradient(#3A506B, #1C2541)'}}>
-                            <Section4/>
-                        </FullpageSection>
-                    </FullPageSections>
-                </Fullpage>
-        </div>
-        </>
-    )
+export default function Home() {
+  const sceneRef = useRef(null);
+  const containerRef = useRef(null);
+  const { scrollYProgress } = useScroll({ target: containerRef });
+  const zoom = useTransform(scrollYProgress, [0, 0.8], [0, 1]);
+
+  useEffect(() => {
+    return zoom.on('change', (v) => {
+      if (sceneRef.current) {
+        sceneRef.current.setZoom(v);
+      }
+    });
+  }, [zoom]);
+
+  return (
+    <motion.div
+      className="home-wrapper"
+      ref={containerRef}
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      exit={{ opacity: 0 }}
+      transition={{ duration: 0.4 }}
+    >
+      <div className="scene-fixed">
+        <Suspense fallback={null}>
+          <Scene3D ref={sceneRef} />
+        </Suspense>
+      </div>
+      <ProjectionOverlay scrollProgress={scrollYProgress} sceneRef={sceneRef} />
+      <Header />
+      <Section1 />
+      <Section2 />
+      <Section3 />
+      <Section4 />
+    </motion.div>
+  );
 }
-
