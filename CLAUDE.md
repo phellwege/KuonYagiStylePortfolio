@@ -6,7 +6,7 @@ Personal portfolio site for Peter Hellwege — deployed to GitHub Pages at https
 
 - React 18 (Create React App) with JavaScript
 - React Router v6 (HashRouter)
-- Swiper, react-coverflow, react-fullpage for UI
+- Swiper, react-spring, framer-motion for UI
 - CSS files per component (no CSS framework)
 
 ## Project Structure
