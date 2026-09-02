@@ -33,15 +33,15 @@ export default function Section1() {
             Full-Stack Software Engineer &<br />Data Engineer
           </motion.h3>
         </div>
-        <motion.div
-          className="hero-scroll-indicator"
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ delay: 1.5, duration: 0.6 }}
-        >
-          <div className="scroll-line" />
-        </motion.div>
       </div>
+      <motion.div
+        className="hero-scroll-indicator"
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ delay: 1.5, duration: 0.6 }}
+      >
+        <div className="scroll-line" />
+      </motion.div>
     </section>
   );
 }

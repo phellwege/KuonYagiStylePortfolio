@@ -3,6 +3,7 @@ import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import './section.css';
 import projects from '../data/projects';
+import ImageCycler from './ImageCycler';
 
 export default function Section2() {
   return (
@@ -35,7 +36,11 @@ export default function Section2() {
               transition={{ duration: 0.5, delay: 0.1 * i }}
               whileHover={{ y: -8, transition: { duration: 0.25 } }}
             >
-              <img src={project.image} alt={project.alt} loading="lazy" />
+              <ImageCycler
+                images={project.images || [project.image]}
+                alt={project.alt}
+                startDelay={i * 1200}
+              />
               <div className="preview-overlay">
                 <span>{project.title}</span>
               </div>

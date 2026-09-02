@@ -3,6 +3,7 @@ import { motion } from 'framer-motion';
 import Header from '../components/header';
 import './projectPage.css';
 import projects from '../data/projects';
+import ImageCycler from '../components/ImageCycler';
 
 function ProjectCard({ project, index }) {
   const cardRef = useRef(null);
@@ -41,7 +42,11 @@ function ProjectCard({ project, index }) {
         onMouseLeave={handleMouseLeave}
       >
         <div className="card-img-container">
-          <img src={project.image} alt={project.alt} loading="lazy" />
+          <ImageCycler
+            images={project.images || [project.image]}
+            alt={project.alt}
+            startDelay={index * 1200}
+          />
         </div>
         <div className="card-body">
           <h3 className="card-title">{project.title}</h3>
