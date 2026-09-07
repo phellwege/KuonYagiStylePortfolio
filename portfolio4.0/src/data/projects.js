@@ -8,6 +8,10 @@ import SpectraStructure from '../static/spectra-structure.png';
 import SpectraLanding from '../static/spectra-landing.png';
 import SpectraDftEcon from '../static/spectra-dft-econ.png';
 import SpectraReport from '../static/spectra-report.png';
+import MechanicusWalk from '../static/mechanicus-walk.gif';
+import MechanicusMutter from '../static/mechanicus-mutter.png';
+import MechanicusPanel from '../static/mechanicus-panel.png';
+import MechanicusPermission from '../static/mechanicus-permission.png';
 
 const projects = [
     {
@@ -18,6 +22,15 @@ const projects = [
         description: 'The current evolution of CrimsonScan: an AI discovery engine spanning materials and molecules, from structural alloys and battery chemistries to polymers, catalysts, and bioactive compounds. Describe a target in natural language and Spectra generates candidates with MatterGen, IBM FM4M, and GT4SD, screens them with DFT-surrogate physics and pymatgen analysis, and delivers full scientific and economic viability reports.',
         deployedUrl: 'https://crimsonscan.com',
         repoUrl: null,
+    },
+    {
+        title: 'Mechanicus Buddy - A Desktop Companion Driven by Claude Code',
+        image: MechanicusWalk,
+        images: [MechanicusWalk, MechanicusPanel, MechanicusPermission, MechanicusMutter],
+        alt: 'Mechanicus Buddy walking across the desktop',
+        description: 'A Warhammer 40K-themed desktop pet that is also a working coding assistant. An Electron app in TypeScript: a click-through sprite that wanders your monitors, and a hologram chat panel wired to your own Claude Code login through an MCP server that gives the agent a body and routes every file edit or shell command through an in-app sanction card. Includes a SAM 2 sprite pipeline with a mask annotator, in-character readbacks, 300 unit and 22 Playwright tests, and a one-script installer.',
+        deployedUrl: null,
+        repoUrl: 'https://github.com/phellwege/desktopBuddy-claudeCLI-magosVex',
     },
     {
         title: 'Resumancy Home Page',
