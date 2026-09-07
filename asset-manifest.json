@@ -1,23 +1,27 @@
 {
   "files": {
     "main.css": "/static/css/main.0f5909c8.css",
-    "main.js": "/static/js/main.28ce6870.js",
+    "main.js": "/static/js/main.81650833.js",
     "static/js/986.8dfff065.chunk.js": "/static/js/986.8dfff065.chunk.js",
     "static/js/453.47905226.chunk.js": "/static/js/453.47905226.chunk.js",
     "static/js/560.02171f08.chunk.js": "/static/js/560.02171f08.chunk.js",
     "static/media/HomeScreen.png": "/static/media/HomeScreen.6fe97abd4db31c8c4095.png",
     "static/media/CaptureSpaceTourism.PNG": "/static/media/CaptureSpaceTourism.99c310af32ad2311ebd7.PNG",
     "static/media/CaptureHomeResumancy.gif": "/static/media/CaptureHomeResumancy.9f9c770b64abb35b6016.gif",
+    "static/media/mechanicus-walk.gif": "/static/media/mechanicus-walk.aee410459603842514aa.gif",
     "static/media/AUsVQ-equirectangular.jpg": "/static/media/AUsVQ-equirectangular.cabf8868ecada26c19a4.jpg",
     "static/media/HeadShot.jpeg": "/static/media/HeadShot.3aacadd46b0e07de8b6b.jpeg",
     "static/media/shogunDemo.gif": "/static/media/shogunDemo.7f4661cf72d7f9a866ab.gif",
     "static/media/Screenshot 2026-04-24 171522.png": "/static/media/Screenshot 2026-04-24 171522.d737769ee4284be8cbea.png",
+    "static/media/mechanicus-panel.png": "/static/media/mechanicus-panel.e0c8555219d826cdb3c0.png",
     "static/media/spectra-structure.png": "/static/media/spectra-structure.8a65ec6bbed39bed70c1.png",
     "static/media/titan_texture_map_8k_by_fargetanik_db0f8m0-fullview.jpg": "/static/media/titan_texture_map_8k_by_fargetanik_db0f8m0-fullview.e920ef17112556005259.jpg",
+    "static/media/mechanicus-permission.png": "/static/media/mechanicus-permission.0722b9fe532b7830c189.png",
     "static/media/spectra-dft-econ.png": "/static/media/spectra-dft-econ.d6df193c439f9fdb5589.png",
     "static/media/spectra-report.png": "/static/media/spectra-report.be2b177220bfc3faa070.png",
     "static/media/java.png": "/static/media/java.c5ce8592f54e4a041fe0.png",
     "static/media/spectra-landing.png": "/static/media/spectra-landing.4e676013c90272bf82d9.png",
+    "static/media/mechanicus-mutter.png": "/static/media/mechanicus-mutter.b381c22ed0d0c3d69262.png",
     "static/media/hired-or-die.png": "/static/media/hired-or-die.0d9d72669ee609016306.png",
     "static/media/python.png": "/static/media/python.60748c5dba0e3739afa4.png",
     "static/media/jQuery.png": "/static/media/jQuery.15de37f22b84c1c7d211.png",
@@ -33,13 +37,13 @@
     "static/media/Peter.Hellwege.Resume.pdf": "/static/media/Peter.Hellwege.Resume.f659d306d5e425e79df7.pdf",
     "index.html": "/index.html",
     "main.0f5909c8.css.map": "/static/css/main.0f5909c8.css.map",
-    "main.28ce6870.js.map": "/static/js/main.28ce6870.js.map",
+    "main.81650833.js.map": "/static/js/main.81650833.js.map",
     "986.8dfff065.chunk.js.map": "/static/js/986.8dfff065.chunk.js.map",
     "453.47905226.chunk.js.map": "/static/js/453.47905226.chunk.js.map",
     "560.02171f08.chunk.js.map": "/static/js/560.02171f08.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0f5909c8.css",
-    "static/js/main.28ce6870.js"
+    "static/js/main.81650833.js"
   ]
 }
