@@ -12,6 +12,10 @@ import MechanicusWalk from '../static/mechanicus-walk.gif';
 import MechanicusMutter from '../static/mechanicus-mutter.png';
 import MechanicusPanel from '../static/mechanicus-panel.png';
 import MechanicusPermission from '../static/mechanicus-permission.png';
+import SheetHerderLanding from '../static/sheetherder-landing.png';
+import SheetHerderSource from '../static/sheetherder-source.png';
+import SheetHerderCsv from '../static/sheetherder-csv.png';
+import SheetHerderCategories from '../static/sheetherder-categories.png';
 
 const projects = [
     {
@@ -21,6 +25,15 @@ const projects = [
         alt: 'Spectra 3D crystal structure viewer',
         description: 'The current evolution of CrimsonScan: an AI discovery engine spanning materials and molecules, from structural alloys and battery chemistries to polymers, catalysts, and bioactive compounds. Describe a target in natural language and Spectra generates candidates with MatterGen, IBM FM4M, and GT4SD, screens them with DFT-surrogate physics and pymatgen analysis, and delivers full scientific and economic viability reports.',
         deployedUrl: 'https://crimsonscan.com',
+        repoUrl: null,
+    },
+    {
+        title: 'SheetHerder - Messy Documents In, Clean Tables Out',
+        image: SheetHerderLanding,
+        images: [SheetHerderLanding, SheetHerderSource, SheetHerderCsv, SheetHerderCategories],
+        alt: 'SheetHerder home page: messy documents in, clean tables out',
+        description: 'A live SaaS product for teams that get the same data from every vendor in a different layout. Drop in PDFs, scans, CSV or Excel and SheetHerder fills one table in the columns you choose, checks every row against the document\'s own totals, and traces each value back to the line it came from. Built in TypeScript with a parsing engine where code finds the candidates and a small TypeSafe model picks between them, cloud and in-browser OCR, teach-by-example for unfamiliar layouts, and Firebase, Cloud Run and Stripe behind it.',
+        deployedUrl: 'https://sheetherder.com',
         repoUrl: null,
     },
     {
