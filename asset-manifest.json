@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.0f5909c8.css",
-    "main.js": "/static/js/main.a34bd032.js",
+    "main.css": "/static/css/main.555d3e3f.css",
+    "main.js": "/static/js/main.98e9bbd2.js",
     "static/js/986.77664a63.chunk.js": "/static/js/986.77664a63.chunk.js",
     "static/js/453.7ef738c9.chunk.js": "/static/js/453.7ef738c9.chunk.js",
     "static/js/560.3fd592de.chunk.js": "/static/js/560.3fd592de.chunk.js",
@@ -40,14 +40,14 @@
     "static/media/django.png": "/static/media/django.a6eb1432659f94281776.png",
     "static/media/Peter.Hellwege.Resume.pdf": "/static/media/Peter.Hellwege.Resume.f659d306d5e425e79df7.pdf",
     "index.html": "/index.html",
-    "main.0f5909c8.css.map": "/static/css/main.0f5909c8.css.map",
-    "main.a34bd032.js.map": "/static/js/main.a34bd032.js.map",
+    "main.555d3e3f.css.map": "/static/css/main.555d3e3f.css.map",
+    "main.98e9bbd2.js.map": "/static/js/main.98e9bbd2.js.map",
     "986.77664a63.chunk.js.map": "/static/js/986.77664a63.chunk.js.map",
     "453.7ef738c9.chunk.js.map": "/static/js/453.7ef738c9.chunk.js.map",
     "560.3fd592de.chunk.js.map": "/static/js/560.3fd592de.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0f5909c8.css",
-    "static/js/main.a34bd032.js"
+    "static/css/main.555d3e3f.css",
+    "static/js/main.98e9bbd2.js"
   ]
 }
