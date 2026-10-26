@@ -32,7 +32,7 @@ const projects = [
         image: SheetHerderLanding,
         images: [SheetHerderLanding, SheetHerderSource, SheetHerderCsv, SheetHerderCategories],
         alt: 'SheetHerder home page: messy documents in, clean tables out',
-        description: 'A live SaaS product for teams that get the same data from every vendor in a different layout. Drop in PDFs, scans, CSV or Excel and SheetHerder fills one table in the columns you choose, checks every row against the document\'s own totals, and traces each value back to the line it came from. Built in TypeScript with a parsing engine where code finds the candidates and a small TypeSafe model picks between them, cloud and in-browser OCR, teach-by-example for unfamiliar layouts, and Firebase, Cloud Run and Stripe behind it.',
+        description: 'A live SaaS product for teams that receive documents about the same thing, like financial statements, invoices or rent rolls, from many different sources, each in its own layout. Drop in PDFs, scans, CSV or Excel and SheetHerder fills one table in the columns you choose, checks every row against the document\'s own totals, and traces each value back to the line it came from. Built in TypeScript with a parsing engine where code finds the candidates and a small TypeSafe model picks between them, cloud and in-browser OCR, teach-by-example for unfamiliar layouts, and Firebase, Cloud Run and Stripe behind it.',
         deployedUrl: 'https://sheetherder.com',
         repoUrl: null,
     },
