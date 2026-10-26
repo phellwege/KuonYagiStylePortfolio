@@ -1,11 +1,12 @@
-import React, { useRef, useCallback } from 'react';
+import React, { useRef, useCallback, useState } from 'react';
 import { motion } from 'framer-motion';
 import Header from '../components/header';
 import './projectPage.css';
 import projects from '../data/projects';
 import ImageCycler from '../components/ImageCycler';
+import ProjectModal from '../components/ProjectModal';
 
-function ProjectCard({ project, index }) {
+function ProjectCard({ project, index, onOpen }) {
   const cardRef = useRef(null);
 
   const handleMouseMove = useCallback((e) => {
@@ -40,6 +41,16 @@ function ProjectCard({ project, index }) {
         className="project-card glass-panel"
         onMouseMove={handleMouseMove}
         onMouseLeave={handleMouseLeave}
+        onClick={onOpen}
+        onKeyDown={(e) => {
+          if (e.target === e.currentTarget && (e.key === 'Enter' || e.key === ' ')) {
+            e.preventDefault();
+            onOpen();
+          }
+        }}
+        role="button"
+        tabIndex={0}
+        aria-label={`Open details for ${project.title}`}
       >
         <div className="card-img-container">
           <ImageCycler
@@ -51,7 +62,7 @@ function ProjectCard({ project, index }) {
         <div className="card-body">
           <h3 className="card-title">{project.title}</h3>
           <p className="card-desc">{project.description}</p>
-          <div className="card-links">
+          <div className="card-links" onClick={(e) => e.stopPropagation()}>
             {project.status && (
               <span className="card-link status-badge">{project.status}</span>
             )}
@@ -74,6 +85,9 @@ function ProjectCard({ project, index }) {
 }
 
 export default function ProjectsPage() {
+  const [open, setOpen] = useState(null);
+  const close = useCallback(() => setOpen(null), []);
+
   return (
     <motion.div
       className="projects-page"
@@ -102,9 +116,10 @@ export default function ProjectsPage() {
       </div>
       <div className="projects-grid">
         {projects.map((project, index) => (
-          <ProjectCard key={index} project={project} index={index} />
+          <ProjectCard key={index} project={project} index={index} onOpen={() => setOpen(project)} />
         ))}
       </div>
+      <ProjectModal project={open} onClose={close} />
     </motion.div>
   );
 }

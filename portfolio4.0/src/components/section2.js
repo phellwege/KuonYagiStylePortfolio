@@ -1,11 +1,15 @@
-import React from 'react';
+import React, { useCallback, useState } from 'react';
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import './section.css';
 import projects from '../data/projects';
 import ImageCycler from './ImageCycler';
+import ProjectModal from './ProjectModal';
 
 export default function Section2() {
+  const [open, setOpen] = useState(null);
+  const close = useCallback(() => setOpen(null), []);
+
   return (
     <section className="content-section">
       <div className="section-inner">
@@ -35,6 +39,16 @@ export default function Section2() {
               viewport={{ once: true }}
               transition={{ duration: 0.5, delay: 0.1 * i }}
               whileHover={{ y: -8, transition: { duration: 0.25 } }}
+              onClick={() => setOpen(project)}
+              onKeyDown={(e) => {
+                if (e.key === 'Enter' || e.key === ' ') {
+                  e.preventDefault();
+                  setOpen(project);
+                }
+              }}
+              role="button"
+              tabIndex={0}
+              aria-label={`Open details for ${project.title}`}
             >
               <ImageCycler
                 images={project.images || [project.image]}
@@ -59,6 +73,7 @@ export default function Section2() {
           </Link>
         </motion.div>
       </div>
+      <ProjectModal project={open} onClose={close} />
     </section>
   );
 }
